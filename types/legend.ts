@@ -34,6 +34,7 @@ export interface Legend {
   era: LegendEra;
   period: string; // e.g. "2018 ~ 현재", "2004 ~ 2011"
   status: LegendStatus;
+  currentClub?: string; // 현재 소속팀 / 상태 (e.g. "김포 FC", "인천 유나이티드", "은퇴")
   chantId?: number; // songs.json ID와 매핑
   imageUrl?: string; // 선수 사진 URL
   video?: LegendVideo; // 최고의 명장면 YouTube 비디오

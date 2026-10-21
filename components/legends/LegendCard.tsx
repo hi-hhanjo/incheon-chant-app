@@ -59,7 +59,11 @@ export default function LegendCard({ legend, onSelect }: LegendCardProps) {
           </span>
         ) : isActive ? (
           <span className="px-2 py-0.5 rounded-full text-[10px] font-black bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 animate-pulse">
-            현역 레전드
+            인천 현역
+          </span>
+        ) : legend.currentClub && !legend.currentClub.startsWith("은퇴") && !legend.currentClub.includes("메모리얼") ? (
+          <span className="px-2 py-0.5 rounded-full text-[10px] font-black bg-blue-500/20 text-blue-300 border border-blue-500/30">
+            현 {legend.currentClub.split(" ")[0]} 소속
           </span>
         ) : (
           <span className="px-2 py-0.5 rounded-full text-[10px] font-black bg-blue-500/20 text-blue-300 border border-blue-500/30">
@@ -96,7 +100,7 @@ export default function LegendCard({ legend, onSelect }: LegendCardProps) {
             </h3>
             <span className="text-xs text-text-muted font-medium truncate">{legend.nameEn}</span>
           </div>
-          <div className="flex items-center gap-2 mt-0.5">
+          <div className="flex items-center gap-2 mt-0.5 flex-wrap">
             <p className="text-xs text-text-secondary font-mono">{legend.period}</p>
             {legend.primeSeason && (
               <span className="px-1.5 py-0.2 rounded text-[10px] font-bold bg-blue-500/10 text-blue-300 border border-blue-500/20">
@@ -104,6 +108,11 @@ export default function LegendCard({ legend, onSelect }: LegendCardProps) {
               </span>
             )}
           </div>
+          {legend.currentClub && (
+            <p className="text-[11px] text-text-muted mt-0.5 truncate">
+              소속: <span className="text-text-secondary">{legend.currentClub}</span>
+            </p>
+          )}
           {legend.video && (
             <span className="inline-flex items-center gap-1 text-[10px] font-bold text-red-400 mt-1">
               <span>🎬</span> {legend.video.label || "명장면 영상 수록"}

@@ -23,7 +23,9 @@
         "인천 유나이티드 구단 역대 최다 득점자",
         "2020 K리그1 베스트11 공격수(FW)",
         "2018~2021 4시즌 연속 두 자릿수 득점",
-        "2024 K리그2 득점왕"
+        "2024 K리그1 득점왕 (15골)",
+        "2025 K리그2 득점왕 (20골) 및 베스트11",
+        "2025 K리그2 우승 및 1부 승격 주역"
       ]
     },
     "lore": {
@@ -40,7 +42,8 @@
       "파검의심장",
       "MUGOSA_ON_FIRE"
     ],
-    "primeSeason": 2020
+    "primeSeason": 2020,
+    "currentClub": "인천 유나이티드"
   },
   {
     "id": "lim-joong-yong",
@@ -83,7 +86,8 @@
       "늑대축구수비핵"
     ],
     "primeSeason": 2005,
-    "imageUrl": "/images/legends/lim-joong-yong.svg"
+    "imageUrl": "/images/legends/lim-joong-yong.svg",
+    "currentClub": "은퇴 (구단 행정가)"
   },
   {
     "id": "kim-do-hyuk",
@@ -92,8 +96,8 @@
     "number": 7,
     "position": "MF",
     "era": "ACL_MODERN",
-    "period": "2014 ~ 현재 (군 복무 제외)",
-    "status": "ACTIVE",
+    "period": "2014 ~ 2025 (2018~2019 군 복무)",
+    "status": "LEGEND",
     "chantId": 12,
     "video": {
       "youtubeId": "l2EaqV01p-k",
@@ -101,12 +105,13 @@
       "label": "⭐ 하프스타 스페셜"
     },
     "stats": {
-      "appearances": 268,
+      "appearances": 284,
       "goals": 16,
       "assists": 21,
       "titles": [
         "인천 유나이티드 구단 통산 최다 출전 2위",
         "2022 K리그1 4위 및 창단 첫 ACL 진출 주역",
+        "2025 K리그2 우승 및 1부 승격 주역",
         "인천 유나이티드 주장 및 부주장 다수 역임",
         "K리그 통산 300경기 출전 클럽"
       ]
@@ -114,19 +119,21 @@
     "lore": {
       "nickname": "인천의 아들 / 하프스타 (★)",
       "signatureMove": "그라운드 전체를 휘젓는 헌신적인 박스 투 박스 압박과 유쾌한 팬 소통",
-      "quote": "파랑검정 유니폼을 입고 뛰는 1분 1초가 저에게는 가장 큰 영광입니다.",
-      "communitySentiment": "커뮤니티에서 가장 친근하면서도 뜨거운 사랑을 받는 원클럽맨급 프랜차이즈 스타. 팀이 힘들 때 팬들을 다독이고 승리 후엔 앞장서서 물세례를 던지는 '우리의 김도혁'.",
-      "story": "2014년 자유선발로 인천에 입단하여 10년이 넘는 시간 동안 중원을 지켰습니다. 팀이 매년 가혹한 잔류 경쟁을 치를 때마다 눈물과 투혼으로 팀을 구했고, 2022년에는 인천 역사상 최초의 아시아 챔피언스리그(ACL) 진출을 이끌며 구단의 새 역사를 창조했습니다.",
+      "quote": "파랑검정 유니폼을 입고 뛰었던 11년의 시간은 제 축구 인생 최고의 영광이었습니다.",
+      "communitySentiment": "커뮤니티에서 가장 친근하면서도 뜨거운 사랑을 받았던 프랜차이즈 스타. 팀이 힘들 때 팬들을 다독이고 승리 후엔 앞장서서 물세례를 던졌던 '우리의 김도혁'. 2025년 우승과 승격을 선물하고 2026시즌 김포 FC로 이적했습니다.",
+      "story": "2014년 자유선발로 인천에 입단하여 군 복무(아산 무궁화) 기간을 제외하고 10년이 넘는 시간 동안 중원을 지켰습니다. 팀이 잔류 경쟁에 처했을 때마다 눈물과 투혼으로 팀을 구했고, 2022년 창단 첫 ACL 진출과 2025년 K리그2 우승 및 1부 승격이라는 찬란한 마침표를 찍은 뒤 2026시즌 김포 FC로 이적했습니다.",
       "signatureMoment": "2022 시즌 ACL 진출 확정 직후 서포터즈 관중석으로 달려가 서포터즈 메가폰을 잡고 함께 응원가를 목놓아 부르던 순간."
     },
     "tags": [
       "인천의아들",
       "하프스타",
       "최다출전2위",
-      "ACL진출주역"
+      "우승주역",
+      "현김포FC"
     ],
     "primeSeason": 2022,
-    "imageUrl": "/images/legends/kim-do-hyuk.svg"
+    "imageUrl": "/images/legends/kim-do-hyuk.svg",
+    "currentClub": "김포 FC (2026~)"
   },
   {
     "id": "yoo-byung-soo",
@@ -168,7 +175,8 @@
       "2010득점왕"
     ],
     "primeSeason": 2010,
-    "imageUrl": "/images/legends/yoo-byung-soo.svg"
+    "imageUrl": "/images/legends/yoo-byung-soo.svg",
+    "currentClub": "화성 FC (2023~)"
   },
   {
     "id": "song-si-woo",
@@ -177,8 +185,8 @@
     "number": 19,
     "position": "FW",
     "era": "SUNGUI_STABILITY",
-    "period": "2016 ~ 현재",
-    "status": "ACTIVE",
+    "period": "2016 ~ 2024 (군 복무·임대 제외)",
+    "status": "LEGEND",
     "video": {
       "youtubeId": "hkZYI1DX3gA",
       "title": "인천에 청춘을 바친 9년의 시간 | 굿바이 '시우타임' 극장골 스페셜",
@@ -199,7 +207,7 @@
       "signatureMove": "후반 80분 이후 교체 투입되어 상대 골망을 흔드는 기적의 극장골",
       "quote": "팀이 잔류할 수만 있다면 저는 5분을 뛰든 10분을 뛰든 제 모든 것을 바치겠습니다.",
       "communitySentiment": "인천 축구 역사상 가장 짜릿한 카타르시스를 선사하는 슈퍼 서브. '시우 타임'이라는 단어는 타 팀 팬들에게도 공포의 대명사였습니다.",
-      "story": "2016년 단국대를 졸업하고 입단하자마자 데뷔전부터 후반 추가시간 극장골을 터뜨리며 '시우 타임'의 서막을 열었습니다. 인천이 매 시즌 강등의 벼랑 끝에 섰던 가을마다 그의 발끝에서 터진 골로 수많은 기적 같은 승점을 낚아챘습니다.",
+      "story": "2016년 단국대를 졸업하고 입단하자마자 데뷔전부터 후반 추가시간 극장골을 터뜨리며 '시우 타임'의 서막을 열었습니다. 인천이 매 시즌 강등의 벼랑 끝에 섰던 가을마다 그의 발끝에서 터진 골로 수많은 기적 같은 잔류를 낚아챘으며, 2024시즌까지 활약한 뒤 경남 FC를 거쳐 현역에서 은퇴했습니다.",
       "signatureMoment": "2016년 11월 5일 수원FC와의 최종전에서 잔류를 확정 짓는 후반 추가시간 쐐기골을 터뜨리고 관중석으로 다이빙하던 장면."
     },
     "tags": [
@@ -209,7 +217,8 @@
       "슈퍼서브"
     ],
     "primeSeason": 2016,
-    "imageUrl": "/images/legends/song-si-woo.svg"
+    "imageUrl": "/images/legends/song-si-woo.svg",
+    "currentClub": "현역 은퇴 (2025 경남 FC)"
   },
   {
     "id": "kim-yi-sub",
@@ -249,7 +258,8 @@
       "골키퍼레전드"
     ],
     "primeSeason": 2005,
-    "imageUrl": "/images/legends/kim-yi-sub.svg"
+    "imageUrl": "/images/legends/kim-yi-sub.svg",
+    "currentClub": "은퇴 (전 인천 GK 코치)"
   },
   {
     "id": "radoncic",
@@ -258,7 +268,7 @@
     "number": 10,
     "position": "FW",
     "era": "FOUNDATION",
-    "period": "2004 ~ 2008",
+    "period": "2004 ~ 2008 (2007 후반기 임대)",
     "status": "LEGEND",
     "video": {
       "youtubeId": "BNrKPAKmwWo",
@@ -290,7 +300,8 @@
       "창단외인레전드"
     ],
     "primeSeason": 2005,
-    "imageUrl": "/images/legends/radoncic.svg"
+    "imageUrl": "/images/legends/radoncic.svg",
+    "currentClub": "은퇴 (축구 지도자)"
   },
   {
     "id": "nam-joon-jae",
@@ -332,7 +343,8 @@
       "낭만윙어"
     ],
     "primeSeason": 2012,
-    "imageUrl": "/images/legends/nam-joon-jae.svg"
+    "imageUrl": "/images/legends/nam-joon-jae.svg",
+    "currentClub": "은퇴 (축구 지도자)"
   },
   {
     "id": "jeon-jae-ho",
@@ -374,7 +386,8 @@
       "나의사랑전재호"
     ],
     "primeSeason": 2005,
-    "imageUrl": "/images/legends/jeon-jae-ho.svg"
+    "imageUrl": "/images/legends/jeon-jae-ho.svg",
+    "currentClub": "은퇴 (축구 지도자)"
   },
   {
     "id": "lee-tae-hee",
@@ -383,8 +396,8 @@
     "number": 1,
     "position": "GK",
     "era": "SUNGUI_STABILITY",
-    "period": "2014 ~ 2024",
-    "status": "LEGEND",
+    "period": "2014 ~ 현재 (2024~2025 군 복무)",
+    "status": "ACTIVE",
     "video": {
       "youtubeId": "ovJ2pqfoNM8",
       "title": "성골 유스 이태희의 10년 헌신과 승부차기 선방 쇼",
@@ -404,7 +417,7 @@
       "signatureMove": "페널티킥 키커의 슈팅 방향을 정확히 예측해 쳐내는 신들린 선방 쇼",
       "quote": "유스 시절부터 꿈꿔온 파랑검정 골문을 지킬 수 있어 하루하루가 행복했습니다.",
       "communitySentiment": "인천 유스가 길러낸 최초의 성골 스타 골키퍼. 팀이 벼랑 끝에 몰린 승부차기나 페널티킥 상황마다 어김없이 팀을 구해내며 팬들에게 무한한 신뢰를 받았습니다.",
-      "story": "인천 대건고 1기 출신으로 2014년 프로 직행 후 10년간 인천의 골문을 지켰습니다. 2015년 FA컵 4강 승부차기에서 신들린 선방으로 결승 진출을 견인했고, 매 시즌 잔류 전쟁에서 결정적인 선방을 거듭했습니다.",
+      "story": "인천 대건고 1기 출신으로 2014년 프로 직행 후 10년 넘게 인천의 골문을 지켜온 성골 원클럽맨 골키퍼입니다. 2015년 FA컵 4강 승부차기에서 신들린 선방으로 결승 진출을 견인했고, 매 시즌 잔류 전쟁에서 결정적인 선방을 거듭했습니다. 2024~2025년 거제시민축구단에서 대체복무를 마친 후 인천으로 복귀하여 활약을 이어가고 있습니다.",
       "signatureMoment": "2015년 FA컵 4강 전남전 승부차기에서 두 번의 킥을 막아내고 결승 진출을 확정 지은 순간."
     },
     "tags": [
@@ -414,7 +427,8 @@
       "10년헌신"
     ],
     "primeSeason": 2015,
-    "imageUrl": "/images/legends/lee-tae-hee.svg"
+    "imageUrl": "/images/legends/lee-tae-hee.svg",
+    "currentClub": "인천 유나이티드"
   },
   {
     "id": "lee-myung-joo",
@@ -437,6 +451,8 @@
       "assists": 15,
       "titles": [
         "2022 창단 첫 아시아 챔피언스리그(ACL) 진출 주역",
+        "2025 K리그2 우승 주장 및 1부 승격 주역",
+        "2025 K리그2 베스트11 미드필더(MF)",
         "인천 유나이티드 주장 역임",
         "K리그 통산 10경기 연속 공격포인트 대기록 보유자"
       ]
@@ -456,7 +472,8 @@
       "클래스마스터"
     ],
     "primeSeason": 2022,
-    "imageUrl": "/images/legends/lee-myung-joo.svg"
+    "imageUrl": "/images/legends/lee-myung-joo.svg",
+    "currentClub": "인천 유나이티드"
   },
   {
     "id": "chang-woe-ryong",
@@ -464,7 +481,7 @@
     "nameEn": "Chang Woe-ryong",
     "position": "MGR",
     "era": "FOUNDATION",
-    "period": "2005 ~ 2009",
+    "period": "2004 ~ 2008 (2007 축구유학 제외)",
     "status": "LEGEND",
     "video": {
       "youtubeId": "BNrKPAKmwWo",
@@ -485,7 +502,7 @@
       "signatureMove": "경기 전 선수들을 원형으로 둥글게 모아 어깨동무하고 나누는 진심 어린 기도와 격려",
       "quote": "우리는 비록 가진 것이 적지만, 서로를 믿는 늑대처럼 뭉치면 그 누구도 두렵지 않다.",
       "communitySentiment": "인천 축구 역사상 가장 아름다웠던 '낭만 축구'의 아버지. 창단 2년 차 시민구단을 리그 정상으로 이끌며 전 국민에게 감동을 선사했습니다.",
-      "story": "2005년 인천의 정식 감독으로 부임하여 빠른 공수 전환과 강력한 압박을 무기로 한 '늑대축구'를 완성했습니다. 대기업 구단들을 연파하며 전·후기 통합 승점 1위를 기록하고 챔피언결정전에 진출했으며, 이 드라마틱한 여정은 축구 영화 <비상>으로 제작되어 한국 축구 역사에 영원히 남았습니다.",
+      "story": "2004년 후반기 감독 대행으로 부임하여 2005년 정식 감독으로서 '늑대축구'를 완성했습니다. 대기업 구단들을 연파하며 전·후기 통합 승점 1위를 기록하고 챔피언결정전에 진출했으며, 1년간의 영국 연수 후 2008년 복귀까지 인천 축구 역사상 가장 찬란했던 낭만을 이끌었습니다. 이 드라마틱한 여정은 축구 영화 <비상>으로 제작되었습니다.",
       "signatureMoment": "2005년 플레이오프 승리 후 선수들과 함께 눈물을 쏟으며 '우리는 해냈다'를 외치던 감동의 순간."
     },
     "tags": [
@@ -495,7 +512,8 @@
       "통합승점1위"
     ],
     "primeSeason": 2005,
-    "imageUrl": "/images/legends/chang-woe-ryong.svg"
+    "imageUrl": "/images/legends/chang-woe-ryong.svg",
+    "currentClub": "축구 지도자·행정가"
   },
   {
     "id": "yoo-sang-chul",
@@ -533,7 +551,8 @@
       "유상철감독님"
     ],
     "primeSeason": 2019,
-    "imageUrl": "/images/legends/yoo-sang-chul.svg"
+    "imageUrl": "/images/legends/yoo-sang-chul.svg",
+    "currentClub": "영구 메모리얼 (상설 추모관)"
   },
   {
     "id": "moon-seon-min",
@@ -574,7 +593,8 @@
       "월드컵스타",
       "폭격기",
       "2018잔류영웅"
-    ]
+    ],
+    "currentClub": "FC 서울 (2025~)"
   },
   {
     "id": "elias-aguilar",
@@ -616,6 +636,7 @@
       "왼발스페셜리스트",
       "2020잔류결승골",
       "베스트11"
-    ]
+    ],
+    "currentClub": "CS 에레디아노 (2023~)"
   }
 ]

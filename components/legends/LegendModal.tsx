@@ -73,8 +73,8 @@ export default function LegendModal({ legend, onClose }: LegendModalProps) {
             </span>
           </div>
 
-          <div className="flex flex-col gap-1 min-w-0">
-            <div className="flex items-center gap-2">
+          <div className="flex flex-col gap-1.5 min-w-0">
+            <div className="flex items-center gap-2 flex-wrap">
               <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-blue-600/30 text-blue-300 border border-blue-400/30">
                 {legend.position}
               </span>
@@ -83,7 +83,12 @@ export default function LegendModal({ legend, onClose }: LegendModalProps) {
                   No.{legend.number}
                 </span>
               )}
-              <span className="text-xs text-text-muted font-mono">{legend.period}</span>
+              <span className="text-xs text-text-muted font-mono">인천 활동: {legend.period}</span>
+              {legend.currentClub && (
+                <span className="text-xs text-blue-300 font-medium bg-blue-500/10 px-2 py-0.5 rounded-full border border-blue-500/20">
+                  현재: {legend.currentClub}
+                </span>
+              )}
             </div>
 
             <div className="flex items-baseline gap-3">
