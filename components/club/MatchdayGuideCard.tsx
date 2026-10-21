@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Match } from "@/lib/api/matches";
 import type { MatchWeather } from "@/lib/api/weather";
 import foodTrucksData from "@/data/food-trucks.json";
+import StadiumArena3D from "@/components/club/StadiumArena3D";
 
 interface FoodTruck {
   id: string;
@@ -132,8 +133,8 @@ export default function MatchdayGuideCard({ match, weather }: MatchdayGuideCardP
               : "text-text-muted hover:text-white hover:bg-white/5"
           }`}
         >
-          <span>🪑</span>
-          <span className="truncate">좌석 안내</span>
+          <span>🏟️</span>
+          <span className="truncate">3D 스타디움</span>
         </button>
       </div>
 
@@ -314,44 +315,10 @@ export default function MatchdayGuideCard({ match, weather }: MatchdayGuideCardP
           </div>
         )}
 
-        {/* TAB 4: 좌석별 특징 가이드 */}
+        {/* TAB 4: 인터랙티브 3D 스타디움 아레나 */}
         {activeTab === "seats" && (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 animate-fadeIn text-xs">
-            <div className="rounded-xl bg-blue-950/30 border border-blue-500/30 p-3.5 flex flex-col gap-2">
-              <div className="flex items-center justify-between">
-                <span className="font-bold text-blue-300 text-sm">S석 (서포터즈 응원석)</span>
-                <span className="text-[10px] text-blue-400 font-bold bg-blue-950 px-2 py-0.5 rounded">
-                  파랑검정 심장부
-                </span>
-              </div>
-              <p className="text-text-secondary text-[11px] leading-relaxed">
-                90분 내내 서서 목청 높여 응원가를 부르는 공간입니다. 깃발과 콜리더의 지휘 아래 인천의 열정을 가장 생생하게 느낄 수 있습니다.
-              </p>
-            </div>
-
-            <div className="rounded-xl bg-black/40 border border-white/10 p-3.5 flex flex-col gap-2">
-              <div className="flex items-center justify-between">
-                <span className="font-bold text-white text-sm">E석 (동측 일반 관람석)</span>
-                <span className="text-[10px] text-amber-300 font-bold bg-amber-950/60 px-2 py-0.5 rounded">
-                  푸드트럭 & 하이네켄 펍
-                </span>
-              </div>
-              <p className="text-text-secondary text-[11px] leading-relaxed">
-                경기장 전체가 한눈에 들어오는 최고의 시야를 자랑하며, E석 야외 광장 푸드트럭 로드와 하이네켄 펍이 바로 연결되어 먹거리 접근성이 최고입니다.
-              </p>
-            </div>
-
-            <div className="rounded-xl bg-black/40 border border-white/10 p-3.5 flex flex-col gap-2">
-              <div className="flex items-center justify-between">
-                <span className="font-bold text-white text-sm">W석 (본부석 프리미엄)</span>
-                <span className="text-[10px] text-text-muted font-bold bg-white/5 px-2 py-0.5 rounded">
-                  선수단 벤치뷰 & 팬샵
-                </span>
-              </div>
-              <p className="text-text-secondary text-[11px] leading-relaxed">
-                선수단 벤치 바로 뒤에서 감독과 코칭스태프의 작전 지시를 실감나게 볼 수 있습니다. 2층 블루마켓 공식 팬샵 본점이 위치해 있습니다.
-              </p>
-            </div>
+          <div className="w-full animate-fadeIn">
+            <StadiumArena3D />
           </div>
         )}
       </div>
