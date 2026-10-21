@@ -124,14 +124,14 @@ export default function SongList({ songs }: { songs: Song[] }) {
           message={`"${query.trim()}" 검색 결과가 없습니다`}
         />
       ) : (
-        <ul className="flex flex-col gap-3">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
           {sortedSongs.map((song, index) => {
             const segments = keyword
               ? findLyricLine(song.lyrics, keyword)
               : null;
 
             return (
-              <li key={song.id}>
+              <li key={song.id} className="flex flex-col">
                 <SongCard
                   id={song.id}
                   title={song.title}

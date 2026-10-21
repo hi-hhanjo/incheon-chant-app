@@ -39,7 +39,7 @@ export default async function SongDetail({
   }
 
   return (
-    <Layout>
+    <Layout wide={false}>
       <div className="flex items-center justify-between">
         <IconButton href="/songs" icon="←" label="목록으로" />
         <FavoriteButton id={song.id} />
