@@ -24,6 +24,28 @@ export default function HistoryView({
   const [selectedRound, setSelectedRound] = useState<number>(1);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
+  // URL 쿼리 파라미터(?year=..., ?round=...) 자동 파싱
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const yearParam = params.get("year");
+      const roundParam = params.get("round");
+
+      if (yearParam) {
+        const parsedYear = parseInt(yearParam, 10);
+        if (initialSeasons.some((s) => s.year === parsedYear)) {
+          setSelectedYear(parsedYear);
+        }
+      }
+      if (roundParam) {
+        const parsedRound = parseInt(roundParam, 10);
+        if (parsedRound > 0) {
+          setSelectedRound(parsedRound);
+        }
+      }
+    }
+  }, [initialSeasons]);
+
   const selectedSeason = initialSeasons.find((s) => s.year === selectedYear) || initialSeasons[0];
 
   // 시즌 변경 시 비동기로 해당 연도의 라운드 데이터 로드
