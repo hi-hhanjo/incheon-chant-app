@@ -1,5 +1,5 @@
 // Incheon United Fan Platform - Offline Service Worker
-const CACHE_NAME = 'incheon-fan-v1';
+const CACHE_NAME = 'incheon-fan-v2';
 
 const PRECACHE_URLS = [
   '/',

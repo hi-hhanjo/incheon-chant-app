@@ -1,10 +1,26 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import type { Match } from "@/lib/api/matches";
 import type { MatchWeather } from "@/lib/api/weather";
 import foodTrucksData from "@/data/food-trucks.json";
-import StadiumArena3D from "@/components/club/StadiumArena3D";
+
+const StadiumArena3D = dynamic(
+  () => import("@/components/club/StadiumArena3D"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex flex-col items-center justify-center p-10 text-center text-xs text-text-muted bg-black/40 rounded-2xl border border-white/5 min-h-[380px] animate-pulse">
+        <span className="flex h-3 w-3 rounded-full bg-blue-500 animate-ping mb-3" />
+        <span className="font-bold text-white text-sm">3D 스타디움 아레나 로딩 중...</span>
+        <span className="text-[11px] text-text-muted mt-1">
+          숭의아레나 인터랙티브 3D 뷰어를 준비하고 있습니다.
+        </span>
+      </div>
+    ),
+  }
+);
 
 interface FoodTruck {
   id: string;

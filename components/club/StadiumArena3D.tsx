@@ -293,6 +293,7 @@ export default function StadiumArena3D() {
           {/* 1. W석 (서측 좌측 - 105m 긴 측면 터치라인 / 본부석) */}
           <button
             type="button"
+            aria-label="W석 본부석 105m 긴 측면 선택"
             onClick={() => setSelectedSector("W")}
             className={`absolute left-[-22px] sm:left-[-26px] top-[4%] h-[92%] w-10 sm:w-11 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex flex-col items-center justify-center gap-1.5 cursor-pointer shadow-xl [writing-mode:vertical-rl] rotate-180 ${
               selectedSector === "W"
@@ -311,6 +312,7 @@ export default function StadiumArena3D() {
           {/* 2. E석 (동측 우측 - 105m 긴 측면 터치라인 / 푸드트럭 로드) */}
           <button
             type="button"
+            aria-label="E석 푸드트럭 105m 긴 측면 선택"
             onClick={() => setSelectedSector("E")}
             className={`absolute right-[-22px] sm:right-[-26px] top-[4%] h-[92%] w-10 sm:w-11 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex flex-col items-center justify-center gap-1.5 cursor-pointer shadow-xl [writing-mode:vertical-rl] ${
               selectedSector === "E"
@@ -329,6 +331,7 @@ export default function StadiumArena3D() {
           {/* 3. S석 (남측 하단 - 68m 좁은 측면 골대 뒤 / 파랑검정 서포팅존) */}
           <button
             type="button"
+            aria-label="S석 서포터즈 68m 골대 뒤 좁은 측면 선택"
             onClick={() => setSelectedSector("S")}
             className={`absolute bottom-[-20px] sm:bottom-[-24px] left-[6%] w-[88%] py-2 sm:py-2.5 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex items-center justify-center gap-1.5 cursor-pointer shadow-xl ${
               selectedSector === "S"
@@ -351,6 +354,7 @@ export default function StadiumArena3D() {
           {/* 4. N석 (북측 상단 - 68m 좁은 측면 골대 뒤 / 원정석) */}
           <button
             type="button"
+            aria-label="N석 원정 응원석 68m 골대 뒤 좁은 측면 선택"
             onClick={() => setSelectedSector("N")}
             className={`absolute top-[-20px] sm:top-[-24px] left-[6%] w-[88%] py-2 sm:py-2.5 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex items-center justify-center gap-1.5 cursor-pointer shadow-xl ${
               selectedSector === "N"

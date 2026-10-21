@@ -20,7 +20,7 @@ function resultOf(match: Match): Result {
 // 최근 N경기 전적 리스트 (상대팀, 스코어 포함)
 export default function RecentMatchesList({ matches }: { matches: Match[] }) {
   return (
-    <div className="flex gap-2 overflow-x-auto">
+    <div className="flex gap-2 overflow-x-auto pb-2 hide-scrollbar">
       {matches.map((match) => {
         const result = resultOf(match);
         const shortRound = match.round.replace("K리그1 ", "");

@@ -36,7 +36,7 @@ export default function OpponentScoutingCard({
         {scouting.recentForm.length === 0 ? (
           <p className="text-text-muted">최근 경기 정보가 없습니다</p>
         ) : (
-          <div className="flex gap-2 overflow-x-auto">
+          <div className="flex gap-2 overflow-x-auto pb-2 hide-scrollbar">
             {scouting.recentForm.map((entry) => (
               <a
                 key={entry.date}
@@ -82,7 +82,7 @@ export default function OpponentScoutingCard({
           </div>
           <Badge text="구단 공식 홈페이지" variant="neutral" />
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold text-sm flex items-center gap-2 text-brand">
               <TeamEmblem teamName="인천 유나이티드" size="sm" /> 인천 유나이티드
@@ -145,7 +145,7 @@ export default function OpponentScoutingCard({
         </div>
         
         {(incheonScouting.probableLineup && incheonScouting.probableLineup.length > 0) || (scouting.probableLineup && scouting.probableLineup.length > 0) ? (
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm flex items-center gap-2 text-brand">
                 <TeamEmblem teamName="인천 유나이티드" size="sm" /> 인천 유나이티드
@@ -200,7 +200,7 @@ export default function OpponentScoutingCard({
             </p>
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm flex items-center gap-2 text-brand">
                 <TeamEmblem teamName="인천 유나이티드" size="sm" /> 인천 유나이티드

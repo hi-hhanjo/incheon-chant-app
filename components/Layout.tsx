@@ -9,7 +9,7 @@ export default function Layout({
   wide?: boolean;
 }) {
   return (
-    <main className={`mx-auto flex min-h-dvh w-full flex-col gap-6 px-4 py-8 sm:px-6 transition-all duration-300 ${wide ? "max-w-7xl lg:px-8 xl:px-10" : "max-w-[640px]"}`}>
+    <main className={`mx-auto flex min-h-dvh w-full flex-col gap-6 px-4 py-8 pb-24 sm:pb-16 sm:px-6 transition-all duration-300 ${wide ? "max-w-7xl lg:px-8 xl:px-10" : "max-w-[640px]"}`}>
       {children}
       <footer className="mt-auto flex flex-col gap-3 border-t border-border pt-6">
         <p className="text-center text-xs text-text-muted">공식 채널 바로가기</p>

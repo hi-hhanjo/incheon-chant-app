@@ -56,7 +56,7 @@ export default function HeadToHeadList({ matches, updatedAt }: { matches: HeadTo
       {matches.length === 0 ? (
         <p className="text-text-muted">상대전적 데이터를 가져오지 못했습니다</p>
       ) : (
-        <div className="flex gap-2 overflow-x-auto pb-2">
+        <div className="flex gap-2 overflow-x-auto pb-2 hide-scrollbar">
           {visibleMatches.map((match) => {
           const incheonIsHome = match.homeTeam === "인천 유나이티드";
           const opponentName = incheonIsHome ? match.awayTeam : match.homeTeam;
