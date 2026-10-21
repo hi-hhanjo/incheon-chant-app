@@ -8,6 +8,8 @@ interface SectorInfo {
   id: SectorId;
   name: string;
   subName: string;
+  sideType: "long" | "short";
+  dimensionLabel: string;
   color: string;
   neonBorder: string;
   tag: string;
@@ -23,16 +25,18 @@ const SECTOR_DETAILS: Record<SectorId, SectorInfo> = {
     id: "S",
     name: "S석 (남측)",
     subName: "파랑검정 코어 서포터즈 스탠딩 존",
+    sideType: "short",
+    dimensionLabel: "골대 뒤 단축 (68m 좁은 측면)",
     color: "#2E7DFF",
     neonBorder: "rgba(46, 125, 255, 0.8)",
-    tag: "🔵⚫ 파랑검정 심장부",
-    vibe: "90분 내내 서서 목청 높여 응원가를 부르고 깃발을 흔드는 인천의 심장입니다. 경기장 내에서 가장 뜨거운 열기를 온몸으로 체감할 수 있습니다.",
+    tag: "🔵⚫ 골대 뒤 단축 · 파랑검정 심장부",
+    vibe: "남측 골대 바로 뒤 좁은 측면(68m)에 위치하여 응원 소리가 압축되어 울려 퍼집니다. 90분 내내 서서 목청 높여 응원가를 부르고 깃발을 흔드는 인천의 심장입니다.",
     tips: [
       "편한 운동화 착용 필수 (90분간 서포터즈 스탠딩 응원 진행)",
       "현장 콜리더와 소모임의 리드에 맞춰 떼창과 슬램 참여",
       "유니폼 및 파랑검정 머플러 착용 강력 권장",
     ],
-    features: ["콜리더 타워 & 응원단상", "대형 깃발 펄럭임 존", "열광적인 골 셀러브레이션"],
+    features: ["콜리더 타워 & 응원단상", "대형 깃발 펄럭임 존", "골대 초밀착 골 셀러브레이션"],
     foodTruckAccess: "도원역 1번 출구 광장 및 S석 매점 바로 연결 (도보 1분)",
     ticketLink: "https://www.ticketlink.co.kr/sports/football/66#reservation",
   },
@@ -40,16 +44,18 @@ const SECTOR_DETAILS: Record<SectorId, SectorInfo> = {
     id: "E",
     name: "E석 (동측)",
     subName: "푸드트럭 로드 & 와이드 피치 뷰",
+    sideType: "long",
+    dimensionLabel: "터치라인 장축 (105m 긴 측면)",
     color: "#F59E0B",
     neonBorder: "rgba(245, 158, 11, 0.8)",
-    tag: "🍔 푸드트럭 & 최고의 시야",
-    vibe: "경기장 전체가 한눈에 들어오는 환상적인 파노라마 시야와 다채로운 먹거리가 공존합니다. 친구, 연인, 가족 직관 시 가장 만족도가 높습니다.",
+    tag: "🍔 긴 측면 터치라인 · 와이드 시야 & 푸드트럭",
+    vibe: "105m에 달하는 긴 측면(터치라인) 전체를 길게 활용하여 양쪽 진영의 전술적 움직임과 선수단 워밍업이 한눈에 파노라마처럼 펼쳐집니다. 바로 뒤 야외 광장에 푸드트럭 로드가 조성되어 있습니다.",
     tips: [
       "E석 2층 출구 야외 광장에 푸드트럭 로드가 바로 연결되어 킥오프 전 식사 편리",
       "하이네켄 펍에서 시원한 생맥주와 스낵 구매 가능",
-      "피치 전체의 전술적 움직임과 선수단 워밍업을 정면에서 조망",
+      "피치 전체의 전술적 움직임과 선수단 워밍업을 정면에서 조망 (와이드 파노라마 뷰)",
     ],
-    features: ["푸드트럭 로드 직결", "하이네켄 펍 & F&B 부스", "선수단 워밍업 정면 조망"],
+    features: ["105m 와이드 파노라마 시야", "푸드트럭 로드 직결 (도보 30초)", "하이네켄 펍 & F&B 부스"],
     foodTruckAccess: "E석 2층 출구 바로 앞 야외 광장 (도보 30초, 최단 동선)",
     ticketLink: "https://www.ticketlink.co.kr/sports/football/66#reservation",
   },
@@ -57,16 +63,18 @@ const SECTOR_DETAILS: Record<SectorId, SectorInfo> = {
     id: "W",
     name: "W석 (서측)",
     subName: "본부석 프리미엄 & 블루마켓 본점",
+    sideType: "long",
+    dimensionLabel: "터치라인 장축 (105m 긴 측면)",
     color: "#38BDF8",
     neonBorder: "rgba(56, 189, 248, 0.8)",
-    tag: "👑 선수단 벤치뷰 & 공식 MD샵",
-    vibe: "선수단 벤치 바로 뒤에서 감독의 지시와 교체 선수들의 워밍업을 초근접 관람할 수 있습니다. 쾌적한 관람 환경을 자랑합니다.",
+    tag: "👑 긴 측면 터치라인 · 본부석 & 공식 MD샵",
+    vibe: "105m 긴 측면 본부석 라인으로, 선수단 벤치 바로 뒤에서 감독의 지시와 교체 선수들의 워밍업을 초근접 관람할 수 있습니다. 지붕 캐노피가 가장 완벽하게 커버되는 프리미엄 구역입니다.",
     tips: [
       "인천 구단 공식 상품 매장 '블루마켓 본점'이 2층 중앙에 위치",
       "비나 눈이 와도 지붕 캐노피가 가장 완벽하게 커버되는 전천후 프리미엄 구역",
       "경기 종료 후 믹스트존 퇴근길 선수단 배웅 동선과 인접",
     ],
-    features: ["선수단 벤치 바로 뒤", "블루마켓 공식 팬샵 본점", "캐노피 완벽 비가림"],
+    features: ["105m 본부석 캐노피 완벽 비가림", "선수단 벤치 바로 뒤", "블루마켓 공식 팬샵 본점"],
     foodTruckAccess: "W석 중앙 홀 매점 및 W-S 연결 게이트 이용 (도보 2분)",
     ticketLink: "https://www.ticketlink.co.kr/sports/football/66#reservation",
   },
@@ -74,16 +82,18 @@ const SECTOR_DETAILS: Record<SectorId, SectorInfo> = {
     id: "N",
     name: "N석 (북측)",
     subName: "원정팀 서포터즈 관람석",
+    sideType: "short",
+    dimensionLabel: "골대 뒤 단축 (68m 좁은 측면)",
     color: "#EF4444",
     neonBorder: "rgba(239, 68, 68, 0.8)",
-    tag: "🚩 원정 응원석",
-    vibe: "원정팀 서포터즈 전용 구역입니다. 홈 팬은 입장이 불가하며, 원정 유니폼 및 응원용품 착용자만 출입할 수 있습니다.",
+    tag: "🚩 골대 뒤 단축 · 원정 응원석",
+    vibe: "북측 골대 바로 뒤 좁은 측면(68m)에 위치한 원정팀 서포터즈 전용 구역입니다. 홈 팬은 입장이 불가하며, 원정 유니폼 및 응원용품 착용자만 출입할 수 있습니다.",
     tips: [
       "인천 유나이티드 유니폼 및 응원용품 착용 시 입장이 엄격히 제한됩니다.",
       "수인분당선 숭의역(4번 출구)에서 북측 광장 방면 접근이 편리합니다.",
       "원정 전용 티켓 구매자만 출입 가능",
     ],
-    features: ["원정 서포터즈 전용 게이트", "원정 전용 F&B 매점", "수인분당선 숭의역 도보 10분"],
+    features: ["북측 골대 초밀착 시야", "원정 서포터즈 전용 게이트", "수인분당선 숭의역 도보 10분"],
     foodTruckAccess: "원정 게이트 전용 매점 이용 가능 (E석 푸드트럭 접근 제한)",
     ticketLink: "https://www.ticketlink.co.kr/sports/football/66#reservation",
   },
@@ -96,19 +106,24 @@ export default function StadiumArena3D() {
   const sector = SECTOR_DETAILS[selectedSector];
 
   // 3D 뷰모드일 때 선택된 구역에 따라 카메라 각도를 자연스럽게 변경
+  // 피치가 남북(South-North, 105m)으로 길고, 동서(West-East, 68m)로 좁은 정방향 규격
   const getCameraTransform = () => {
     if (viewMode === "topdown") {
-      return "perspective(1200px) rotateX(0deg) rotateZ(0deg) scale(0.95)";
+      return "perspective(1200px) rotateX(0deg) rotateZ(0deg) scale(0.92)";
     }
     switch (selectedSector) {
       case "S":
-        return "perspective(950px) rotateX(54deg) rotateZ(-16deg) scale(1)";
+        // S석(남측 골대 뒤)을 가깝게 포커싱
+        return "perspective(950px) rotateX(54deg) rotateZ(-12deg) scale(1.02)";
       case "E":
-        return "perspective(950px) rotateX(48deg) rotateZ(-34deg) scale(1.02)";
+        // E석(동측 긴 터치라인)이 한눈에 들어오도록 각도 회전
+        return "perspective(950px) rotateX(46deg) rotateZ(-32deg) scale(1.02)";
       case "W":
-        return "perspective(950px) rotateX(48deg) rotateZ(-6deg) scale(1.02)";
+        // W석(서측 긴 터치라인) 본부석 각도로 회전
+        return "perspective(950px) rotateX(46deg) rotateZ(-6deg) scale(1.02)";
       case "N":
-        return "perspective(950px) rotateX(40deg) rotateZ(-20deg) scale(0.98)";
+        // N석(북측 골대 뒤) 원정석 조망
+        return "perspective(950px) rotateX(38deg) rotateZ(-18deg) scale(0.98)";
       default:
         return "perspective(950px) rotateX(50deg) rotateZ(-20deg) scale(1)";
     }
@@ -124,7 +139,7 @@ export default function StadiumArena3D() {
             🏟️ 숭의아레나 3D 스타디움 뷰어
           </span>
           <span className="text-[10px] bg-blue-500/20 text-blue-300 border border-blue-400/30 px-2 py-0.5 rounded-full font-semibold hidden md:inline">
-            CSS 3D 하드웨어 가속
+            규격 반영 (장축 105m · 단축 68m)
           </span>
         </div>
 
@@ -155,17 +170,18 @@ export default function StadiumArena3D() {
         </div>
       </div>
 
-      {/* 2. 모바일 친화 원터치 구역 탭 (엄지손가락으로 손쉽게 전환) */}
+      {/* 2. 모바일 친화 원터치 구역 탭 (긴 측면 vs 골대 뒤 단축 명시) */}
       <div className="grid grid-cols-4 gap-1.5 sm:gap-2">
         {(["S", "E", "W", "N"] as SectorId[]).map((secId) => {
           const item = SECTOR_DETAILS[secId];
           const isSelected = selectedSector === secId;
+          const isLong = item.sideType === "long";
           return (
             <button
               key={secId}
               type="button"
               onClick={() => setSelectedSector(secId)}
-              className={`py-2 px-1 rounded-xl text-xs font-bold transition-all border flex flex-col sm:flex-row items-center justify-center gap-1 ${
+              className={`py-2 px-1 rounded-xl text-xs font-bold transition-all border flex flex-col items-center justify-center gap-1 ${
                 isSelected
                   ? "bg-white/15 text-white shadow-lg scale-[1.02]"
                   : "bg-black/30 text-text-muted border-white/5 hover:bg-white/5 hover:text-white"
@@ -175,13 +191,15 @@ export default function StadiumArena3D() {
                 boxShadow: isSelected ? `0 0 16px ${item.color}40` : "none",
               }}
             >
-              <span
-                className="w-2 h-2 rounded-full inline-block"
-                style={{ backgroundColor: item.color }}
-              />
-              <span>{item.name.split(" ")[0]}</span>
-              <span className="text-[10px] opacity-75 font-normal hidden sm:inline">
-                {secId === "S" ? "서포터즈" : secId === "E" ? "푸드트럭" : secId === "W" ? "본부석" : "원정석"}
+              <div className="flex items-center gap-1">
+                <span
+                  className="w-2 h-2 rounded-full inline-block"
+                  style={{ backgroundColor: item.color }}
+                />
+                <span>{item.name.split(" ")[0]}</span>
+              </div>
+              <span className="text-[10px] opacity-80 font-normal">
+                {isLong ? "긴 측면 (105m)" : "골대 뒤 (68m)"}
               </span>
             </button>
           );
@@ -189,7 +207,7 @@ export default function StadiumArena3D() {
       </div>
 
       {/* 3. 인터랙티브 3D 경기장 피치 캔버스 영역 */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-[#050C1B] via-[#081329] to-[#040812] border border-blue-500/25 p-5 sm:p-7 flex flex-col items-center justify-center min-h-[310px] sm:min-h-[350px] shadow-2xl">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-[#050C1B] via-[#081329] to-[#040812] border border-blue-500/25 p-6 sm:p-8 flex flex-col items-center justify-center min-h-[430px] sm:min-h-[470px] shadow-2xl">
         {/* 경기장 바닥 조명 글로우 & 축구장 필드 안개 */}
         <div
           className="pointer-events-none absolute inset-0 blur-3xl opacity-40 transition-colors duration-700"
@@ -198,57 +216,121 @@ export default function StadiumArena3D() {
           }}
         />
 
-        {/* 3D 스타디움 피치 박스 */}
+        {/* 상단 힌트 배지: 피치 규격 안내 */}
+        <div className="relative z-10 mb-4 flex items-center gap-2 bg-black/50 border border-white/10 px-3 py-1 rounded-full text-[11px] text-text-muted">
+          <span className="text-blue-400 font-bold">터치라인(장축): E석·W석 (105m)</span>
+          <span>|</span>
+          <span className="text-amber-400 font-bold">골라인(단축): S석·N석 (68m)</span>
+        </div>
+
+        {/* 3D 스타디움 피치 박스 (축구장 표준 규격 105m x 68m 반영: 세로로 긴 장축) */}
         <div
-          className="relative w-full max-w-[320px] sm:max-w-[410px] aspect-[4/3] flex items-center justify-center transition-all duration-700 ease-out"
+          className="relative w-[210px] sm:w-[250px] h-[320px] sm:h-[370px] flex items-center justify-center transition-all duration-700 ease-out my-3"
           style={{
             transformStyle: "preserve-3d",
             transform: getCameraTransform(),
           }}
         >
           {/* 코너 라이트 타워 (4개 모서리 조명 기둥) */}
-          <div className="absolute -top-3 -left-3 w-3 h-3 rounded-full bg-blue-300 shadow-[0_0_15px_#fff]" />
-          <div className="absolute -top-3 -right-3 w-3 h-3 rounded-full bg-blue-300 shadow-[0_0_15px_#fff]" />
-          <div className="absolute -bottom-3 -left-3 w-3 h-3 rounded-full bg-blue-300 shadow-[0_0_15px_#fff]" />
-          <div className="absolute -bottom-3 -right-3 w-3 h-3 rounded-full bg-blue-300 shadow-[0_0_15px_#fff]" />
+          <div className="absolute -top-4 -left-4 w-3.5 h-3.5 rounded-full bg-blue-200 shadow-[0_0_18px_#fff]" />
+          <div className="absolute -top-4 -right-4 w-3.5 h-3.5 rounded-full bg-blue-200 shadow-[0_0_18px_#fff]" />
+          <div className="absolute -bottom-4 -left-4 w-3.5 h-3.5 rounded-full bg-blue-200 shadow-[0_0_18px_#fff]" />
+          <div className="absolute -bottom-4 -right-4 w-3.5 h-3.5 rounded-full bg-blue-200 shadow-[0_0_18px_#fff]" />
 
-          {/* 천연 잔디 피치 (Pitch) */}
+          {/* 천연 잔디 피치 (105m x 68m 비율: 세로 장축) */}
           <div
-            className="relative w-[78%] h-[68%] rounded-xl bg-gradient-to-br from-emerald-600 via-green-700 to-emerald-900 border-2 border-white/40 shadow-[0_25px_60px_rgba(0,0,0,0.85)] overflow-hidden flex items-center justify-center"
+            className="relative w-full h-full rounded-xl bg-gradient-to-b from-emerald-600 via-green-700 to-emerald-900 border-2 border-white/40 shadow-[0_30px_70px_rgba(0,0,0,0.9)] overflow-hidden flex flex-col items-center justify-between"
             style={{
               transform: "translateZ(0px)",
             }}
           >
-            {/* 잔디 스트라이프 패턴 */}
-            <div className="absolute inset-0 flex flex-col opacity-25">
-              <div className="flex-1 bg-white/15" />
+            {/* 가로형 잔디 스트라이프 패턴 (7줄 줄무늬) */}
+            <div className="absolute inset-0 flex flex-col opacity-25 pointer-events-none">
+              <div className="flex-1 bg-white/20" />
               <div className="flex-1 bg-transparent" />
-              <div className="flex-1 bg-white/15" />
+              <div className="flex-1 bg-white/20" />
               <div className="flex-1 bg-transparent" />
-              <div className="flex-1 bg-white/15" />
+              <div className="flex-1 bg-white/20" />
+              <div className="flex-1 bg-transparent" />
+              <div className="flex-1 bg-white/20" />
             </div>
 
-            {/* 피치 라인: 센터라인 & 센터서클 */}
-            <div className="absolute w-full h-[1.5px] bg-white/70" />
-            <div className="absolute w-14 h-14 rounded-full border-[1.5px] border-white/70" />
-            <div className="absolute w-2 h-2 rounded-full bg-white/80" />
+            {/* 피치 라인: 센터라인 (가로 분할) & 센터서클 */}
+            <div className="absolute top-1/2 left-0 w-full h-[1.5px] bg-white/75 -translate-y-1/2" />
+            <div className="absolute top-1/2 left-1/2 w-16 h-16 rounded-full border-[1.5px] border-white/75 -translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute top-1/2 left-1/2 w-2 h-2 rounded-full bg-white/90 -translate-x-1/2 -translate-y-1/2" />
 
-            {/* 골에어리어 및 페널티 박스 (북측 / 남측) */}
-            <div className="absolute top-0 w-22 h-9 border-b-[1.5px] border-x-[1.5px] border-white/70" />
-            <div className="absolute bottom-0 w-22 h-9 border-t-[1.5px] border-x-[1.5px] border-white/70" />
+            {/* 북측 골대 (N석 쪽 골라인) & 페널티 박스 */}
+            <div className="relative w-full flex flex-col items-center">
+              {/* 3D 북측 골대 프레임 */}
+              <div className="w-14 h-3.5 border-t-2 border-x-2 border-white bg-white/10 rounded-t-sm shadow-md" />
+              {/* 페널티 에어리어 */}
+              <div className="w-28 h-12 border-b-[1.5px] border-x-[1.5px] border-white/75 flex items-end justify-center">
+                {/* 골 에어리어 */}
+                <div className="w-14 h-5 border-b-[1.5px] border-x-[1.5px] border-white/60" />
+              </div>
+            </div>
 
             {/* 잔디 위 구단 엠블럼 워터마크 */}
-            <span className="font-black text-2xl sm:text-3xl text-white/20 select-none tracking-widest font-mono">
+            <span className="font-black text-2xl sm:text-3xl text-white/20 select-none tracking-widest font-mono rotate-90">
               INCHEON
             </span>
+
+            {/* 남측 골대 (S석 쪽 골라인) & 페널티 박스 */}
+            <div className="relative w-full flex flex-col items-center">
+              {/* 페널티 에어리어 */}
+              <div className="w-28 h-12 border-t-[1.5px] border-x-[1.5px] border-white/75 flex items-start justify-center">
+                {/* 골 에어리어 */}
+                <div className="w-14 h-5 border-t-[1.5px] border-x-[1.5px] border-white/60" />
+              </div>
+              {/* 3D 남측 골대 프레임 */}
+              <div className="w-14 h-3.5 border-b-2 border-x-2 border-white bg-white/10 rounded-b-sm shadow-md" />
+            </div>
           </div>
 
-          {/* 4대 스탠드 관람석 구역 버튼들 */}
-          {/* 1. S석 (남측 하단) */}
+          {/* 4대 스탠드 관람석 구역 (긴 측면 vs 좁은 측면 정밀 구현) */}
+
+          {/* 1. W석 (서측 좌측 - 105m 긴 측면 터치라인 / 본부석) */}
+          <button
+            type="button"
+            onClick={() => setSelectedSector("W")}
+            className={`absolute left-[-22px] sm:left-[-26px] top-[4%] h-[92%] w-10 sm:w-11 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex flex-col items-center justify-center gap-1.5 cursor-pointer shadow-xl [writing-mode:vertical-rl] rotate-180 ${
+              selectedSector === "W"
+                ? "bg-sky-600 text-white border-2 border-sky-300 shadow-[0_0_30px_rgba(56,189,248,0.85)] scale-105"
+                : "bg-sky-950/80 text-sky-200 border border-sky-500/40 hover:bg-sky-800/80 hover:text-white"
+            }`}
+            style={{
+              transform: "translateZ(18px)",
+            }}
+          >
+            <span className="flex items-center gap-1">
+              👑 W석 <span className="text-[10px] opacity-80 font-normal">본부석 (105m 긴 측면)</span>
+            </span>
+          </button>
+
+          {/* 2. E석 (동측 우측 - 105m 긴 측면 터치라인 / 푸드트럭 로드) */}
+          <button
+            type="button"
+            onClick={() => setSelectedSector("E")}
+            className={`absolute right-[-22px] sm:right-[-26px] top-[4%] h-[92%] w-10 sm:w-11 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex flex-col items-center justify-center gap-1.5 cursor-pointer shadow-xl [writing-mode:vertical-rl] ${
+              selectedSector === "E"
+                ? "bg-amber-600 text-white border-2 border-amber-300 shadow-[0_0_30px_rgba(245,158,11,0.85)] scale-105"
+                : "bg-amber-950/80 text-amber-200 border border-amber-500/40 hover:bg-amber-800/80 hover:text-white"
+            }`}
+            style={{
+              transform: "translateZ(18px)",
+            }}
+          >
+            <span className="flex items-center gap-1">
+              🍔 E석 <span className="text-[10px] opacity-80 font-normal">푸드트럭 (105m 긴 측면)</span>
+            </span>
+          </button>
+
+          {/* 3. S석 (남측 하단 - 68m 좁은 측면 골대 뒤 / 파랑검정 서포팅존) */}
           <button
             type="button"
             onClick={() => setSelectedSector("S")}
-            className={`absolute bottom-[-18px] w-[84%] py-2 sm:py-2.5 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex items-center justify-center gap-1.5 cursor-pointer shadow-xl ${
+            className={`absolute bottom-[-20px] sm:bottom-[-24px] left-[6%] w-[88%] py-2 sm:py-2.5 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex items-center justify-center gap-1.5 cursor-pointer shadow-xl ${
               selectedSector === "S"
                 ? "bg-blue-600 text-white border-2 border-blue-300 shadow-[0_0_30px_rgba(46,125,255,0.85)] scale-105"
                 : "bg-blue-950/80 text-blue-200 border border-blue-500/40 hover:bg-blue-800/80 hover:text-white"
@@ -259,18 +341,18 @@ export default function StadiumArena3D() {
           >
             <span>🔵⚫ S석</span>
             <span className="text-[10px] font-normal opacity-90 hidden sm:inline">
-              (파랑검정 서포팅존)
+              (파랑검정 · 68m 골대 뒤)
             </span>
             {selectedSector === "S" && (
               <span className="flex h-2 w-2 rounded-full bg-white animate-ping ml-1" />
             )}
           </button>
 
-          {/* 2. N석 (북측 상단) */}
+          {/* 4. N석 (북측 상단 - 68m 좁은 측면 골대 뒤 / 원정석) */}
           <button
             type="button"
             onClick={() => setSelectedSector("N")}
-            className={`absolute top-[-18px] w-[84%] py-2 sm:py-2.5 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex items-center justify-center gap-1.5 cursor-pointer shadow-xl ${
+            className={`absolute top-[-20px] sm:top-[-24px] left-[6%] w-[88%] py-2 sm:py-2.5 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex items-center justify-center gap-1.5 cursor-pointer shadow-xl ${
               selectedSector === "N"
                 ? "bg-red-600 text-white border-2 border-red-300 shadow-[0_0_30px_rgba(239,68,68,0.85)] scale-105"
                 : "bg-red-950/80 text-red-200 border border-red-500/40 hover:bg-red-800/80 hover:text-white"
@@ -281,49 +363,17 @@ export default function StadiumArena3D() {
           >
             <span>🚩 N석</span>
             <span className="text-[10px] font-normal opacity-90 hidden sm:inline">
-              (원정석)
+              (원정석 · 68m 골대 뒤)
             </span>
             {selectedSector === "N" && (
               <span className="flex h-2 w-2 rounded-full bg-white animate-ping ml-1" />
             )}
           </button>
-
-          {/* 3. W석 (서측 좌측) */}
-          <button
-            type="button"
-            onClick={() => setSelectedSector("W")}
-            className={`absolute left-[-16px] h-[72%] px-2.5 sm:px-3 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex flex-col items-center justify-center gap-1 cursor-pointer shadow-xl [writing-mode:vertical-rl] rotate-180 ${
-              selectedSector === "W"
-                ? "bg-sky-600 text-white border-2 border-sky-300 shadow-[0_0_30px_rgba(56,189,248,0.85)] scale-105"
-                : "bg-sky-950/80 text-sky-200 border border-sky-500/40 hover:bg-sky-800/80 hover:text-white"
-            }`}
-            style={{
-              transform: "translateZ(18px)",
-            }}
-          >
-            <span>👑 W석 (본부석)</span>
-          </button>
-
-          {/* 4. E석 (동측 우측) */}
-          <button
-            type="button"
-            onClick={() => setSelectedSector("E")}
-            className={`absolute right-[-16px] h-[72%] px-2.5 sm:px-3 rounded-xl font-black text-xs sm:text-sm tracking-wider transition-all duration-300 flex flex-col items-center justify-center gap-1 cursor-pointer shadow-xl [writing-mode:vertical-rl] ${
-              selectedSector === "E"
-                ? "bg-amber-600 text-white border-2 border-amber-300 shadow-[0_0_30px_rgba(245,158,11,0.85)] scale-105"
-                : "bg-amber-950/80 text-amber-200 border border-amber-500/40 hover:bg-amber-800/80 hover:text-white"
-            }`}
-            style={{
-              transform: "translateZ(18px)",
-            }}
-          >
-            <span>🍔 E석 (푸드트럭)</span>
-          </button>
         </div>
 
         {/* 힌트 캡션 */}
         <p className="relative z-10 text-[11px] text-text-muted mt-5 text-center">
-          💡 각 구역(S / E / W / N)을 클릭하면 3D 카메라 앵글이 이동하며 상세 직관 가이드가 펼쳐집니다.
+          💡 E·W석은 105m 터치라인 긴 측면, S·N석은 68m 골대 뒤 좁은 측면입니다. 구역을 클릭하면 카메라 앵글이 회전합니다.
         </p>
       </div>
 
@@ -335,9 +385,14 @@ export default function StadiumArena3D() {
               className="flex h-3.5 w-3.5 rounded-full shadow-md"
               style={{ backgroundColor: sector.color }}
             />
-            <h3 className="text-base sm:text-lg font-black text-white">
-              {sector.name} — {sector.subName}
-            </h3>
+            <div>
+              <h3 className="text-base sm:text-lg font-black text-white">
+                {sector.name} — {sector.subName}
+              </h3>
+              <span className="text-[11px] text-text-muted">
+                {sector.dimensionLabel}
+              </span>
+            </div>
           </div>
           <span
             className="text-xs font-bold px-2.5 py-1 rounded-full border"
