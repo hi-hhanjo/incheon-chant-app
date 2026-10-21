@@ -17,16 +17,19 @@ export default function LegendView({ initialLegends }: LegendViewProps) {
 
   // URL 쿼리에 ?highlight=... 파라미터가 있을 경우 자동 모달 오픈
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const params = new URLSearchParams(window.location.search);
-      const highlightId = params.get("highlight");
-      if (highlightId) {
-        const found = initialLegends.find((l) => l.id === highlightId);
-        if (found) {
-          setActiveLegend(found);
+    const frameId = requestAnimationFrame(() => {
+      if (typeof window !== "undefined") {
+        const params = new URLSearchParams(window.location.search);
+        const highlightId = params.get("highlight");
+        if (highlightId) {
+          const found = initialLegends.find((l) => l.id === highlightId);
+          if (found) {
+            setActiveLegend(found);
+          }
         }
       }
-    }
+    });
+    return () => cancelAnimationFrame(frameId);
   }, [initialLegends]);
 
   const positionFilters: { key: LegendPosition | "ALL"; label: string }[] = [

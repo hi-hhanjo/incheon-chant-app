@@ -37,22 +37,25 @@ export default function FloatingNav({ sections }: FloatingNavProps) {
 
   // 1. 저장된 위치 복원
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (typeof parsed.x === "number" && typeof parsed.y === "number") {
-          const maxX = Math.max(16, window.innerWidth - 180);
-          const maxY = Math.max(16, window.innerHeight - 100);
-          setPosition({
-            x: Math.min(maxX, Math.max(16, parsed.x)),
-            y: Math.min(maxY, Math.max(16, parsed.y)),
-          });
+    const frameId = requestAnimationFrame(() => {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (typeof parsed.x === "number" && typeof parsed.y === "number") {
+            const maxX = Math.max(16, window.innerWidth - 180);
+            const maxY = Math.max(16, window.innerHeight - 100);
+            setPosition({
+              x: Math.min(maxX, Math.max(16, parsed.x)),
+              y: Math.min(maxY, Math.max(16, parsed.y)),
+            });
+          }
         }
+      } catch {
+        // ignore
       }
-    } catch {
-      // ignore
-    }
+    });
+    return () => cancelAnimationFrame(frameId);
   }, []);
 
   // 2. 화면 리사이즈 시 화면 바깥으로 벗어난 위치 재보정

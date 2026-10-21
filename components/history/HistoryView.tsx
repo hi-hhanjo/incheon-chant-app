@@ -20,50 +20,56 @@ export default function HistoryView({
   initialRounds,
 }: HistoryViewProps) {
   const [selectedYear, setSelectedYear] = useState<number>(initialYear);
-  const [rounds, setRounds] = useState<HistoricalRound[]>(initialRounds);
+  const [fetchedRounds, setFetchedRounds] = useState<HistoricalRound[] | null>(null);
   const [selectedRound, setSelectedRound] = useState<number>(1);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   // URL 쿼리 파라미터(?year=..., ?round=...) 자동 파싱
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const params = new URLSearchParams(window.location.search);
-      const yearParam = params.get("year");
-      const roundParam = params.get("round");
+    const frameId = requestAnimationFrame(() => {
+      if (typeof window !== "undefined") {
+        const params = new URLSearchParams(window.location.search);
+        const yearParam = params.get("year");
+        const roundParam = params.get("round");
 
-      if (yearParam) {
-        const parsedYear = parseInt(yearParam, 10);
-        if (initialSeasons.some((s) => s.year === parsedYear)) {
-          setSelectedYear(parsedYear);
+        if (yearParam) {
+          const parsedYear = parseInt(yearParam, 10);
+          if (initialSeasons.some((s) => s.year === parsedYear)) {
+            setSelectedYear(parsedYear);
+          }
+        }
+        if (roundParam) {
+          const parsedRound = parseInt(roundParam, 10);
+          if (parsedRound > 0) {
+            setSelectedRound(parsedRound);
+          }
         }
       }
-      if (roundParam) {
-        const parsedRound = parseInt(roundParam, 10);
-        if (parsedRound > 0) {
-          setSelectedRound(parsedRound);
-        }
-      }
-    }
+    });
+    return () => cancelAnimationFrame(frameId);
   }, [initialSeasons]);
 
   const selectedSeason = initialSeasons.find((s) => s.year === selectedYear) || initialSeasons[0];
 
   // 시즌 변경 시 비동기로 해당 연도의 라운드 데이터 로드
   useEffect(() => {
-    if (selectedYear === initialYear && initialRounds.length > 0) {
-      setRounds(initialRounds);
-      setSelectedRound(1);
+    if (selectedYear === initialYear) {
+      // initialYear는 서버에서 전달받은 initialRounds를 직접 사용하므로 fetch 불필요
       return;
     }
 
     let isMounted = true;
-    setIsLoading(true);
+    const frameId = requestAnimationFrame(() => {
+      if (isMounted) {
+        setIsLoading(true);
+      }
+    });
 
     fetch(`/api/history?year=${selectedYear}`)
       .then((res) => res.json())
       .then((data) => {
         if (isMounted && data.rounds) {
-          setRounds(data.rounds);
+          setFetchedRounds(data.rounds);
           setSelectedRound(1);
         }
       })
@@ -76,8 +82,11 @@ export default function HistoryView({
 
     return () => {
       isMounted = false;
+      cancelAnimationFrame(frameId);
     };
-  }, [selectedYear, initialYear, initialRounds]);
+  }, [selectedYear, initialYear]);
+
+  const rounds = selectedYear === initialYear ? initialRounds : (fetchedRounds || initialRounds);
 
   const currentRoundData = rounds.find((r) => r.round === selectedRound) || rounds[0];
 

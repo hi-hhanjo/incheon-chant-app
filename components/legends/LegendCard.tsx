@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Legend } from "@/types/legend";
 
 interface LegendCardProps {
@@ -72,13 +73,13 @@ export default function LegendCard({ legend, onSelect }: LegendCardProps) {
         {/* 원형/스퀘어 사진 액자 */}
         <div className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-700 via-blue-900 to-[#0a0e16] border border-blue-400/40 shadow-md shadow-blue-950/50 overflow-hidden group-hover:border-blue-400 group-hover:scale-105 transition-all">
           {legend.imageUrl ? (
-            <img
+            <Image
               src={legend.imageUrl}
               alt={legend.name}
+              width={56}
+              height={56}
+              unoptimized
               className="h-full w-full object-cover relative z-10"
-              onError={(e) => {
-                (e.target as HTMLElement).style.display = "none";
-              }}
             />
           ) : (
             <span className="text-xs font-black text-white/80 font-mono">

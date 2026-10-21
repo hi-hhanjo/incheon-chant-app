@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Legend } from "@/types/legend";
 import YoutubePlayer from "@/components/YoutubePlayer";
 
@@ -58,13 +59,13 @@ export default function LegendModal({ legend, onClose }: LegendModalProps) {
           {/* 선수 사진 아바타 */}
           <div className="relative flex h-16 w-16 sm:h-20 sm:w-20 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-700 via-blue-900 to-[#0a0e16] border-2 border-blue-400/40 shadow-lg shadow-blue-950/60 overflow-hidden">
             {legend.imageUrl ? (
-              <img
+              <Image
                 src={legend.imageUrl}
                 alt={legend.name}
+                width={80}
+                height={80}
+                unoptimized
                 className="h-full w-full object-cover"
-                onError={(e) => {
-                  (e.target as HTMLElement).style.display = "none";
-                }}
               />
             ) : null}
             <span className="text-sm sm:text-base font-black text-white/90 font-mono">
