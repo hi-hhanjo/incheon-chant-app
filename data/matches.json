@@ -59,8 +59,8 @@
     "opponent": "안양FC",
     "isHome": false,
     "score": {
-      "incheon": 2,
-      "opponent": 2
+      "incheon": 1,
+      "opponent": 0
     },
     "venue": "안양 종합 운동장"
   },
@@ -241,8 +241,8 @@
     "opponent": "울산 HD",
     "isHome": false,
     "score": {
-      "incheon": 1,
-      "opponent": 2
+      "incheon": 2,
+      "opponent": 1
     },
     "venue": "울산 문수 축구경기장"
   },
@@ -254,7 +254,7 @@
     "opponent": "부천FC",
     "isHome": true,
     "score": {
-      "incheon": 2,
+      "incheon": 1,
       "opponent": 1
     },
     "venue": "인천 축구 전용경기장"
@@ -267,8 +267,8 @@
     "opponent": "제주SK",
     "isHome": false,
     "score": {
-      "incheon": 0,
-      "opponent": 0
+      "incheon": 3,
+      "opponent": 3
     },
     "venue": "제주 월드컵 경기장"
   },
@@ -293,8 +293,8 @@
     "opponent": "광주FC",
     "isHome": false,
     "score": {
-      "incheon": 2,
-      "opponent": 1
+      "incheon": 1,
+      "opponent": 0
     },
     "venue": "광주 월드컵 경기장"
   },
@@ -307,7 +307,7 @@
     "isHome": false,
     "score": {
       "incheon": 1,
-      "opponent": 0
+      "opponent": 2
     },
     "venue": "안양 종합 운동장"
   },
@@ -319,7 +319,7 @@
     "opponent": "전북 현대모터스",
     "isHome": true,
     "score": {
-      "incheon": 0,
+      "incheon": 1,
       "opponent": 1
     },
     "venue": "인천 축구 전용경기장"
@@ -332,7 +332,7 @@
     "opponent": "FC서울",
     "isHome": false,
     "score": {
-      "incheon": 1,
+      "incheon": 0,
       "opponent": 1
     },
     "venue": "서울 월드컵 경기장"
@@ -384,8 +384,8 @@
     "opponent": "강원FC",
     "isHome": false,
     "score": {
-      "incheon": 1,
-      "opponent": 1
+      "incheon": 0,
+      "opponent": 0
     },
     "venue": "강릉하이원아레나"
   },
