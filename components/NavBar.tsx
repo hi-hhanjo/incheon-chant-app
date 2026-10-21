@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   { href: "/", label: "구단 정보" },
+  { href: "/legends", label: "인천 레전드" },
   { href: "/songs", label: "응원가" },
 ];
 
