@@ -129,11 +129,26 @@ export async function getUpcomingOpponentScouting(
   }
 }
 
+const OPPONENT_ALIASES: Record<string, string> = {
+  "제주 유나이티드": "제주SK",
+  "제주": "제주SK",
+  "전북 현대": "전북 현대모터스",
+  "전북": "전북 현대모터스",
+  "FC안양": "안양FC",
+  "안양": "안양FC",
+  "부천FC 1995": "부천FC",
+  "부천": "부천FC",
+  "대전 하나시티즌": "대전하나시티즌",
+  "대전": "대전하나시티즌",
+};
+
 function getFallbackOpponentScouting(opponentName: string): OpponentScouting {
-  const teamData = scoutingData[opponentName] ?? { keyPlayers: [], injuries: [], probableLineup: [] };
+  const normalized = OPPONENT_ALIASES[opponentName?.trim()] ?? opponentName?.trim();
+  const teamData = scoutingData[normalized] ?? scoutingData[opponentName] ?? { keyPlayers: [], injuries: [], probableLineup: [] };
+  const teamForms = forms[normalized] ?? forms[opponentName] ?? [];
   return {
     opponent: opponentName,
-    recentForm: (forms[opponentName] ?? []).slice(0, RECENT_FORM_COUNT),
+    recentForm: teamForms.slice(0, RECENT_FORM_COUNT),
     keyPlayers: teamData.keyPlayers,
     injuries: teamData.injuries,
     probableLineup: teamData.probableLineup,

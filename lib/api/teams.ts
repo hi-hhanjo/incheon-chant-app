@@ -104,25 +104,93 @@ const TEAM_META: Record<string, TeamMeta> = {
     daumUrl: `${TEAM_PAGE_BASE}/3035`,
     officialSquadUrl: "https://www.gwangjufc.com/player/pro.php",
   },
+  // K리그 주요 타 구단 메타데이터
+  "수원 삼성": {
+    cpTeamId: "K02", teamId: 2,
+    emblemUrl: `${EMBLEM_BASE}/K02_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/2`,
+    officialSquadUrl: "https://www.bluewings.kr",
+  },
+  "대구FC": {
+    cpTeamId: "K17", teamId: 17,
+    emblemUrl: `${EMBLEM_BASE}/K17_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/17`,
+    officialSquadUrl: "https://www.daegufc.com",
+  },
+  "수원FC": {
+    cpTeamId: "K29", teamId: 163986,
+    emblemUrl: `${EMBLEM_BASE}/K29_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/163986`,
+    officialSquadUrl: "https://www.suwonfc.com",
+  },
+  "김포FC": {
+    cpTeamId: "K34", teamId: 601031,
+    emblemUrl: `${EMBLEM_BASE}/K34_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/601031`,
+    officialSquadUrl: "https://www.gimpofc.com",
+  },
+  "부산 아이파크": {
+    cpTeamId: "K06", teamId: 6,
+    emblemUrl: `${EMBLEM_BASE}/K06_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/6`,
+    officialSquadUrl: "https://www.busanipark.com",
+  },
+  "전남 드래곤즈": {
+    cpTeamId: "K07", teamId: 7,
+    emblemUrl: `${EMBLEM_BASE}/K07_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/7`,
+    officialSquadUrl: "https://www.dragons.co.kr",
+  },
+  "경남FC": {
+    cpTeamId: "K20", teamId: 19,
+    emblemUrl: `${EMBLEM_BASE}/K20_300300.png`,
+    daumUrl: `${TEAM_PAGE_BASE}/19`,
+    officialSquadUrl: "https://www.gyeongnamfc.com",
+  },
 };
 
-/** 앱 표기 팀명으로 메타데이터 전체를 가져온다. 매핑에 없으면 null. */
+const ALIAS_MAP: Record<string, string> = {
+  "전북 현대": "전북 현대모터스",
+  "전북": "전북 현대모터스",
+  "제주 유나이티드": "제주SK",
+  "제주": "제주SK",
+  "FC안양": "안양FC",
+  "안양": "안양FC",
+  "부천FC 1995": "부천FC",
+  "부천": "부천FC",
+  "대전 하나시티즌": "대전하나시티즌",
+  "대전": "대전하나시티즌",
+  "서울": "FC서울",
+  "포항": "포항 스틸러스",
+  "울산": "울산 HD",
+  "광주": "광주FC",
+  "강원": "강원FC",
+  "김천": "김천 상무",
+  "김천상무": "김천 상무",
+  "수원삼성": "수원 삼성",
+  "부산아이파크": "부산 아이파크",
+  "전남드래곤즈": "전남 드래곤즈",
+};
+
+/** 앱 표기 팀명으로 메타데이터 전체를 가져온다. 별칭 및 띄어쓰기 정규화 지원. */
 export function getTeamMeta(teamName: string): TeamMeta | null {
-  return TEAM_META[teamName] ?? null;
+  const trimmed = teamName.trim();
+  const resolved = ALIAS_MAP[trimmed] ?? trimmed;
+  return TEAM_META[resolved] ?? null;
 }
 
 /** 앱 표기 팀명으로 엠블럼 URL만 가져온다. 매핑에 없으면 null. */
 export function getEmblemUrl(teamName: string): string | null {
-  return TEAM_META[teamName]?.emblemUrl ?? null;
+  return getTeamMeta(teamName)?.emblemUrl ?? null;
 }
 
 /** 앱 표기 팀명으로 다음 스포츠 팀 상세 페이지 URL만 가져온다. 매핑에 없으면 null. */
 export function getDaumTeamUrl(teamName: string): string | null {
-  return TEAM_META[teamName]?.daumUrl ?? null;
+  return getTeamMeta(teamName)?.daumUrl ?? null;
 }
 
 /** 앱 표기 팀명으로 공식 홈페이지 선수단 페이지 URL을 가져온다. 매핑에 없으면 null. */
 export function getOfficialSquadUrl(teamName: string): string | null {
-  return TEAM_META[teamName]?.officialSquadUrl ?? null;
+  return getTeamMeta(teamName)?.officialSquadUrl ?? null;
 }
 

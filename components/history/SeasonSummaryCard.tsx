@@ -26,7 +26,8 @@ const legendNameMap: Record<string, string> = {
 };
 
 export default function SeasonSummaryCard({ season }: SeasonSummaryCardProps) {
-  const { trajectory, totalTeams } = season;
+  const trajectory = season?.trajectory || [];
+  const totalTeams = season?.totalTeams || 12;
 
   // SVG 차트 좌표 계산 (1위가 상단, N위가 하단)
   const chartWidth = 500;

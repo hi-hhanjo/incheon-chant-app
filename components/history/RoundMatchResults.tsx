@@ -122,11 +122,11 @@ export default function RoundMatchResults({ roundData }: RoundMatchResultsProps)
           <span className="flex items-center gap-1.5 text-white">
             <span>⚽</span> K리그 전 구단 {roundLabel} 스코어보드
           </span>
-          <span className="text-[11px] text-text-muted font-normal">총 {allMatches.length}경기 진행</span>
+          <span className="text-[11px] text-text-muted font-normal">총 {(allMatches || []).length}경기 진행</span>
         </h4>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {allMatches.map((m, idx) => {
+          {(allMatches || []).map((m, idx) => {
             const isIncheon = m.isIncheon;
             return (
               <div

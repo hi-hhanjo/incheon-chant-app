@@ -20,11 +20,34 @@ export interface HeadToHeadSummary {
 
 const fallbackHeadToHead = fallbackHeadToHeadData as Record<string, HeadToHeadMatch[]>;
 
+const TEAM_ALIASES: Record<string, string> = {
+  "제주 유나이티드": "제주SK",
+  "제주": "제주SK",
+  "전북 현대": "전북 현대모터스",
+  "전북": "전북 현대모터스",
+  "FC안양": "안양FC",
+  "안양": "안양FC",
+  "부천FC 1995": "부천FC",
+  "부천": "부천FC",
+  "대전 하나시티즌": "대전하나시티즌",
+  "대전": "대전하나시티즌",
+  "수원 삼성": "수원",
+  "수원삼성": "수원",
+  "대구FC": "대구",
+  "김포FC": "김포",
+  "전남 드래곤즈": "전남",
+  "부산 아이파크": "부산",
+  "경남FC": "경남",
+  "성남FC": "성남",
+  "안산 그리너스": "안산",
+};
+
 export async function getHeadToHead(
   opponentKoreanName: string,
 ): Promise<HeadToHeadMatch[]> {
+  const normalized = TEAM_ALIASES[opponentKoreanName?.trim()] ?? opponentKoreanName?.trim();
   if (!supabase) {
-    return fallbackHeadToHead[opponentKoreanName] ?? [];
+    return fallbackHeadToHead[normalized] ?? fallbackHeadToHead[opponentKoreanName] ?? [];
   }
 
   try {
