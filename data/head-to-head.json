@@ -1,6 +1,14 @@
 {
   "안양FC": [
     {
+      "date": "2026-08-26",
+      "round": "K리그1 25라운드",
+      "homeTeam": "안양FC",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
       "date": "2026-07-12",
       "round": "K리그1 17라운드",
       "homeTeam": "인천 유나이티드",
@@ -18,6 +26,14 @@
     }
   ],
   "FC서울": [
+    {
+      "date": "2026-09-05",
+      "round": "K리그1 27라운드",
+      "homeTeam": "FC서울",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 1,
+      "awayScore": 1
+    },
     {
       "date": "2026-07-05",
       "round": "K리그1 16라운드",
@@ -109,6 +125,14 @@
   ],
   "광주FC": [
     {
+      "date": "2026-08-23",
+      "round": "K리그1 24라운드",
+      "homeTeam": "광주FC",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
       "date": "2026-05-16",
       "round": "K리그1 15라운드",
       "homeTeam": "인천 유나이티드",
@@ -190,6 +214,14 @@
     }
   ],
   "포항 스틸러스": [
+    {
+      "date": "2026-10-09",
+      "round": "K리그1 31라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "포항 스틸러스",
+      "homeScore": 3,
+      "awayScore": 0
+    },
     {
       "date": "2026-05-12",
       "round": "K리그1 14라운드",
@@ -297,6 +329,14 @@
   ],
   "김천 상무": [
     {
+      "date": "2026-08-16",
+      "round": "K리그1 23라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "김천 상무",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
       "date": "2026-05-09",
       "round": "K리그1 13라운드",
       "homeTeam": "김천 상무",
@@ -362,6 +402,14 @@
     }
   ],
   "대전하나시티즌": [
+    {
+      "date": "2026-09-20",
+      "round": "K리그1 30라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "대전하나시티즌",
+      "homeScore": 1,
+      "awayScore": 1
+    },
     {
       "date": "2026-05-05",
       "round": "K리그1 12라운드",
@@ -436,6 +484,22 @@
     }
   ],
   "강원FC": [
+    {
+      "date": "2026-10-18",
+      "round": "K리그1 32라운드",
+      "homeTeam": "강원FC",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "date": "2026-09-27",
+      "round": "K리그1 22라운드",
+      "homeTeam": "강원FC",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 1,
+      "awayScore": 1
+    },
     {
       "date": "2026-05-02",
       "round": "K리그1 11라운드",
@@ -526,6 +590,14 @@
     }
   ],
   "제주SK": [
+    {
+      "date": "2026-08-02",
+      "round": "K리그1 21라운드",
+      "homeTeam": "제주SK",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 0,
+      "awayScore": 0
+    },
     {
       "date": "2026-04-25",
       "round": "K리그1 10라운드",
@@ -624,6 +696,22 @@
     }
   ],
   "전북 현대모터스": [
+    {
+      "date": "2026-08-30",
+      "round": "K리그1 26라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "전북 현대모터스",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "date": "2026-07-18",
+      "round": "K리그1 18라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "전북 현대모터스",
+      "homeScore": 1,
+      "awayScore": 0
+    },
     {
       "date": "2026-04-21",
       "round": "K리그1 9라운드",
@@ -731,6 +819,22 @@
   ],
   "부천FC": [
     {
+      "date": "2026-09-08",
+      "round": "K리그1 28라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "부천FC",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "date": "2026-07-26",
+      "round": "K리그1 20라운드",
+      "homeTeam": "인천 유나이티드",
+      "awayTeam": "부천FC",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
       "date": "2026-04-18",
       "round": "K리그1 8라운드",
       "homeTeam": "부천FC",
@@ -764,6 +868,22 @@
     }
   ],
   "울산 HD": [
+    {
+      "date": "2026-09-12",
+      "round": "K리그1 29라운드",
+      "homeTeam": "울산 HD",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "date": "2026-07-21",
+      "round": "K리그1 19라운드",
+      "homeTeam": "울산 HD",
+      "awayTeam": "인천 유나이티드",
+      "homeScore": 2,
+      "awayScore": 1
+    },
     {
       "date": "2026-04-11",
       "round": "K리그1 7라운드",

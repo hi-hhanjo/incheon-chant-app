@@ -16,12 +16,18 @@
 산출물: 상대팀명(앱 표기) → 경기 목록(최신순). `lib/api/headToHead.ts`가 상대명으로 조회한다.
 """
 
+import json
 import sys
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 from kleague.client import fetch_rank, fetch_schedule
 from kleague.schedule import parse_head_to_head
 from supabase_client import supabase
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+OUTPUT_PATH = PROJECT_ROOT / "data" / "head-to-head.json"
+META_PATH = PROJECT_ROOT / "data" / "head-to-head-meta.json"
 
 KST = timezone(timedelta(hours=9))
 DEFAULT_SEASONS = 25  # 역대 전적을 위해 25시즌 (K리그 원년부터 최대한 확보)
@@ -69,28 +75,51 @@ def main() -> None:
 
     snapshot_date = datetime.now(KST).strftime("%Y-%m-%d")
 
-    for opponent, matches in by_opponent.items():
-        supabase.table("head_to_head").delete().eq("opponent", opponent).execute()
-        for m in matches:
-            data = {
-                "opponent": opponent,
-                "date": m["date"],
-                "home_team": m["homeTeam"],
-                "away_team": m["awayTeam"],
-                "home_score": m["homeScore"],
-                "away_score": m["awayScore"],
-                "game_id": m["gameId"],
-                "venue": m["venue"],
-                "updated_at": snapshot_date
-            }
-            supabase.table("head_to_head").insert(data).execute()
+    # 1. 로컬 JSON (SSOT) 저장
+    try:
+        OUTPUT_PATH.write_text(
+            json.dumps(by_opponent, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+        META_PATH.write_text(
+            json.dumps(
+                {"updatedAt": snapshot_date, "seasons": covered},
+                ensure_ascii=False,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        print(f"상대전적 → {OUTPUT_PATH.name} & {META_PATH.name} 저장 완료")
+    except Exception as e:
+        print(f"로컬 JSON 저장 오류: {e}")
+
+    # 2. Supabase 동기화 (설정 및 연결 가능한 경우에만)
+    if supabase is not None:
+        try:
+            for opponent, matches in by_opponent.items():
+                supabase.table("head_to_head").delete().eq("opponent", opponent).execute()
+                for m in matches:
+                    data = {
+                        "opponent": opponent,
+                        "date": m["date"],
+                        "home_team": m["homeTeam"],
+                        "away_team": m["awayTeam"],
+                        "home_score": m["homeScore"],
+                        "away_score": m["awayScore"],
+                        "game_id": m.get("gameId"),
+                        "venue": m.get("venue"),
+                        "updated_at": snapshot_date,
+                    }
+                    supabase.table("head_to_head").insert(data).execute()
+            print("상대전적 → Supabase 동기화 완료")
+        except Exception as e:
+            print(f"Supabase 동기화 건너뜀: {e}")
 
     total = sum(len(v) for v in by_opponent.values())
     print(
-        f"상대전적 {len(by_opponent)}팀 · {total}경기 (시즌: {', '.join(covered)}) "
-        f"→ Supabase"
+        f"상대전적 {len(by_opponent)}팀 · {total}경기 (시즌: {', '.join(covered)}) 완료"
     )
 
 
 if __name__ == "__main__":
     main()
+
