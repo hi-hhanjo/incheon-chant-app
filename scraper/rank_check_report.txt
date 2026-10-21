@@ -1,5 +1,5 @@
 === 연도별 seasons.json vs rounds JSON 데이터 전수 비교 ===
-[2026] 하나은행 K리그1 2026 | 최종설정:9위 | standings최종:9위 | traj끝:9위 | [OK]
+[2026] 하나은행 K리그1 2026 | 최종설정:7위 | standings최종:7위 | traj끝:7위 | [OK]
 [2025] 하나은행 K리그2 2025 | 최종설정:3위 | standings최종:3위 | traj끝:3위 | [OK]
 [2024] 하나은행 K리그1 2024 | 최종설정:12위 | standings최종:12위 | traj끝:12위 | [OK]
 [2023] 하나원큐 K리그1 2023 | 최종설정:6위 | standings최종:6위 | traj끝:6위 | [OK]

@@ -4,7 +4,7 @@
     "name": "하나은행 K리그1 2026",
     "division": "K1",
     "incheonDivision": "K리그1",
-    "incheonRank": 9,
+    "incheonRank": 7,
     "totalTeams": 12,
     "totalRounds": 33,
     "record": {
@@ -20,7 +20,7 @@
     "manager": "최영근 감독",
     "stadium": "인천축구전용경기장",
     "topScorer": "무고사 (15골)",
-    "keyMoment": "2026 시즌 치열한 중위권 순위 경쟁 및 무고사의 통산 득점 신기록 행진",
+    "keyMoment": "2026 시즌 현재 7위 순항 중! 파이널 라운드를 앞둔 치열한 중상위권 순위 경쟁",
     "trajectory": [
       7,
       8,
@@ -51,15 +51,16 @@
       7,
       8,
       9,
-      10,
-      9,
-      9,
-      9
+      7,
+      8,
+      7,
+      7
     ],
     "featuredLegends": [
       "mugosa",
       "kim-do-hyuk"
-    ]
+    ],
+    "isOngoing": true
   },
   {
     "year": 2025,
@@ -124,7 +125,8 @@
     "featuredLegends": [
       "mugosa",
       "kim-do-hyuk"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2024,
@@ -192,7 +194,8 @@
       "mugosa",
       "lee-myung-joo",
       "kim-do-hyuk"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2023,
@@ -260,7 +263,8 @@
       "mugosa",
       "lee-myung-joo",
       "kim-do-hyuk"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2022,
@@ -329,7 +333,8 @@
       "lee-myung-joo",
       "kim-do-hyuk",
       "elias-aguilar"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2021,
@@ -398,7 +403,8 @@
       "kim-do-hyuk",
       "elias-aguilar",
       "song-si-woo"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2020,
@@ -456,7 +462,8 @@
       "elias-aguilar",
       "kim-do-hyuk",
       "song-si-woo"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2019,
@@ -524,7 +531,8 @@
       "yoo-sang-chul",
       "mugosa",
       "song-si-woo"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2018,
@@ -593,7 +601,8 @@
       "moon-seon-min",
       "elias-aguilar",
       "song-si-woo"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2017,
@@ -660,7 +669,8 @@
     "featuredLegends": [
       "song-si-woo",
       "moon-seon-min"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2016,
@@ -727,7 +737,8 @@
     "featuredLegends": [
       "song-si-woo",
       "kim-do-hyuk"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2015,
@@ -794,7 +805,8 @@
     "featuredLegends": [
       "lee-tae-hee",
       "kim-do-hyuk"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2014,
@@ -861,7 +873,8 @@
     "featuredLegends": [
       "kim-do-hyuk",
       "lee-tae-hee"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2013,
@@ -927,7 +940,8 @@
     ],
     "featuredLegends": [
       "nam-joon-jae"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2012,
@@ -1000,7 +1014,8 @@
     "featuredLegends": [
       "nam-joon-jae",
       "kim-yi-sub"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2011,
@@ -1059,7 +1074,8 @@
     "featuredLegends": [
       "yoo-byung-soo",
       "lim-joong-yong"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2010,
@@ -1116,7 +1132,8 @@
     "featuredLegends": [
       "yoo-byung-soo",
       "nam-joon-jae"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2009,
@@ -1173,7 +1190,8 @@
     "featuredLegends": [
       "yoo-byung-soo",
       "lim-joong-yong"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2008,
@@ -1228,7 +1246,8 @@
     "featuredLegends": [
       "lim-joong-yong",
       "radoncic"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2007,
@@ -1284,7 +1303,8 @@
       "lim-joong-yong",
       "chang-woe-ryong",
       "radoncic"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2006,
@@ -1340,7 +1360,8 @@
       "lim-joong-yong",
       "chang-woe-ryong",
       "radoncic"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2005,
@@ -1396,7 +1417,8 @@
       "kim-yi-sub",
       "radoncic",
       "jeon-jae-ho"
-    ]
+    ],
+    "isOngoing": false
   },
   {
     "year": 2004,
@@ -1451,6 +1473,7 @@
       "kim-yi-sub",
       "radoncic",
       "jeon-jae-ho"
-    ]
+    ],
+    "isOngoing": false
   }
 ]

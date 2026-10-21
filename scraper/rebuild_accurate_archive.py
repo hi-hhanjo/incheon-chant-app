@@ -15,7 +15,19 @@ for s in seasons:
     rank = s["incheonRank"]
     traj = s["trajectory"]
     total_rounds = s["totalRounds"]
-    
+    # 2026 시즌: 현재 7위 순항 중인 진행 중 시즌
+    if year == 2026:
+        s["incheonRank"] = 7
+        s["isOngoing"] = True
+        rank = 7
+        s["keyMoment"] = "2026 시즌 현재 7위 순항 중! 파이널 라운드를 앞둔 치열한 중상위권 순위 경쟁"
+        traj[-1] = 7
+        traj[-2] = 7
+        traj[-3] = 8
+        traj[-4] = 7
+    else:
+        s["isOngoing"] = False
+        
     # 2026 시즌 라운드 수 보정 (32개 -> 33개)
     if len(traj) < total_rounds:
         while len(traj) < total_rounds:
@@ -42,7 +54,7 @@ for s in seasons:
 with open(seasons_file, 'w', encoding='utf-8') as f:
     json.dump(seasons, f, ensure_ascii=False, indent=2)
 
-print("seasons.json trajectory corrected.")
+print("seasons.json trajectory corrected (2026 set to rank 7 & isOngoing).")
 
 # 2. 기존 파일에 저장되어 있던 highlightVideo 매핑 보존을 위해 백업 수집
 highlight_videos_cache = {}

@@ -28,7 +28,13 @@ export default function SeasonSelector({
           >
             {seasons.map((s) => (
               <option key={s.year} value={s.year}>
-                {s.year}시즌 ({s.incheonRank === 2 ? "준우승" : `${s.incheonRank}위`})
+                {s.year}시즌 (
+                {s.isOngoing || s.year === 2026
+                  ? `현재 ${s.incheonRank}위 · 진행 중`
+                  : s.incheonRank === 2
+                  ? "준우승"
+                  : `${s.incheonRank}위`}
+                )
               </option>
             ))}
           </select>
@@ -39,6 +45,7 @@ export default function SeasonSelector({
       <div className="flex items-center gap-2 overflow-x-auto hide-scrollbar pb-2 pt-1">
         {seasons.map((s) => {
           const isSelected = s.year === selectedYear;
+          const isOngoing = s.isOngoing || s.year === 2026;
           return (
             <button
               key={s.year}
@@ -51,11 +58,24 @@ export default function SeasonSelector({
                   : "bg-[#141822]/90 border-border/80 text-text-secondary hover:text-white hover:border-blue-500/50 hover:bg-[#1a202d]"
               }`}
             >
-              <span className="text-xs sm:text-sm font-black tracking-tight">{s.year}</span>
+              <span className="text-xs sm:text-sm font-black tracking-tight flex items-center gap-1">
+                <span>{s.year}</span>
+                {isOngoing && <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />}
+              </span>
               <span className={`text-[10px] mt-0.5 font-bold ${
-                isSelected ? "text-blue-100" : "text-text-muted group-hover:text-text-secondary"
+                isSelected
+                  ? "text-blue-100"
+                  : isOngoing
+                  ? "text-emerald-400"
+                  : "text-text-muted group-hover:text-text-secondary"
               }`}>
-                {s.incheonRank === 2 ? "🏆 준우승" : s.incheonRank === 4 ? "⭐ 4위(ACL)" : `${s.incheonRank}위`}
+                {isOngoing
+                  ? `현재 ${s.incheonRank}위`
+                  : s.incheonRank === 2
+                  ? "🏆 준우승"
+                  : s.incheonRank === 4
+                  ? "⭐ 4위(ACL)"
+                  : `${s.incheonRank}위`}
               </span>
             </button>
           );

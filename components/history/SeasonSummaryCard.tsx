@@ -57,6 +57,12 @@ export default function SeasonSummaryCard({ season }: SeasonSummaryCardProps) {
               <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-blue-500/20 text-blue-300 border border-blue-400/30">
                 {season.incheonDivision}
               </span>
+              {season.isOngoing || season.year === 2026 ? (
+                <span className="px-2 py-0.5 rounded-full text-[11px] font-black bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 flex items-center gap-1 animate-pulse">
+                  <span className="flex h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                  <span>LIVE 시즌 진행 중</span>
+                </span>
+              ) : null}
               <span className="text-xs text-text-muted font-mono">{season.totalTeams}개 구단 · {season.totalRounds}라운드</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">
@@ -64,11 +70,23 @@ export default function SeasonSummaryCard({ season }: SeasonSummaryCardProps) {
             </h2>
           </div>
 
-          {/* 최종 순위 배지 */}
+          {/* 최종/현재 순위 배지 */}
           <div className="flex items-center gap-2.5 bg-black/40 border border-white/10 px-4 py-2 rounded-2xl self-start sm:self-auto">
-            <span className="text-sm font-bold text-text-muted">시즌 최종 순위</span>
-            <span className="text-lg sm:text-xl font-black text-amber-300">
-              {season.incheonRank === 2 ? "🏆 준우승" : `${season.incheonRank}위`}
+            <span className="text-sm font-bold text-text-muted">
+              {season.isOngoing || season.year === 2026 ? "현재 순위" : "시즌 최종 순위"}
+            </span>
+            <span className={`text-lg sm:text-xl font-black ${
+              season.isOngoing || season.year === 2026
+                ? "text-blue-400"
+                : season.incheonRank === 2
+                ? "text-amber-300"
+                : "text-white"
+            }`}>
+              {season.isOngoing || season.year === 2026
+                ? `현재 ${season.incheonRank}위 (진행 중)`
+                : season.incheonRank === 2
+                ? "🏆 준우승"
+                : `${season.incheonRank}위`}
             </span>
           </div>
         </div>

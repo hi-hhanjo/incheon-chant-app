@@ -22,6 +22,7 @@ export interface SeasonInfo {
   keyMoment: string;
   trajectory: number[];
   featuredLegends?: string[]; // 해당 시즌을 대표하는 레전드 id
+  isOngoing?: boolean; // 현재 진행 중인 시즌 여부
 }
 
 export interface HistoricalMatch {
