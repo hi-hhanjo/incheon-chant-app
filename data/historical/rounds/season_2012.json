@@ -6,21 +6,21 @@
       "opponent": "FC서울",
       "isHome": true,
       "score": {
-        "incheon": 1,
-        "opponent": 1
+        "incheon": 0,
+        "opponent": 0
       },
       "result": "DRAW",
       "date": "2012-03-08",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "FC서울",
-        "homeScore": 1,
-        "awayScore": 1,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "homeScore": 0,
+        "awayScore": 0,
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -166,7 +166,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -178,7 +178,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -190,7 +190,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "수원FC",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -202,7 +202,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "대전 하나 시티즌",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -214,7 +214,7 @@
         "rank": 11
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -490,7 +490,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "성남FC",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -502,7 +502,7 @@
         "rank": 12
       },
       {
-        "team": "성남FC",
+        "team": "부산 아이파크",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -514,7 +514,7 @@
         "rank": 13
       },
       {
-        "team": "부산 아이파크",
+        "team": "인천 유나이티드",
         "played": 2,
         "win": 0,
         "draw": 1,
@@ -563,8 +563,8 @@
       },
       "result": "LOSE",
       "date": "2012-03-22",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -572,7 +572,7 @@
         "awayTeam": "전북 현대모터스",
         "homeScore": 0,
         "awayScore": 1,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -778,7 +778,7 @@
         "rank": 12
       },
       {
-        "team": "인천 유나이티드",
+        "team": "부산 아이파크",
         "played": 3,
         "win": 1,
         "draw": 0,
@@ -790,7 +790,7 @@
         "rank": 13
       },
       {
-        "team": "부산 아이파크",
+        "team": "경남FC",
         "played": 3,
         "win": 1,
         "draw": 0,
@@ -802,7 +802,7 @@
         "rank": 14
       },
       {
-        "team": "경남FC",
+        "team": "인천 유나이티드",
         "played": 3,
         "win": 0,
         "draw": 2,
@@ -834,10 +834,10 @@
       "opponent": "포항 스틸러스",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2012-03-02",
       "venue": "포항 스틸러스 경기장",
       "stadium": "포항 스틸러스 경기장"
@@ -846,8 +846,8 @@
       {
         "homeTeam": "포항 스틸러스",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "포항 스틸러스 경기장",
         "isIncheon": true
       },
@@ -1115,8 +1115,8 @@
       },
       "result": "LOSE",
       "date": "2012-03-09",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -1124,7 +1124,7 @@
         "awayTeam": "수원 삼성 블루윙즈",
         "homeScore": 0,
         "awayScore": 1,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -1667,8 +1667,8 @@
       },
       "result": "DRAW",
       "date": "2012-04-23",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -1676,7 +1676,7 @@
         "awayTeam": "대구FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -2219,8 +2219,8 @@
       },
       "result": "DRAW",
       "date": "2012-04-10",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -2228,7 +2228,7 @@
         "awayTeam": "광주FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -2734,7 +2734,7 @@
         "rank": 14
       },
       {
-        "team": "전남 드래곤즈",
+        "team": "인천 유나이티드",
         "played": 10,
         "win": 2,
         "draw": 1,
@@ -2746,7 +2746,7 @@
         "rank": 15
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전남 드래곤즈",
         "played": 10,
         "win": 2,
         "draw": 0,
@@ -2767,20 +2767,20 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 0
+        "opponent": 1
       },
-      "result": "DRAW",
+      "result": "LOSE",
       "date": "2012-05-24",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
         "homeScore": 0,
-        "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "awayScore": 1,
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -3323,8 +3323,8 @@
       },
       "result": "DRAW",
       "date": "2012-05-11",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -3332,7 +3332,7 @@
         "awayTeam": "부산 아이파크",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -3875,8 +3875,8 @@
       },
       "result": "DRAW",
       "date": "2012-05-25",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -3884,7 +3884,7 @@
         "awayTeam": "전남 드래곤즈",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -4146,10 +4146,10 @@
       "opponent": "FC서울",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2012-05-05",
       "venue": "FC서울 경기장",
       "stadium": "FC서울 경기장"
@@ -4158,8 +4158,8 @@
       {
         "homeTeam": "FC서울",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "FC서울 경기장",
         "isIncheon": true
       },
@@ -4390,7 +4390,7 @@
         "rank": 14
       },
       {
-        "team": "전남 드래곤즈",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 4,
         "draw": 0,
@@ -4402,7 +4402,7 @@
         "rank": 15
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전남 드래곤즈",
         "played": 16,
         "win": 3,
         "draw": 1,
@@ -4422,21 +4422,21 @@
       "opponent": "울산 HD",
       "isHome": true,
       "score": {
-        "incheon": 2,
+        "incheon": 0,
         "opponent": 0
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2012-06-12",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "울산 HD",
-        "homeScore": 2,
+        "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -4974,21 +4974,21 @@
       "opponent": "포항 스틸러스",
       "isHome": true,
       "score": {
-        "incheon": 2,
+        "incheon": 0,
         "opponent": 0
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2012-06-26",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "포항 스틸러스",
-        "homeScore": 2,
+        "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -5194,7 +5194,7 @@
         "rank": 12
       },
       {
-        "team": "인천 유나이티드",
+        "team": "부산 아이파크",
         "played": 19,
         "win": 6,
         "draw": 0,
@@ -5206,7 +5206,7 @@
         "rank": 13
       },
       {
-        "team": "부산 아이파크",
+        "team": "인천 유나이티드",
         "played": 19,
         "win": 5,
         "draw": 1,
@@ -5250,10 +5250,10 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2012-06-06",
       "venue": "수원 삼성 블루윙즈 경기장",
       "stadium": "수원 삼성 블루윙즈 경기장"
@@ -5262,8 +5262,8 @@
       {
         "homeTeam": "수원 삼성 블루윙즈",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "수원 삼성 블루윙즈 경기장",
         "isIncheon": true
       },
@@ -5531,8 +5531,8 @@
       },
       "result": "WIN",
       "date": "2012-06-13",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -5540,7 +5540,7 @@
         "awayTeam": "제주 유나이티드",
         "homeScore": 2,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -6083,21 +6083,21 @@
       "opponent": "강원FC",
       "isHome": true,
       "score": {
-        "incheon": 2,
+        "incheon": 0,
         "opponent": 0
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2012-07-27",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "강원FC",
-        "homeScore": 2,
+        "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -6267,7 +6267,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 23,
         "win": 9,
         "draw": 2,
@@ -6279,7 +6279,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 23,
         "win": 8,
         "draw": 2,
@@ -6543,7 +6543,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 24,
         "win": 10,
         "draw": 0,
@@ -6555,7 +6555,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 24,
         "win": 9,
         "draw": 1,
@@ -6640,8 +6640,8 @@
       },
       "result": "DRAW",
       "date": "2012-07-14",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -6649,7 +6649,7 @@
         "awayTeam": "수원FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -6819,7 +6819,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 25,
         "win": 10,
         "draw": 1,
@@ -6831,7 +6831,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 25,
         "win": 9,
         "draw": 2,
@@ -7095,7 +7095,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 26,
         "win": 11,
         "draw": 0,
@@ -7107,7 +7107,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 26,
         "win": 10,
         "draw": 0,
@@ -7192,8 +7192,8 @@
       },
       "result": "DRAW",
       "date": "2012-07-01",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -7201,7 +7201,7 @@
         "awayTeam": "성남FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -7371,7 +7371,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 27,
         "win": 11,
         "draw": 1,
@@ -7383,7 +7383,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 27,
         "win": 10,
         "draw": 1,
@@ -7647,7 +7647,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 28,
         "win": 11,
         "draw": 2,
@@ -7659,7 +7659,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 28,
         "win": 10,
         "draw": 2,
@@ -7744,8 +7744,8 @@
       },
       "result": "DRAW",
       "date": "2012-08-15",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -7753,7 +7753,7 @@
         "awayTeam": "경남FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -7923,7 +7923,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 29,
         "win": 12,
         "draw": 0,
@@ -7935,7 +7935,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 29,
         "win": 11,
         "draw": 0,
@@ -8199,7 +8199,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 30,
         "win": 12,
         "draw": 2,
@@ -8211,7 +8211,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 30,
         "win": 11,
         "draw": 2,
@@ -8296,8 +8296,8 @@
       },
       "result": "DRAW",
       "date": "2012-08-02",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -8305,7 +8305,7 @@
         "awayTeam": "FC서울",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -8475,7 +8475,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 31,
         "win": 13,
         "draw": 0,
@@ -8487,7 +8487,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 31,
         "win": 12,
         "draw": 0,
@@ -8739,7 +8739,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 32,
         "win": 14,
         "draw": 1,
@@ -8751,7 +8751,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 32,
         "win": 13,
         "draw": 1,
@@ -8848,8 +8848,8 @@
       },
       "result": "DRAW",
       "date": "2012-09-16",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -8857,7 +8857,7 @@
         "awayTeam": "전북 현대모터스",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -9015,7 +9015,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 33,
         "win": 14,
         "draw": 2,
@@ -9027,7 +9027,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 33,
         "win": 13,
         "draw": 2,
@@ -9291,7 +9291,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 34,
         "win": 15,
         "draw": 1,
@@ -9303,7 +9303,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 34,
         "win": 14,
         "draw": 0,
@@ -9395,21 +9395,21 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2012-09-03",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
-        "homeScore": 0,
+        "homeScore": 2,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -9952,8 +9952,8 @@
       },
       "result": "DRAW",
       "date": "2012-09-17",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -9961,7 +9961,7 @@
         "awayTeam": "대구FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -10504,8 +10504,8 @@
       },
       "result": "DRAW",
       "date": "2012-10-04",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -10513,7 +10513,7 @@
         "awayTeam": "광주FC",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -11056,8 +11056,8 @@
       },
       "result": "DRAW",
       "date": "2012-10-18",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -11065,7 +11065,7 @@
         "awayTeam": "대전 하나 시티즌",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {
@@ -11608,8 +11608,8 @@
       },
       "result": "DRAW",
       "date": "2012-10-05",
-      "venue": "인천축구전용경기장 (숭의 아레나 개장)",
-      "stadium": "인천축구전용경기장 (숭의 아레나 개장)"
+      "venue": "인천축구전용경기장",
+      "stadium": "인천축구전용경기장"
     },
     "allMatches": [
       {
@@ -11617,7 +11617,7 @@
         "awayTeam": "부산 아이파크",
         "homeScore": 0,
         "awayScore": 0,
-        "venue": "인천축구전용경기장 (숭의 아레나 개장)",
+        "venue": "인천축구전용경기장",
         "isIncheon": true
       },
       {

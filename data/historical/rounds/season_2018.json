@@ -114,7 +114,7 @@
         "rank": 4
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "인천 유나이티드",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -126,7 +126,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원 삼성 블루윙즈",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -218,7 +218,7 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -231,7 +231,7 @@
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },
@@ -550,7 +550,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 3,
         "win": 1,
         "draw": 1,
@@ -562,7 +562,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 3,
         "win": 1,
         "draw": 1,
@@ -574,7 +574,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 3,
         "win": 1,
         "draw": 0,
@@ -786,7 +786,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 4,
         "win": 1,
         "draw": 2,
@@ -798,7 +798,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 4,
         "win": 1,
         "draw": 2,
@@ -810,7 +810,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 4,
         "win": 1,
         "draw": 1,
@@ -855,9 +855,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 1
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2018-04-09",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -867,7 +867,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2551,9 +2551,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 1
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2018-05-11",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2563,7 +2563,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "울산 HD",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2730,7 +2730,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 13,
         "win": 3,
         "draw": 1,
@@ -2742,7 +2742,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 13,
         "win": 2,
         "draw": 2,
@@ -2942,7 +2942,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 14,
         "win": 3,
         "draw": 2,
@@ -2954,7 +2954,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 14,
         "win": 3,
         "draw": 0,
@@ -3154,7 +3154,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 15,
         "win": 4,
         "draw": 0,
@@ -3166,7 +3166,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 15,
         "win": 3,
         "draw": 1,
@@ -3366,7 +3366,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 4,
         "draw": 0,
@@ -3378,7 +3378,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 16,
         "win": 3,
         "draw": 1,
@@ -3578,7 +3578,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 4,
         "draw": 1,
@@ -3590,7 +3590,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 17,
         "win": 3,
         "draw": 2,
@@ -3790,7 +3790,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 18,
         "win": 4,
         "draw": 2,
@@ -3802,7 +3802,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 18,
         "win": 4,
         "draw": 0,
@@ -4002,7 +4002,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 19,
         "win": 5,
         "draw": 0,
@@ -4014,7 +4014,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 19,
         "win": 4,
         "draw": 0,
@@ -4214,7 +4214,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 20,
         "win": 5,
         "draw": 1,
@@ -4226,7 +4226,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 20,
         "win": 4,
         "draw": 1,
@@ -4426,7 +4426,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 21,
         "win": 5,
         "draw": 2,
@@ -4438,7 +4438,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 21,
         "win": 4,
         "draw": 2,
@@ -4638,7 +4638,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 22,
         "win": 5,
         "draw": 2,
@@ -4650,7 +4650,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 22,
         "win": 4,
         "draw": 2,
@@ -4850,7 +4850,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 23,
         "win": 6,
         "draw": 0,
@@ -4862,7 +4862,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 23,
         "win": 5,
         "draw": 0,
@@ -5062,7 +5062,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 24,
         "win": 6,
         "draw": 1,
@@ -5074,7 +5074,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 24,
         "win": 5,
         "draw": 1,
@@ -5095,9 +5095,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 0
+        "opponent": 1
       },
-      "result": "DRAW",
+      "result": "LOSE",
       "date": "2018-08-14",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -5107,7 +5107,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
         "homeScore": 0,
-        "awayScore": 0,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },

@@ -218,10 +218,10 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2015-03-15",
       "venue": "울산 HD 경기장",
       "stadium": "울산 HD 경기장"
@@ -230,8 +230,8 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },
@@ -350,7 +350,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -362,7 +362,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -562,7 +562,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 3,
         "win": 1,
         "draw": 1,
@@ -574,7 +574,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 3,
         "win": 1,
         "draw": 0,
@@ -786,7 +786,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 4,
         "win": 1,
         "draw": 2,
@@ -798,7 +798,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 4,
         "win": 1,
         "draw": 2,
@@ -1010,7 +1010,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 5,
         "win": 1,
         "draw": 2,
@@ -1022,7 +1022,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 5,
         "win": 1,
         "draw": 1,
@@ -1066,10 +1066,10 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2015-04-16",
       "venue": "제주 유나이티드 경기장",
       "stadium": "제주 유나이티드 경기장"
@@ -1078,8 +1078,8 @@
       {
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -1210,7 +1210,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 6,
         "win": 2,
         "draw": 1,
@@ -1222,7 +1222,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "강원FC",
         "played": 6,
         "win": 2,
         "draw": 0,
@@ -1234,7 +1234,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 6,
         "win": 2,
         "draw": 0,
@@ -1410,7 +1410,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 7,
         "win": 3,
         "draw": 1,
@@ -1422,7 +1422,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 7,
         "win": 3,
         "draw": 0,
@@ -1490,10 +1490,10 @@
       "opponent": "강원FC",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2015-04-03",
       "venue": "강원FC 경기장",
       "stadium": "강원FC 경기장"
@@ -1502,8 +1502,8 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "강원FC 경기장",
         "isIncheon": true
       },
@@ -1914,7 +1914,7 @@
       "opponent": "수원FC",
       "isHome": false,
       "score": {
-        "incheon": 1,
+        "incheon": 2,
         "opponent": 0
       },
       "result": "WIN",
@@ -1927,7 +1927,7 @@
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 2,
         "venue": "수원FC 경기장",
         "isIncheon": true
       },
@@ -2046,7 +2046,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 10,
         "win": 4,
         "draw": 1,
@@ -2058,7 +2058,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 10,
         "win": 4,
         "draw": 0,
@@ -2126,10 +2126,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2015-05-24",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2138,8 +2138,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2258,7 +2258,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 11,
         "win": 5,
         "draw": 0,
@@ -2270,7 +2270,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 11,
         "win": 4,
         "draw": 1,
@@ -2470,7 +2470,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 12,
         "win": 5,
         "draw": 1,
@@ -2482,7 +2482,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 12,
         "win": 5,
         "draw": 0,
@@ -2550,10 +2550,10 @@
       "opponent": "울산 HD",
       "isHome": true,
       "score": {
-        "incheon": 1,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2015-05-11",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2562,8 +2562,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "울산 HD",
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2762,10 +2762,10 @@
       "opponent": "전북 현대모터스",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2015-05-18",
       "venue": "전북 현대모터스 경기장",
       "stadium": "전북 현대모터스 경기장"
@@ -2774,8 +2774,8 @@
       {
         "homeTeam": "전북 현대모터스",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "전북 현대모터스 경기장",
         "isIncheon": true
       },
@@ -2894,7 +2894,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 14,
         "win": 6,
         "draw": 1,
@@ -2906,7 +2906,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 14,
         "win": 5,
         "draw": 2,
@@ -2974,10 +2974,10 @@
       "opponent": "포항 스틸러스",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2015-06-25",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2986,8 +2986,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "포항 스틸러스",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -4882,7 +4882,7 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -4895,7 +4895,7 @@
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },
@@ -5002,7 +5002,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 24,
         "win": 12,
         "draw": 0,
@@ -5014,7 +5014,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 24,
         "win": 10,
         "draw": 2,
@@ -5094,10 +5094,10 @@
       "opponent": "전북 현대모터스",
       "isHome": true,
       "score": {
-        "incheon": 1,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2015-08-14",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -5106,8 +5106,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -5730,10 +5730,10 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2015-08-08",
       "venue": "제주 유나이티드 경기장",
       "stadium": "제주 유나이티드 경기장"
@@ -5742,8 +5742,8 @@
       {
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -5850,7 +5850,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 28,
         "win": 13,
         "draw": 2,
@@ -5862,7 +5862,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 28,
         "win": 12,
         "draw": 1,
@@ -6062,7 +6062,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 29,
         "win": 14,
         "draw": 0,
@@ -6074,7 +6074,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 29,
         "win": 13,
         "draw": 0,
@@ -6154,10 +6154,10 @@
       "opponent": "강원FC",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2015-09-22",
       "venue": "강원FC 경기장",
       "stadium": "강원FC 경기장"
@@ -6166,8 +6166,8 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "강원FC 경기장",
         "isIncheon": true
       },
@@ -6274,7 +6274,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 30,
         "win": 14,
         "draw": 2,
@@ -6286,7 +6286,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 30,
         "win": 13,
         "draw": 1,
@@ -6298,7 +6298,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 30,
         "win": 12,
         "draw": 0,
@@ -6486,7 +6486,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 31,
         "win": 15,
         "draw": 1,
@@ -6498,7 +6498,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 31,
         "win": 13,
         "draw": 2,
@@ -6510,7 +6510,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 31,
         "win": 12,
         "draw": 1,
@@ -6698,7 +6698,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 32,
         "win": 15,
         "draw": 2,
@@ -6710,7 +6710,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 32,
         "win": 14,
         "draw": 1,
@@ -6722,7 +6722,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 32,
         "win": 12,
         "draw": 2,
@@ -6790,10 +6790,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2015-09-16",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -6802,7 +6802,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -6922,7 +6922,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 33,
         "win": 14,
         "draw": 2,
@@ -6934,7 +6934,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 33,
         "win": 13,
         "draw": 0,
@@ -7134,7 +7134,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 34,
         "win": 15,
         "draw": 0,
@@ -7146,7 +7146,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 34,
         "win": 13,
         "draw": 2,
@@ -7346,7 +7346,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 35,
         "win": 15,
         "draw": 2,
@@ -7358,7 +7358,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 35,
         "win": 14,
         "draw": 0,
@@ -7426,10 +7426,10 @@
       "opponent": "전북 현대모터스",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2015-10-10",
       "venue": "전북 현대모터스 경기장",
       "stadium": "전북 현대모터스 경기장"
@@ -7438,8 +7438,8 @@
       {
         "homeTeam": "전북 현대모터스",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "전북 현대모터스 경기장",
         "isIncheon": true
       },

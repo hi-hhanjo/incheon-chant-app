@@ -218,10 +218,10 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2021-03-15",
       "venue": "울산 HD 경기장",
       "stadium": "울산 HD 경기장"
@@ -230,8 +230,8 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },
@@ -338,7 +338,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 2,
         "win": 1,
         "draw": 0,
@@ -350,7 +350,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -362,7 +362,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "강원FC",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -374,7 +374,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -386,7 +386,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 2,
         "win": 0,
         "draw": 2,
@@ -430,10 +430,10 @@
       "opponent": "전북 현대모터스",
       "isHome": true,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2021-03-22",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -442,8 +442,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -1066,10 +1066,10 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2021-04-16",
       "venue": "제주 유나이티드 경기장",
       "stadium": "제주 유나이티드 경기장"
@@ -1078,8 +1078,8 @@
       {
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -1210,7 +1210,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 6,
         "win": 2,
         "draw": 1,
@@ -1222,7 +1222,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 6,
         "win": 2,
         "draw": 0,
@@ -1434,7 +1434,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 7,
         "win": 2,
         "draw": 2,
@@ -1446,7 +1446,7 @@
         "rank": 9
       },
       {
-        "team": "수원FC",
+        "team": "광주FC",
         "played": 7,
         "win": 2,
         "draw": 1,
@@ -1458,7 +1458,7 @@
         "rank": 10
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 7,
         "win": 2,
         "draw": 0,
@@ -1490,10 +1490,10 @@
       "opponent": "강원FC",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2021-04-03",
       "venue": "강원FC 경기장",
       "stadium": "강원FC 경기장"
@@ -1502,8 +1502,8 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "강원FC 경기장",
         "isIncheon": true
       },
@@ -1646,7 +1646,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 8,
         "win": 2,
         "draw": 2,
@@ -1658,7 +1658,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 8,
         "win": 2,
         "draw": 1,
@@ -1703,9 +1703,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 0
+        "opponent": 1
       },
-      "result": "DRAW",
+      "result": "LOSE",
       "date": "2021-04-10",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -1715,7 +1715,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "광주FC",
         "homeScore": 0,
-        "awayScore": 0,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2126,10 +2126,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2021-05-24",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2138,8 +2138,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2282,7 +2282,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 11,
         "win": 4,
         "draw": 0,
@@ -2294,7 +2294,7 @@
         "rank": 9
       },
       {
-        "team": "수원FC",
+        "team": "광주FC",
         "played": 11,
         "win": 3,
         "draw": 1,
@@ -2306,7 +2306,7 @@
         "rank": 10
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 11,
         "win": 3,
         "draw": 0,
@@ -2338,10 +2338,10 @@
       "opponent": "FC서울",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2021-05-04",
       "venue": "FC서울 경기장",
       "stadium": "FC서울 경기장"
@@ -2350,8 +2350,8 @@
       {
         "homeTeam": "FC서울",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "FC서울 경기장",
         "isIncheon": true
       },
@@ -2482,7 +2482,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 12,
         "win": 5,
         "draw": 0,
@@ -2494,7 +2494,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "강원FC",
         "played": 12,
         "win": 4,
         "draw": 1,
@@ -2506,7 +2506,7 @@
         "rank": 9
       },
       {
-        "team": "수원FC",
+        "team": "광주FC",
         "played": 12,
         "win": 3,
         "draw": 2,
@@ -2518,7 +2518,7 @@
         "rank": 10
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 12,
         "win": 3,
         "draw": 1,
@@ -2682,7 +2682,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 13,
         "win": 5,
         "draw": 2,
@@ -2694,7 +2694,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "대구FC",
         "played": 13,
         "win": 5,
         "draw": 0,
@@ -2706,7 +2706,7 @@
         "rank": 8
       },
       {
-        "team": "광주FC",
+        "team": "강원FC",
         "played": 13,
         "win": 4,
         "draw": 1,
@@ -2718,7 +2718,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 13,
         "win": 4,
         "draw": 0,
@@ -2762,7 +2762,7 @@
       "opponent": "전북 현대모터스",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -2775,7 +2775,7 @@
         "homeTeam": "전북 현대모터스",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "전북 현대모터스 경기장",
         "isIncheon": true
       },
@@ -2894,7 +2894,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 14,
         "win": 6,
         "draw": 1,
@@ -2906,7 +2906,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 14,
         "win": 5,
         "draw": 2,
@@ -2974,10 +2974,10 @@
       "opponent": "포항 스틸러스",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2021-06-25",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2986,8 +2986,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "포항 스틸러스",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -3398,10 +3398,10 @@
       "opponent": "제주 유나이티드",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2021-06-12",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -3410,8 +3410,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "제주 유나이티드",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -3518,7 +3518,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 17,
         "win": 8,
         "draw": 1,
@@ -3530,7 +3530,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 17,
         "win": 7,
         "draw": 2,
@@ -3542,7 +3542,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 6,
         "draw": 2,
@@ -3730,7 +3730,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 18,
         "win": 9,
         "draw": 0,
@@ -3742,7 +3742,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 18,
         "win": 8,
         "draw": 0,
@@ -3754,7 +3754,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 18,
         "win": 7,
         "draw": 1,
@@ -3942,7 +3942,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 19,
         "win": 9,
         "draw": 1,
@@ -3954,7 +3954,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 19,
         "win": 8,
         "draw": 1,
@@ -3966,7 +3966,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 19,
         "win": 7,
         "draw": 2,
@@ -4034,7 +4034,7 @@
       "opponent": "광주FC",
       "isHome": false,
       "score": {
-        "incheon": 1,
+        "incheon": 2,
         "opponent": 0
       },
       "result": "WIN",
@@ -4047,7 +4047,7 @@
         "homeTeam": "광주FC",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 2,
         "venue": "광주FC 경기장",
         "isIncheon": true
       },
@@ -4154,7 +4154,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 20,
         "win": 9,
         "draw": 2,
@@ -4166,7 +4166,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 20,
         "win": 9,
         "draw": 0,
@@ -4246,10 +4246,10 @@
       "opponent": "수원FC",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2021-07-13",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -4258,8 +4258,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원FC",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -4354,7 +4354,7 @@
         "rank": 4
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원 삼성 블루윙즈",
         "played": 21,
         "win": 11,
         "draw": 1,
@@ -4366,7 +4366,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "제주 유나이티드",
         "played": 21,
         "win": 10,
         "draw": 1,
@@ -4378,7 +4378,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 21,
         "win": 9,
         "draw": 1,
@@ -4458,10 +4458,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2021-07-20",
       "venue": "대전 하나 시티즌 경기장",
       "stadium": "대전 하나 시티즌 경기장"
@@ -4470,8 +4470,8 @@
       {
         "homeTeam": "대전 하나 시티즌",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "대전 하나 시티즌 경기장",
         "isIncheon": true
       },
@@ -4670,10 +4670,10 @@
       "opponent": "FC서울",
       "isHome": true,
       "score": {
-        "incheon": 1,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2021-07-27",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -4682,8 +4682,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "FC서울",
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -4790,7 +4790,7 @@
         "rank": 5
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 23,
         "win": 11,
         "draw": 1,
@@ -4802,7 +4802,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 23,
         "win": 10,
         "draw": 0,
@@ -4882,10 +4882,10 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2021-08-07",
       "venue": "울산 HD 경기장",
       "stadium": "울산 HD 경기장"
@@ -4894,8 +4894,8 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },
@@ -5094,10 +5094,10 @@
       "opponent": "전북 현대모터스",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2021-08-14",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -5106,8 +5106,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -5214,7 +5214,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 25,
         "win": 12,
         "draw": 1,
@@ -5226,7 +5226,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 25,
         "win": 11,
         "draw": 0,
@@ -5306,10 +5306,10 @@
       "opponent": "포항 스틸러스",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2021-08-21",
       "venue": "포항 스틸러스 경기장",
       "stadium": "포항 스틸러스 경기장"
@@ -5318,8 +5318,8 @@
       {
         "homeTeam": "포항 스틸러스",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "포항 스틸러스 경기장",
         "isIncheon": true
       },
@@ -5426,7 +5426,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 26,
         "win": 12,
         "draw": 2,
@@ -5438,7 +5438,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 26,
         "win": 11,
         "draw": 2,
@@ -5450,7 +5450,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 26,
         "win": 10,
         "draw": 1,
@@ -5638,7 +5638,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 27,
         "win": 13,
         "draw": 1,
@@ -5650,7 +5650,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 27,
         "win": 12,
         "draw": 0,
@@ -5662,7 +5662,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 27,
         "win": 11,
         "draw": 0,
@@ -5850,7 +5850,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 28,
         "win": 13,
         "draw": 2,
@@ -5862,7 +5862,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 28,
         "win": 12,
         "draw": 1,
@@ -5874,7 +5874,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 28,
         "win": 11,
         "draw": 0,
@@ -5942,10 +5942,10 @@
       "opponent": "대구FC",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2021-09-15",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -5954,7 +5954,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대구FC",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -6074,7 +6074,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 29,
         "win": 13,
         "draw": 0,
@@ -6086,7 +6086,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 29,
         "win": 11,
         "draw": 2,
@@ -6286,7 +6286,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 30,
         "win": 13,
         "draw": 1,
@@ -6298,7 +6298,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 30,
         "win": 12,
         "draw": 0,
@@ -6498,7 +6498,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 31,
         "win": 13,
         "draw": 2,
@@ -6510,7 +6510,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 31,
         "win": 12,
         "draw": 1,
@@ -6578,10 +6578,10 @@
       "opponent": "수원FC",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2021-09-09",
       "venue": "수원FC 경기장",
       "stadium": "수원FC 경기장"
@@ -6590,8 +6590,8 @@
       {
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "수원FC 경기장",
         "isIncheon": true
       },

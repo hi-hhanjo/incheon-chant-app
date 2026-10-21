@@ -31,6 +31,8 @@ export default function SeasonSelector({
                 {s.year}시즌 (
                 {s.isOngoing || s.year === 2026
                   ? `현재 ${s.incheonRank}위 · 진행 중`
+                  : s.incheonRank === 1
+                  ? "K리그2 우승"
                   : s.incheonRank === 2
                   ? "준우승"
                   : `${s.incheonRank}위`}
@@ -67,10 +69,16 @@ export default function SeasonSelector({
                   ? "text-blue-100"
                   : isOngoing
                   ? "text-emerald-400"
+                  : s.incheonRank === 1
+                  ? "text-amber-400 font-extrabold"
+                  : s.incheonRank === 2
+                  ? "text-amber-300"
                   : "text-text-muted group-hover:text-text-secondary"
               }`}>
                 {isOngoing
                   ? `현재 ${s.incheonRank}위`
+                  : s.incheonRank === 1
+                  ? "🏆 우승"
                   : s.incheonRank === 2
                   ? "🏆 준우승"
                   : s.incheonRank === 4

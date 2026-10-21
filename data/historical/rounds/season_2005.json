@@ -902,10 +902,10 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2005-04-09",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -914,8 +914,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -962,7 +962,7 @@
     ],
     "standings": [
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 5,
         "win": 3,
         "draw": 2,
@@ -974,7 +974,7 @@
         "rank": 1
       },
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 5,
         "win": 3,
         "draw": 1,
@@ -1126,10 +1126,10 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2005-05-16",
       "venue": "제주 유나이티드 경기장",
       "stadium": "제주 유나이티드 경기장"
@@ -1139,7 +1139,7 @@
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
         "homeScore": 1,
-        "awayScore": 0,
+        "awayScore": 2,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -1575,7 +1575,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2005-05-03",
@@ -1586,7 +1586,7 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "강원FC 경기장",
         "isIncheon": true
@@ -1634,7 +1634,7 @@
     ],
     "standings": [
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 8,
         "win": 5,
         "draw": 2,
@@ -1646,7 +1646,7 @@
         "rank": 1
       },
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 8,
         "win": 5,
         "draw": 1,
@@ -1858,7 +1858,7 @@
     ],
     "standings": [
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 9,
         "win": 6,
         "draw": 1,
@@ -1870,7 +1870,7 @@
         "rank": 1
       },
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 9,
         "win": 6,
         "draw": 0,
@@ -2082,7 +2082,7 @@
     ],
     "standings": [
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 10,
         "win": 7,
         "draw": 1,
@@ -2094,7 +2094,7 @@
         "rank": 1
       },
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 10,
         "win": 7,
         "draw": 0,
@@ -2246,10 +2246,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2005-06-24",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -2258,7 +2258,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
@@ -3147,10 +3147,10 @@
       "opponent": "전북 현대모터스",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2005-08-25",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -3159,8 +3159,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -3207,7 +3207,7 @@
     ],
     "standings": [
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 15,
         "win": 10,
         "draw": 2,
@@ -3219,7 +3219,7 @@
         "rank": 1
       },
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 15,
         "win": 10,
         "draw": 0,
@@ -3431,7 +3431,7 @@
     ],
     "standings": [
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 16,
         "win": 11,
         "draw": 1,
@@ -3443,7 +3443,7 @@
         "rank": 1
       },
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 10,
         "draw": 2,
@@ -3595,10 +3595,10 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": true,
       "score": {
-        "incheon": 1,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2005-08-12",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -3607,8 +3607,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -5243,24 +5243,24 @@
         "team": "인천 유나이티드",
         "played": 24,
         "win": 15,
-        "draw": 6,
-        "lose": 3,
-        "goalsFor": 36,
-        "goalsAgainst": 21,
-        "goalDiff": 15,
-        "points": 51,
-        "rank": 2
-      },
-      {
-        "team": "울산 HD",
-        "played": 24,
-        "win": 15,
         "draw": 1,
         "lose": 8,
         "goalsFor": 33,
         "goalsAgainst": 20,
         "goalDiff": 13,
         "points": 46,
+        "rank": 2
+      },
+      {
+        "team": "울산 HD",
+        "played": 24,
+        "win": 13,
+        "draw": 6,
+        "lose": 5,
+        "goalsFor": 36,
+        "goalsAgainst": 26,
+        "goalDiff": 10,
+        "points": 45,
         "rank": 3
       },
       {

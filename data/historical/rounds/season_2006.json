@@ -494,10 +494,10 @@
       "opponent": "전북 현대모터스",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2006-03-22",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -506,8 +506,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -646,7 +646,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 3,
         "win": 1,
         "draw": 1,
@@ -658,7 +658,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 3,
         "win": 1,
         "draw": 1,
@@ -670,7 +670,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 3,
         "win": 1,
         "draw": 0,
@@ -738,10 +738,10 @@
       "opponent": "포항 스틸러스",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2006-04-02",
       "venue": "포항 스틸러스 경기장",
       "stadium": "포항 스틸러스 경기장"
@@ -750,8 +750,8 @@
       {
         "homeTeam": "포항 스틸러스",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "포항 스틸러스 경기장",
         "isIncheon": true
       },
@@ -878,7 +878,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 4,
         "win": 2,
         "draw": 0,
@@ -890,7 +890,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "강원FC",
         "played": 4,
         "win": 2,
         "draw": 0,
@@ -902,7 +902,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 4,
         "win": 1,
         "draw": 2,
@@ -914,7 +914,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 4,
         "win": 1,
         "draw": 2,
@@ -983,9 +983,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 1
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2006-04-09",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -995,7 +995,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -1134,7 +1134,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 5,
         "win": 2,
         "draw": 1,
@@ -1146,7 +1146,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 5,
         "win": 2,
         "draw": 0,
@@ -1158,7 +1158,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 5,
         "win": 1,
         "draw": 2,
@@ -1390,7 +1390,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 6,
         "win": 2,
         "draw": 1,
@@ -1402,7 +1402,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 6,
         "win": 2,
         "draw": 1,
@@ -1634,7 +1634,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 7,
         "win": 3,
         "draw": 0,
@@ -1646,7 +1646,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 7,
         "win": 2,
         "draw": 2,
@@ -1714,10 +1714,10 @@
       "opponent": "강원FC",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2006-05-03",
       "venue": "강원FC 경기장",
       "stadium": "강원FC 경기장"
@@ -1726,8 +1726,8 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "강원FC 경기장",
         "isIncheon": true
       },
@@ -1866,7 +1866,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 8,
         "win": 3,
         "draw": 2,
@@ -1878,7 +1878,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 8,
         "win": 3,
         "draw": 1,
@@ -1890,7 +1890,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 8,
         "win": 3,
         "draw": 0,
@@ -1959,9 +1959,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 1
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2006-05-10",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -1971,7 +1971,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "광주FC",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -2122,7 +2122,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 9,
         "win": 3,
         "draw": 2,
@@ -2134,7 +2134,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 9,
         "win": 3,
         "draw": 1,
@@ -2366,7 +2366,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 10,
         "win": 4,
         "draw": 0,
@@ -2378,7 +2378,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 10,
         "win": 3,
         "draw": 2,
@@ -2446,10 +2446,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 2,
+        "incheon": 0,
         "opponent": 0
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2006-06-24",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -2458,7 +2458,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 2,
+        "homeScore": 0,
         "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
@@ -2598,7 +2598,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 11,
         "win": 5,
         "draw": 0,
@@ -2610,7 +2610,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 11,
         "win": 4,
         "draw": 2,
@@ -2622,7 +2622,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 11,
         "win": 4,
         "draw": 0,
@@ -2854,7 +2854,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "광주FC",
         "played": 12,
         "win": 5,
         "draw": 0,
@@ -2866,7 +2866,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 12,
         "win": 4,
         "draw": 2,
@@ -2934,10 +2934,10 @@
       "opponent": "부산 아이파크",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2006-07-11",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -2946,7 +2946,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "부산 아이파크",
-        "homeScore": 0,
+        "homeScore": 2,
         "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
@@ -3178,10 +3178,10 @@
       "opponent": "FC서울",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2006-07-18",
       "venue": "FC서울 경기장",
       "stadium": "FC서울 경기장"
@@ -3190,8 +3190,8 @@
       {
         "homeTeam": "FC서울",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "FC서울 경기장",
         "isIncheon": true
       },
@@ -3330,7 +3330,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 14,
         "win": 6,
         "draw": 1,
@@ -3342,7 +3342,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 14,
         "win": 5,
         "draw": 2,
@@ -3423,9 +3423,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 1
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2006-07-25",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -3435,7 +3435,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "울산 HD",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -3666,10 +3666,10 @@
       "opponent": "전북 현대모터스",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2006-07-05",
       "venue": "전북 현대모터스 경기장",
       "stadium": "전북 현대모터스 경기장"
@@ -3678,8 +3678,8 @@
       {
         "homeTeam": "전북 현대모터스",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "전북 현대모터스 경기장",
         "isIncheon": true
       },
@@ -3818,7 +3818,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 7,
         "draw": 0,
@@ -3830,7 +3830,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 16,
         "win": 6,
         "draw": 1,
@@ -3910,8 +3910,8 @@
       "opponent": "포항 스틸러스",
       "isHome": true,
       "score": {
-        "incheon": 0,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
       "result": "DRAW",
       "date": "2006-08-12",
@@ -3922,8 +3922,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "포항 스틸러스",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -4062,7 +4062,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 7,
         "draw": 2,
@@ -4074,7 +4074,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 17,
         "win": 7,
         "draw": 0,
@@ -4154,7 +4154,7 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -4167,7 +4167,7 @@
         "homeTeam": "수원 삼성 블루윙즈",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "수원 삼성 블루윙즈 경기장",
         "isIncheon": true
       },
@@ -4642,10 +4642,10 @@
       "opponent": "대구FC",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2006-09-06",
       "venue": "대구FC 경기장",
       "stadium": "대구FC 경기장"
@@ -4654,8 +4654,8 @@
       {
         "homeTeam": "대구FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "대구FC 경기장",
         "isIncheon": true
       },
@@ -4794,7 +4794,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 20,
         "win": 9,
         "draw": 0,
@@ -4806,7 +4806,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 20,
         "win": 8,
         "draw": 1,
@@ -4886,8 +4886,8 @@
       "opponent": "강원FC",
       "isHome": true,
       "score": {
-        "incheon": 0,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
       "result": "DRAW",
       "date": "2006-09-13",
@@ -4898,8 +4898,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "강원FC",
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -5038,7 +5038,7 @@
         "rank": 7
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 21,
         "win": 9,
         "draw": 1,
@@ -5050,7 +5050,7 @@
         "rank": 8
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 21,
         "win": 8,
         "draw": 2,
@@ -6273,12 +6273,12 @@
         "team": "인천 유나이티드",
         "played": 26,
         "win": 7,
-        "draw": 10,
-        "lose": 9,
+        "draw": 9,
+        "lose": 10,
         "goalsFor": 24,
         "goalsAgainst": 27,
         "goalDiff": -3,
-        "points": 31,
+        "points": 30,
         "rank": 9
       },
       {

@@ -738,7 +738,7 @@
       "opponent": "포항 스틸러스",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -751,7 +751,7 @@
         "homeTeam": "포항 스틸러스",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "포항 스틸러스 경기장",
         "isIncheon": true
       },
@@ -866,7 +866,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -878,7 +878,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 4,
         "win": 2,
         "draw": 0,
@@ -1110,7 +1110,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 5,
         "win": 2,
         "draw": 2,
@@ -1122,7 +1122,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "인천 유나이티드",
         "played": 5,
         "win": 2,
         "draw": 1,
@@ -1226,10 +1226,10 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 1,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2008-04-16",
       "venue": "제주 유나이티드 경기장",
       "stadium": "제주 유나이티드 경기장"
@@ -1238,8 +1238,8 @@
       {
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 1,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -1470,10 +1470,10 @@
       "opponent": "대구FC",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2008-05-23",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -1482,7 +1482,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대구FC",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
@@ -1610,7 +1610,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 7,
         "win": 3,
         "draw": 1,
@@ -1622,7 +1622,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 7,
         "win": 3,
         "draw": 1,
@@ -1854,7 +1854,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 8,
         "win": 3,
         "draw": 2,
@@ -1866,7 +1866,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 8,
         "win": 3,
         "draw": 2,
@@ -1958,10 +1958,10 @@
       "opponent": "광주FC",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2008-05-10",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -1970,8 +1970,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "광주FC",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -2202,10 +2202,10 @@
       "opponent": "수원FC",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2008-06-17",
       "venue": "수원FC 경기장",
       "stadium": "수원FC 경기장"
@@ -2214,8 +2214,8 @@
       {
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "수원FC 경기장",
         "isIncheon": true
       },
@@ -2342,7 +2342,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 10,
         "win": 5,
         "draw": 0,
@@ -2354,7 +2354,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 10,
         "win": 4,
         "draw": 1,
@@ -2586,7 +2586,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 11,
         "win": 5,
         "draw": 1,
@@ -2598,7 +2598,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 11,
         "win": 5,
         "draw": 0,
@@ -2830,7 +2830,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 12,
         "win": 6,
         "draw": 0,
@@ -2842,7 +2842,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 12,
         "win": 5,
         "draw": 1,
@@ -2934,10 +2934,10 @@
       "opponent": "부산 아이파크",
       "isHome": true,
       "score": {
-        "incheon": 1,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2008-07-11",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -2946,8 +2946,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "부산 아이파크",
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천문학경기장",
         "isIncheon": true
       },
@@ -3422,10 +3422,10 @@
       "opponent": "울산 HD",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2008-07-25",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -3434,7 +3434,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "울산 HD",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
@@ -3562,7 +3562,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 15,
         "win": 7,
         "draw": 1,
@@ -3574,7 +3574,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 15,
         "win": 6,
         "draw": 2,
@@ -3806,7 +3806,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 7,
         "draw": 2,
@@ -3818,7 +3818,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 16,
         "win": 7,
         "draw": 0,
@@ -4050,7 +4050,7 @@
         "rank": 6
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 8,
         "draw": 1,
@@ -4062,7 +4062,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 17,
         "win": 7,
         "draw": 2,
@@ -4154,7 +4154,7 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -4167,7 +4167,7 @@
         "homeTeam": "수원 삼성 블루윙즈",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "수원 삼성 블루윙즈 경기장",
         "isIncheon": true
       },

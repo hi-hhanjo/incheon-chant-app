@@ -78,14 +78,22 @@ export default function SeasonSummaryCard({ season }: SeasonSummaryCardProps) {
             <span className={`text-lg sm:text-xl font-black ${
               season.isOngoing || season.year === 2026
                 ? "text-blue-400"
+                : season.incheonRank === 1
+                ? "text-amber-400 drop-shadow-[0_0_12px_rgba(251,191,36,0.5)]"
                 : season.incheonRank === 2
                 ? "text-amber-300"
+                : season.incheonRank === 4
+                ? "text-blue-300"
                 : "text-white"
             }`}>
               {season.isOngoing || season.year === 2026
                 ? `현재 ${season.incheonRank}위 (진행 중)`
+                : season.incheonRank === 1
+                ? "🏆 K리그2 우승 (승격)"
                 : season.incheonRank === 2
                 ? "🏆 준우승"
+                : season.incheonRank === 4
+                ? "⭐ 4위 (ACL 진출)"
                 : `${season.incheonRank}위`}
             </span>
           </div>

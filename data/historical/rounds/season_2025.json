@@ -90,7 +90,7 @@
         "rank": 2
       },
       {
-        "team": "전북 현대모터스",
+        "team": "인천 유나이티드",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -102,7 +102,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전북 현대모터스",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -302,7 +302,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "인천 유나이티드",
         "played": 2,
         "win": 1,
         "draw": 1,
@@ -314,7 +314,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 2,
         "win": 1,
         "draw": 1,
@@ -514,7 +514,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 3,
         "win": 2,
         "draw": 0,
@@ -526,7 +526,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 3,
         "win": 2,
         "draw": 0,
@@ -750,7 +750,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "인천 유나이티드",
         "played": 4,
         "win": 2,
         "draw": 2,
@@ -762,7 +762,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 4,
         "win": 2,
         "draw": 2,
@@ -902,10 +902,10 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": true,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2025-04-09",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -914,8 +914,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -962,7 +962,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 5,
         "win": 3,
         "draw": 2,
@@ -974,7 +974,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 5,
         "win": 3,
         "draw": 1,
@@ -986,7 +986,7 @@
         "rank": 2
       },
       {
-        "team": "전북 현대모터스",
+        "team": "울산 HD",
         "played": 5,
         "win": 3,
         "draw": 1,
@@ -998,7 +998,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전북 현대모터스",
         "played": 5,
         "win": 3,
         "draw": 0,
@@ -1127,7 +1127,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2025-04-16",
@@ -1138,7 +1138,7 @@
       {
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
@@ -1186,7 +1186,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 6,
         "win": 4,
         "draw": 1,
@@ -1198,7 +1198,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 6,
         "win": 4,
         "draw": 0,
@@ -1210,7 +1210,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 6,
         "win": 4,
         "draw": 0,
@@ -1350,10 +1350,10 @@
       "opponent": "대구FC",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2025-04-23",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -1362,8 +1362,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대구FC",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -1410,7 +1410,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 7,
         "win": 5,
         "draw": 0,
@@ -1422,7 +1422,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 7,
         "win": 4,
         "draw": 2,
@@ -1634,7 +1634,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 8,
         "win": 5,
         "draw": 2,
@@ -1646,7 +1646,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 8,
         "win": 5,
         "draw": 1,
@@ -1870,7 +1870,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "인천 유나이티드",
         "played": 9,
         "win": 6,
         "draw": 0,
@@ -1882,7 +1882,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 9,
         "win": 5,
         "draw": 2,
@@ -2082,7 +2082,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 10,
         "win": 7,
         "draw": 1,
@@ -2094,7 +2094,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 10,
         "win": 7,
         "draw": 0,
@@ -2246,10 +2246,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2025-05-24",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2258,7 +2258,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -2306,7 +2306,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 11,
         "win": 8,
         "draw": 0,
@@ -2318,7 +2318,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 11,
         "win": 7,
         "draw": 2,
@@ -2330,7 +2330,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 11,
         "win": 7,
         "draw": 0,
@@ -2470,10 +2470,10 @@
       "opponent": "성남FC",
       "isHome": false,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2025-05-04",
       "venue": "성남FC 경기장",
       "stadium": "성남FC 경기장"
@@ -2483,7 +2483,7 @@
         "homeTeam": "성남FC",
         "awayTeam": "인천 유나이티드",
         "homeScore": 1,
-        "awayScore": 0,
+        "awayScore": 2,
         "venue": "성남FC 경기장",
         "isIncheon": true
       },
@@ -2530,7 +2530,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 12,
         "win": 8,
         "draw": 2,
@@ -2542,7 +2542,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 12,
         "win": 8,
         "draw": 0,
@@ -2554,7 +2554,7 @@
         "rank": 2
       },
       {
-        "team": "전북 현대모터스",
+        "team": "울산 HD",
         "played": 12,
         "win": 7,
         "draw": 2,
@@ -2566,7 +2566,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전북 현대모터스",
         "played": 12,
         "win": 7,
         "draw": 1,
@@ -2694,10 +2694,10 @@
       "opponent": "FC서울",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2025-05-11",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2706,8 +2706,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "FC서울",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -2754,7 +2754,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 13,
         "win": 9,
         "draw": 1,
@@ -2766,7 +2766,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 13,
         "win": 8,
         "draw": 2,
@@ -2778,7 +2778,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 13,
         "win": 8,
         "draw": 1,
@@ -2919,7 +2919,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2025-06-18",
@@ -2930,7 +2930,7 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "울산 HD 경기장",
         "isIncheon": true
@@ -2978,7 +2978,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 14,
         "win": 10,
         "draw": 0,
@@ -2990,7 +2990,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 14,
         "win": 9,
         "draw": 1,
@@ -3214,7 +3214,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "인천 유나이티드",
         "played": 15,
         "win": 10,
         "draw": 0,
@@ -3226,7 +3226,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 15,
         "win": 9,
         "draw": 1,
@@ -3426,7 +3426,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 11,
         "draw": 1,
@@ -3438,7 +3438,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 16,
         "win": 10,
         "draw": 2,
@@ -3590,10 +3590,10 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2025-06-12",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -3602,7 +3602,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -3650,7 +3650,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 12,
         "draw": 1,
@@ -3662,7 +3662,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 17,
         "win": 11,
         "draw": 2,
@@ -3674,7 +3674,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 17,
         "win": 11,
         "draw": 0,
@@ -3874,7 +3874,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 18,
         "win": 13,
         "draw": 0,
@@ -3886,7 +3886,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 18,
         "win": 12,
         "draw": 1,
@@ -3898,7 +3898,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 18,
         "win": 11,
         "draw": 1,
@@ -4038,10 +4038,10 @@
       "opponent": "대구FC",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2025-07-26",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -4050,7 +4050,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대구FC",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -4098,7 +4098,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 19,
         "win": 13,
         "draw": 2,
@@ -4110,7 +4110,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 19,
         "win": 13,
         "draw": 0,
@@ -4122,7 +4122,7 @@
         "rank": 2
       },
       {
-        "team": "전북 현대모터스",
+        "team": "울산 HD",
         "played": 19,
         "win": 12,
         "draw": 0,
@@ -4134,7 +4134,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전북 현대모터스",
         "played": 19,
         "win": 11,
         "draw": 1,
@@ -4263,7 +4263,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2025-07-06",
@@ -4274,7 +4274,7 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "강원FC 경기장",
         "isIncheon": true
@@ -4322,7 +4322,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 20,
         "win": 14,
         "draw": 1,
@@ -4334,7 +4334,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 20,
         "win": 13,
         "draw": 1,
@@ -4346,7 +4346,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 20,
         "win": 12,
         "draw": 2,
@@ -4486,10 +4486,10 @@
       "opponent": "광주FC",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2025-07-13",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -4498,8 +4498,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "광주FC",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -4546,7 +4546,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 21,
         "win": 15,
         "draw": 0,
@@ -4558,7 +4558,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 21,
         "win": 14,
         "draw": 0,
@@ -4710,10 +4710,10 @@
       "opponent": "수원FC",
       "isHome": false,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2025-07-20",
       "venue": "수원FC 경기장",
       "stadium": "수원FC 경기장"
@@ -4723,7 +4723,7 @@
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
         "homeScore": 1,
-        "awayScore": 0,
+        "awayScore": 2,
         "venue": "수원FC 경기장",
         "isIncheon": true
       },
@@ -4770,7 +4770,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 22,
         "win": 15,
         "draw": 2,
@@ -4782,7 +4782,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 22,
         "win": 14,
         "draw": 2,
@@ -4794,7 +4794,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 22,
         "win": 14,
         "draw": 0,
@@ -4934,10 +4934,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2025-08-27",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -4946,8 +4946,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -4994,7 +4994,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 23,
         "win": 16,
         "draw": 1,
@@ -5006,7 +5006,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 23,
         "win": 15,
         "draw": 1,
@@ -5158,10 +5158,10 @@
       "opponent": "성남FC",
       "isHome": false,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2025-08-07",
       "venue": "성남FC 경기장",
       "stadium": "성남FC 경기장"
@@ -5171,7 +5171,7 @@
         "homeTeam": "성남FC",
         "awayTeam": "인천 유나이티드",
         "homeScore": 1,
-        "awayScore": 0,
+        "awayScore": 2,
         "venue": "성남FC 경기장",
         "isIncheon": true
       },
@@ -5218,7 +5218,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 24,
         "win": 17,
         "draw": 1,
@@ -5230,7 +5230,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 24,
         "win": 16,
         "draw": 1,
@@ -5242,7 +5242,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 24,
         "win": 15,
         "draw": 1,
@@ -5442,7 +5442,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 25,
         "win": 18,
         "draw": 0,
@@ -5454,7 +5454,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 25,
         "win": 17,
         "draw": 0,
@@ -5466,7 +5466,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 25,
         "win": 16,
         "draw": 0,
@@ -5607,7 +5607,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2025-08-21",
@@ -5618,7 +5618,7 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "울산 HD 경기장",
         "isIncheon": true
@@ -5666,7 +5666,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 26,
         "win": 18,
         "draw": 2,
@@ -5678,7 +5678,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 26,
         "win": 17,
         "draw": 2,
@@ -5830,10 +5830,10 @@
       "opponent": "전북 현대모터스",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2025-09-01",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -5842,7 +5842,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "전북 현대모터스",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -5890,7 +5890,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 27,
         "win": 19,
         "draw": 1,
@@ -5902,7 +5902,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 27,
         "win": 18,
         "draw": 1,
@@ -5914,7 +5914,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 27,
         "win": 17,
         "draw": 0,
@@ -6114,7 +6114,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 28,
         "win": 20,
         "draw": 0,
@@ -6126,7 +6126,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 28,
         "win": 18,
         "draw": 2,
@@ -6138,7 +6138,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 28,
         "win": 17,
         "draw": 2,
@@ -6278,10 +6278,10 @@
       "opponent": "수원 삼성 블루윙즈",
       "isHome": true,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 1,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2025-09-15",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -6290,8 +6290,8 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
-        "homeScore": 2,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -6338,7 +6338,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 29,
         "win": 20,
         "draw": 2,
@@ -6350,7 +6350,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 29,
         "win": 19,
         "draw": 1,
@@ -6502,10 +6502,10 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2025-09-22",
       "venue": "제주 유나이티드 경기장",
       "stadium": "제주 유나이티드 경기장"
@@ -6515,7 +6515,7 @@
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
         "homeScore": 1,
-        "awayScore": 0,
+        "awayScore": 2,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -6562,7 +6562,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 30,
         "win": 21,
         "draw": 1,
@@ -6574,7 +6574,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 30,
         "win": 20,
         "draw": 0,
@@ -6586,7 +6586,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 30,
         "win": 19,
         "draw": 0,
@@ -6726,10 +6726,10 @@
       "opponent": "대구FC",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2025-09-02",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -6738,7 +6738,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대구FC",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -6786,7 +6786,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 31,
         "win": 22,
         "draw": 1,
@@ -6798,7 +6798,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 31,
         "win": 21,
         "draw": 0,
@@ -6810,7 +6810,7 @@
         "rank": 2
       },
       {
-        "team": "전북 현대모터스",
+        "team": "울산 HD",
         "played": 31,
         "win": 19,
         "draw": 2,
@@ -6822,7 +6822,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "전북 현대모터스",
         "played": 31,
         "win": 18,
         "draw": 1,
@@ -6951,7 +6951,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2025-10-09",
@@ -6962,7 +6962,7 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "강원FC 경기장",
         "isIncheon": true
@@ -7010,7 +7010,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 32,
         "win": 23,
         "draw": 0,
@@ -7022,7 +7022,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 32,
         "win": 21,
         "draw": 2,
@@ -7034,7 +7034,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 32,
         "win": 20,
         "draw": 1,
@@ -7234,7 +7234,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 33,
         "win": 23,
         "draw": 2,
@@ -7246,7 +7246,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 33,
         "win": 22,
         "draw": 1,
@@ -7258,7 +7258,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 33,
         "win": 21,
         "draw": 0,
@@ -7399,7 +7399,7 @@
       "isHome": false,
       "score": {
         "incheon": 2,
-        "opponent": 0
+        "opponent": 1
       },
       "result": "WIN",
       "date": "2025-10-23",
@@ -7410,7 +7410,7 @@
       {
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 2,
         "venue": "수원FC 경기장",
         "isIncheon": true
@@ -7458,7 +7458,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 34,
         "win": 24,
         "draw": 1,
@@ -7470,7 +7470,7 @@
         "rank": 1
       },
       {
-        "team": "인천 유나이티드",
+        "team": "FC서울",
         "played": 34,
         "win": 23,
         "draw": 0,
@@ -7622,10 +7622,10 @@
       "opponent": "대전 하나 시티즌",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 1,
         "opponent": 1
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2025-10-03",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -7634,7 +7634,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "대전 하나 시티즌",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 1,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -7682,7 +7682,7 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 35,
         "win": 25,
         "draw": 0,
@@ -7694,7 +7694,7 @@
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 35,
         "win": 23,
         "draw": 2,
@@ -7706,7 +7706,7 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 35,
         "win": 22,
         "draw": 0,
@@ -7906,19 +7906,19 @@
     ],
     "standings": [
       {
-        "team": "FC서울",
+        "team": "인천 유나이티드",
         "played": 36,
-        "win": 25,
-        "draw": 2,
-        "lose": 9,
-        "goalsFor": 51,
-        "goalsAgainst": 26,
-        "goalDiff": 25,
-        "points": 77,
+        "win": 22,
+        "draw": 9,
+        "lose": 5,
+        "goalsFor": 68,
+        "goalsAgainst": 32,
+        "goalDiff": 36,
+        "points": 75,
         "rank": 1
       },
       {
-        "team": "울산 HD",
+        "team": "FC서울",
         "played": 36,
         "win": 24,
         "draw": 0,
@@ -7930,15 +7930,15 @@
         "rank": 2
       },
       {
-        "team": "인천 유나이티드",
+        "team": "울산 HD",
         "played": 36,
-        "win": 18,
-        "draw": 10,
-        "lose": 8,
-        "goalsFor": 56,
-        "goalsAgainst": 38,
-        "goalDiff": 18,
-        "points": 64,
+        "win": 22,
+        "draw": 2,
+        "lose": 12,
+        "goalsFor": 47,
+        "goalsAgainst": 30,
+        "goalDiff": 17,
+        "points": 68,
         "rank": 3
       },
       {

@@ -2862,7 +2862,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 13,
         "win": 4,
         "draw": 1,
@@ -2874,7 +2874,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "대전 하나 시티즌",
         "played": 13,
         "win": 3,
         "draw": 2,
@@ -2886,7 +2886,7 @@
         "rank": 11
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 13,
         "win": 3,
         "draw": 1,
@@ -3062,7 +3062,7 @@
         "rank": 7
       },
       {
-        "team": "인천 유나이티드",
+        "team": "강원FC",
         "played": 14,
         "win": 6,
         "draw": 0,
@@ -3074,7 +3074,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 14,
         "win": 5,
         "draw": 1,
@@ -3086,7 +3086,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "수원FC",
         "played": 14,
         "win": 4,
         "draw": 2,
@@ -3098,7 +3098,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 14,
         "win": 4,
         "draw": 0,
@@ -3274,7 +3274,7 @@
         "rank": 6
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대구FC",
         "played": 15,
         "win": 7,
         "draw": 0,
@@ -3286,7 +3286,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "강원FC",
         "played": 15,
         "win": 6,
         "draw": 1,
@@ -3298,7 +3298,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 15,
         "win": 5,
         "draw": 2,
@@ -3310,7 +3310,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 15,
         "win": 5,
         "draw": 1,
@@ -3486,7 +3486,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 16,
         "win": 8,
         "draw": 0,
@@ -3498,7 +3498,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 16,
         "win": 7,
         "draw": 1,
@@ -3510,7 +3510,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 6,
         "draw": 2,
@@ -3710,7 +3710,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "제주 유나이티드",
         "played": 17,
         "win": 8,
         "draw": 2,
@@ -3722,7 +3722,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 17,
         "win": 8,
         "draw": 0,
@@ -3734,7 +3734,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 7,
         "draw": 1,
@@ -3814,7 +3814,7 @@
       "opponent": "제주 유나이티드",
       "isHome": false,
       "score": {
-        "incheon": 2,
+        "incheon": 1,
         "opponent": 0
       },
       "result": "WIN",
@@ -3827,7 +3827,7 @@
         "homeTeam": "제주 유나이티드",
         "awayTeam": "인천 유나이티드",
         "homeScore": 0,
-        "awayScore": 2,
+        "awayScore": 1,
         "venue": "제주 유나이티드 경기장",
         "isIncheon": true
       },
@@ -3922,7 +3922,7 @@
         "rank": 4
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원 삼성 블루윙즈",
         "played": 18,
         "win": 10,
         "draw": 0,
@@ -3934,7 +3934,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "제주 유나이티드",
         "played": 18,
         "win": 9,
         "draw": 1,
@@ -3946,7 +3946,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 18,
         "win": 8,
         "draw": 2,
@@ -3958,7 +3958,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 18,
         "win": 7,
         "draw": 2,
@@ -4146,7 +4146,7 @@
         "rank": 4
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원 삼성 블루윙즈",
         "played": 19,
         "win": 10,
         "draw": 1,
@@ -4158,7 +4158,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "제주 유나이티드",
         "played": 19,
         "win": 9,
         "draw": 2,
@@ -4170,7 +4170,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 19,
         "win": 8,
         "draw": 2,
@@ -4182,7 +4182,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "인천 유나이티드",
         "played": 19,
         "win": 8,
         "draw": 0,
@@ -4262,10 +4262,10 @@
       "opponent": "강원FC",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2004-09-06",
       "venue": "강원FC 경기장",
       "stadium": "강원FC 경기장"
@@ -4274,8 +4274,8 @@
       {
         "homeTeam": "강원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "강원FC 경기장",
         "isIncheon": true
       },
@@ -4358,7 +4358,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "포항 스틸러스",
         "played": 20,
         "win": 12,
         "draw": 0,
@@ -4370,7 +4370,7 @@
         "rank": 4
       },
       {
-        "team": "포항 스틸러스",
+        "team": "수원 삼성 블루윙즈",
         "played": 20,
         "win": 11,
         "draw": 0,
@@ -4382,7 +4382,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "제주 유나이티드",
         "played": 20,
         "win": 10,
         "draw": 0,
@@ -4394,7 +4394,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 20,
         "win": 9,
         "draw": 1,
@@ -4406,7 +4406,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "강원FC",
         "played": 20,
         "win": 8,
         "draw": 2,
@@ -4418,7 +4418,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "인천 유나이티드",
         "played": 20,
         "win": 7,
         "draw": 2,
@@ -4486,10 +4486,10 @@
       "opponent": "광주FC",
       "isHome": true,
       "score": {
-        "incheon": 1,
+        "incheon": 0,
         "opponent": 1
       },
-      "result": "DRAW",
+      "result": "LOSE",
       "date": "2004-10-13",
       "venue": "인천문학경기장",
       "stadium": "인천문학경기장"
@@ -4498,7 +4498,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "광주FC",
-        "homeScore": 1,
+        "homeScore": 0,
         "awayScore": 1,
         "venue": "인천문학경기장",
         "isIncheon": true
@@ -4582,7 +4582,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "포항 스틸러스",
         "played": 21,
         "win": 12,
         "draw": 1,
@@ -4594,7 +4594,7 @@
         "rank": 4
       },
       {
-        "team": "포항 스틸러스",
+        "team": "수원 삼성 블루윙즈",
         "played": 21,
         "win": 11,
         "draw": 2,
@@ -4606,7 +4606,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "제주 유나이티드",
         "played": 21,
         "win": 10,
         "draw": 2,
@@ -4618,7 +4618,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 21,
         "win": 10,
         "draw": 0,
@@ -4630,7 +4630,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "강원FC",
         "played": 21,
         "win": 9,
         "draw": 0,
@@ -4642,7 +4642,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 21,
         "win": 8,
         "draw": 0,
@@ -4654,7 +4654,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "인천 유나이티드",
         "played": 21,
         "win": 7,
         "draw": 1,
@@ -4710,10 +4710,10 @@
       "opponent": "수원FC",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2004-10-20",
       "venue": "수원FC 경기장",
       "stadium": "수원FC 경기장"
@@ -4722,8 +4722,8 @@
       {
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "수원FC 경기장",
         "isIncheon": true
       },
@@ -4806,7 +4806,7 @@
         "rank": 3
       },
       {
-        "team": "인천 유나이티드",
+        "team": "포항 스틸러스",
         "played": 22,
         "win": 13,
         "draw": 0,
@@ -4818,7 +4818,7 @@
         "rank": 4
       },
       {
-        "team": "포항 스틸러스",
+        "team": "수원 삼성 블루윙즈",
         "played": 22,
         "win": 12,
         "draw": 0,
@@ -4830,7 +4830,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "제주 유나이티드",
         "played": 22,
         "win": 11,
         "draw": 0,
@@ -4842,7 +4842,7 @@
         "rank": 6
       },
       {
-        "team": "제주 유나이티드",
+        "team": "대구FC",
         "played": 22,
         "win": 10,
         "draw": 0,
@@ -4854,7 +4854,7 @@
         "rank": 7
       },
       {
-        "team": "대구FC",
+        "team": "강원FC",
         "played": 22,
         "win": 9,
         "draw": 1,
@@ -4866,7 +4866,7 @@
         "rank": 8
       },
       {
-        "team": "강원FC",
+        "team": "광주FC",
         "played": 22,
         "win": 8,
         "draw": 1,
@@ -4878,7 +4878,7 @@
         "rank": 9
       },
       {
-        "team": "광주FC",
+        "team": "수원FC",
         "played": 22,
         "win": 7,
         "draw": 1,
@@ -4890,7 +4890,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 22,
         "win": 6,
         "draw": 2,
@@ -5314,18 +5314,6 @@
         "rank": 8
       },
       {
-        "team": "대전 하나 시티즌",
-        "played": 24,
-        "win": 7,
-        "draw": 8,
-        "lose": 9,
-        "goalsFor": 20,
-        "goalsAgainst": 24,
-        "goalDiff": -4,
-        "points": 29,
-        "rank": 9
-      },
-      {
         "team": "광주FC",
         "played": 24,
         "win": 9,
@@ -5335,6 +5323,18 @@
         "goalsAgainst": 28,
         "goalDiff": -4,
         "points": 28,
+        "rank": 9
+      },
+      {
+        "team": "대전 하나 시티즌",
+        "played": 24,
+        "win": 6,
+        "draw": 8,
+        "lose": 10,
+        "goalsFor": 22,
+        "goalsAgainst": 26,
+        "goalDiff": -4,
+        "points": 26,
         "rank": 10
       },
       {

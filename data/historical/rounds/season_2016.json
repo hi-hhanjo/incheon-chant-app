@@ -2974,10 +2974,10 @@
       "opponent": "포항 스틸러스",
       "isHome": true,
       "score": {
-        "incheon": 2,
+        "incheon": 0,
         "opponent": 0
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2016-06-25",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -2986,7 +2986,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "포항 스틸러스",
-        "homeScore": 2,
+        "homeScore": 0,
         "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -3142,7 +3142,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 15,
         "win": 4,
         "draw": 2,
@@ -3154,7 +3154,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 15,
         "win": 4,
         "draw": 0,
@@ -3354,7 +3354,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 16,
         "win": 4,
         "draw": 2,
@@ -3366,7 +3366,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 16,
         "win": 4,
         "draw": 0,
@@ -3566,7 +3566,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 17,
         "win": 5,
         "draw": 1,
@@ -3578,7 +3578,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 17,
         "win": 4,
         "draw": 1,
@@ -5486,7 +5486,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 26,
         "win": 7,
         "draw": 0,
@@ -5498,7 +5498,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 26,
         "win": 5,
         "draw": 2,
@@ -5698,7 +5698,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 27,
         "win": 7,
         "draw": 1,
@@ -5710,7 +5710,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 27,
         "win": 6,
         "draw": 0,
@@ -6366,10 +6366,10 @@
       "opponent": "광주FC",
       "isHome": true,
       "score": {
-        "incheon": 2,
+        "incheon": 0,
         "opponent": 0
       },
-      "result": "WIN",
+      "result": "DRAW",
       "date": "2016-09-02",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -6378,7 +6378,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "광주FC",
-        "homeScore": 2,
+        "homeScore": 0,
         "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -6546,7 +6546,7 @@
         "rank": 10
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 31,
         "win": 8,
         "draw": 0,
@@ -6558,7 +6558,7 @@
         "rank": 11
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 31,
         "win": 6,
         "draw": 2,
@@ -6578,10 +6578,10 @@
       "opponent": "수원FC",
       "isHome": false,
       "score": {
-        "incheon": 0,
-        "opponent": 1
+        "incheon": 2,
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "WIN",
       "date": "2016-09-09",
       "venue": "수원FC 경기장",
       "stadium": "수원FC 경기장"
@@ -6590,8 +6590,8 @@
       {
         "homeTeam": "수원FC",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 1,
-        "awayScore": 0,
+        "homeScore": 0,
+        "awayScore": 2,
         "venue": "수원FC 경기장",
         "isIncheon": true
       },

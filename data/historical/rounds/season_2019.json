@@ -218,10 +218,10 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 1,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2019-03-15",
       "venue": "울산 HD 경기장",
       "stadium": "울산 HD 경기장"
@@ -230,8 +230,8 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 1,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },
@@ -326,7 +326,7 @@
         "rank": 4
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원 삼성 블루윙즈",
         "played": 2,
         "win": 1,
         "draw": 0,
@@ -338,7 +338,7 @@
         "rank": 5
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "인천 유나이티드",
         "played": 2,
         "win": 1,
         "draw": 0,
@@ -810,7 +810,7 @@
         "rank": 9
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원FC",
         "played": 4,
         "win": 1,
         "draw": 1,
@@ -822,7 +822,7 @@
         "rank": 10
       },
       {
-        "team": "수원FC",
+        "team": "인천 유나이티드",
         "played": 4,
         "win": 1,
         "draw": 1,
@@ -855,9 +855,9 @@
       "isHome": true,
       "score": {
         "incheon": 0,
-        "opponent": 1
+        "opponent": 0
       },
-      "result": "LOSE",
+      "result": "DRAW",
       "date": "2019-04-09",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -867,7 +867,7 @@
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원 삼성 블루윙즈",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
       },
@@ -4246,10 +4246,10 @@
       "opponent": "수원FC",
       "isHome": true,
       "score": {
-        "incheon": 0,
+        "incheon": 2,
         "opponent": 0
       },
-      "result": "DRAW",
+      "result": "WIN",
       "date": "2019-07-13",
       "venue": "인천축구전용경기장",
       "stadium": "인천축구전용경기장"
@@ -4258,7 +4258,7 @@
       {
         "homeTeam": "인천 유나이티드",
         "awayTeam": "수원FC",
-        "homeScore": 0,
+        "homeScore": 2,
         "awayScore": 0,
         "venue": "인천축구전용경기장",
         "isIncheon": true
@@ -4426,7 +4426,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 21,
         "win": 5,
         "draw": 2,
@@ -4438,7 +4438,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 21,
         "win": 4,
         "draw": 2,
@@ -4638,7 +4638,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 22,
         "win": 5,
         "draw": 2,
@@ -4650,7 +4650,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 22,
         "win": 4,
         "draw": 2,
@@ -4850,7 +4850,7 @@
         "rank": 10
       },
       {
-        "team": "대전 하나 시티즌",
+        "team": "인천 유나이티드",
         "played": 23,
         "win": 6,
         "draw": 0,
@@ -4862,7 +4862,7 @@
         "rank": 11
       },
       {
-        "team": "인천 유나이티드",
+        "team": "대전 하나 시티즌",
         "played": 23,
         "win": 5,
         "draw": 0,
@@ -4882,10 +4882,10 @@
       "opponent": "울산 HD",
       "isHome": false,
       "score": {
-        "incheon": 2,
-        "opponent": 0
+        "incheon": 0,
+        "opponent": 1
       },
-      "result": "WIN",
+      "result": "LOSE",
       "date": "2019-08-07",
       "venue": "울산 HD 경기장",
       "stadium": "울산 HD 경기장"
@@ -4894,8 +4894,8 @@
       {
         "homeTeam": "울산 HD",
         "awayTeam": "인천 유나이티드",
-        "homeScore": 0,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "venue": "울산 HD 경기장",
         "isIncheon": true
       },

@@ -7751,7 +7751,7 @@
         "rank": 4
       },
       {
-        "team": "수원 삼성 블루윙즈",
+        "team": "인천 유나이티드",
         "played": 37,
         "win": 20,
         "draw": 0,
@@ -7763,7 +7763,7 @@
         "rank": 5
       },
       {
-        "team": "인천 유나이티드",
+        "team": "수원 삼성 블루윙즈",
         "played": 37,
         "win": 18,
         "draw": 1,
@@ -7963,18 +7963,6 @@
         "rank": 4
       },
       {
-        "team": "수원 삼성 블루윙즈",
-        "played": 38,
-        "win": 20,
-        "draw": 1,
-        "lose": 17,
-        "goalsFor": 44,
-        "goalsAgainst": 36,
-        "goalDiff": 8,
-        "points": 61,
-        "rank": 5
-      },
-      {
         "team": "인천 유나이티드",
         "played": 38,
         "win": 14,
@@ -7982,6 +7970,18 @@
         "lose": 10,
         "goalsFor": 46,
         "goalsAgainst": 42,
+        "goalDiff": 4,
+        "points": 56,
+        "rank": 5
+      },
+      {
+        "team": "수원 삼성 블루윙즈",
+        "played": 38,
+        "win": 18,
+        "draw": 2,
+        "lose": 18,
+        "goalsFor": 42,
+        "goalsAgainst": 38,
         "goalDiff": 4,
         "points": 56,
         "rank": 6

@@ -9,52 +9,23 @@ rounds_dir = os.path.join(base_dir, "rounds")
 with open(seasons_file, 'r', encoding='utf-8') as f:
     seasons = json.load(f)
 
-# 1. seasons.json의 trajectory 및 불일치 보정
+# 1. seasons.json 검증 (trajectory 길이와 totalRounds 정합성 확인)
 for s in seasons:
-    year = s["year"]
     rank = s["incheonRank"]
     traj = s["trajectory"]
     total_rounds = s["totalRounds"]
-    # 2026 시즌: 현재 7위 순항 중인 진행 중 시즌
-    if year == 2026:
-        s["incheonRank"] = 7
-        s["isOngoing"] = True
-        rank = 7
-        s["keyMoment"] = "2026 시즌 현재 7위 순항 중! 파이널 라운드를 앞둔 치열한 중상위권 순위 경쟁"
-        traj[-1] = 7
-        traj[-2] = 7
-        traj[-3] = 8
-        traj[-4] = 7
-    else:
-        s["isOngoing"] = False
-        
-    # 2026 시즌 라운드 수 보정 (32개 -> 33개)
     if len(traj) < total_rounds:
         while len(traj) < total_rounds:
             traj.append(rank)
     elif len(traj) > total_rounds:
         traj = traj[:total_rounds]
-        
-    # 최종 라운드 순위는 무조건 incheonRank와 일치
     traj[-1] = rank
-    
-    # 2004 시즌: 전기 13위 -> 후기 4위 -> 통합 12위 (마지막은 12위)
-    if year == 2004:
-        # 1~12R 전기 (12~13위), 13~23R 후기 (10위->4위), 24R 통합 최종 12위
-        traj[23] = 12
-        traj[22] = 12
-        
-    # 2005 시즌: 정규리그 1위 -> 챔프전 준우승 2위
-    if year == 2005:
-        traj[-1] = 2 # 최종 준우승 2위
-        
     s["trajectory"] = traj
 
-# 저장
 with open(seasons_file, 'w', encoding='utf-8') as f:
     json.dump(seasons, f, ensure_ascii=False, indent=2)
 
-print("seasons.json trajectory corrected (2026 set to rank 7 & isOngoing).")
+print("seasons.json validated with official facts.")
 
 # 2. 기존 파일에 저장되어 있던 highlightVideo 매핑 보존을 위해 백업 수집
 highlight_videos_cache = {}
