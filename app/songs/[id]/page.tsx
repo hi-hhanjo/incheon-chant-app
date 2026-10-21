@@ -1,12 +1,21 @@
-import { getSongById } from "@/lib/api/songs";
+import { getSongById, getSongs } from "@/lib/api/songs";
 import Layout from "@/components/Layout";
 import { Button, IconButton } from "@/components/Button";
 import VideoSection from "@/components/VideoSection";
 import Lyrics from "@/components/Lyrics";
 import Feedback from "@/components/Feedback";
 import SourceNote from "@/components/SourceNote";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export const revalidate = 3600; // 1시간 단위 정적 재생성 (ISR)
+
+// 빌드 타임에 등록된 모든 응원가 상세 페이지를 사전 정적 생성(SSG)
+export async function generateStaticParams() {
+  const songs = await getSongs();
+  return songs.map((song) => ({
+    id: String(song.id),
+  }));
+}
 
 // F-02 상세 화면 (영상 탭 → 영상 → 가사 순서).
 export default async function SongDetail({
@@ -23,7 +32,7 @@ export default async function SongDetail({
         <Feedback
           type="error"
           message="해당 응원가를 찾을 수 없습니다"
-          action={<Button href="/" label="목록으로 가기" />}
+          action={<Button href="/songs" label="목록으로 가기" />}
         />
       </Layout>
     );
@@ -31,7 +40,10 @@ export default async function SongDetail({
 
   return (
     <Layout>
-      <IconButton href="/" icon="←" label="목록으로" />
+      <div className="flex items-center justify-between">
+        <IconButton href="/songs" icon="←" label="목록으로" />
+        <FavoriteButton id={song.id} />
+      </div>
 
       <h1 className="text-xl font-bold">{song.title}</h1>
 

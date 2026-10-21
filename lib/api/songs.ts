@@ -1,28 +1,48 @@
 import { supabase } from "../supabase";
-import type { Song, Video, DataSource } from "./songs.schema";
+import type { Song, DataSource } from "./songs.schema";
+import fallbackSongsData from "@/data/songs.json";
+
+const fallbackSongs = fallbackSongsData as Song[];
 
 export async function getSongs(): Promise<Song[]> {
-  const { data, error } = await supabase
-    .from("songs")
-    .select("*, videos(*)");
-
-  if (error) {
-    console.error("Error fetching songs:", error);
-    return [];
+  if (!supabase) {
+    return fallbackSongs;
   }
 
-  return (data || []).map(mapToSong);
+  try {
+    const { data, error } = await supabase
+      .from("songs")
+      .select("*, videos(*)");
+
+    if (error || !data || data.length === 0) {
+      return fallbackSongs;
+    }
+
+    return data.map(mapToSong);
+  } catch {
+    return fallbackSongs;
+  }
 }
 
 export async function getSongById(id: number): Promise<Song | undefined> {
-  const { data, error } = await supabase
-    .from("songs")
-    .select("*, videos(*)")
-    .eq("id", id)
-    .single();
+  if (!supabase) {
+    return fallbackSongs.find((s) => s.id === id);
+  }
 
-  if (error || !data) return undefined;
-  return mapToSong(data);
+  try {
+    const { data, error } = await supabase
+      .from("songs")
+      .select("*, videos(*)")
+      .eq("id", id)
+      .single();
+
+    if (error || !data) {
+      return fallbackSongs.find((s) => s.id === id);
+    }
+    return mapToSong(data);
+  } catch {
+    return fallbackSongs.find((s) => s.id === id);
+  }
 }
 
 function mapToSong(row: any): Song {

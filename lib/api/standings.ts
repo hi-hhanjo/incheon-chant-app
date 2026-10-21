@@ -1,4 +1,6 @@
 import { supabase } from "../supabase";
+import fallbackStandingsData from "@/data/standings.json";
+import fallbackStandingsMeta from "@/data/standings-meta.json";
 
 export interface TeamStanding {
   rank: number;
@@ -13,38 +15,68 @@ export interface TeamStanding {
   rankChange: number | null;
 }
 
-export async function getStandings(): Promise<TeamStanding[]> {
-  const { data, error } = await supabase
-    .from("standings")
-    .select("*")
-    .order("rank", { ascending: true });
+const fallbackStandings = fallbackStandingsData as Omit<TeamStanding, "rankChange">[];
+const fallbackMeta = fallbackStandingsMeta as {
+  updatedAt: string | null;
+  rankChange?: Record<string, number | null>;
+};
 
-  if (error) {
-    console.error("Error fetching standings:", error);
-    return [];
+export async function getStandings(): Promise<TeamStanding[]> {
+  if (!supabase) {
+    return fallbackStandings.map((row) => ({
+      ...row,
+      rankChange: fallbackMeta.rankChange?.[row.team] ?? null,
+    }));
   }
 
-  return (data || []).map(row => ({
-    rank: row.rank,
-    team: row.team,
-    played: row.played,
-    win: row.win,
-    draw: row.draw,
-    lose: row.lose,
-    goalsFor: row.goals_for,
-    goalsAgainst: row.goals_against,
-    points: row.points,
-    rankChange: row.rank_change ?? null
-  }));
+  try {
+    const { data, error } = await supabase
+      .from("standings")
+      .select("*")
+      .order("rank", { ascending: true });
+
+    if (error || !data || data.length === 0) {
+      return fallbackStandings.map((row) => ({
+        ...row,
+        rankChange: fallbackMeta.rankChange?.[row.team] ?? null,
+      }));
+    }
+
+    return data.map(row => ({
+      rank: row.rank,
+      team: row.team,
+      played: row.played,
+      win: row.win,
+      draw: row.draw,
+      lose: row.lose,
+      goalsFor: row.goals_for,
+      goalsAgainst: row.goals_against,
+      points: row.points,
+      rankChange: row.rank_change ?? null
+    }));
+  } catch {
+    return fallbackStandings.map((row) => ({
+      ...row,
+      rankChange: fallbackMeta.rankChange?.[row.team] ?? null,
+    }));
+  }
 }
 
 export async function getStandingsUpdatedAt(): Promise<string | null> {
-  const { data, error } = await supabase
-    .from("standings")
-    .select("updated_at")
-    .limit(1)
-    .single();
+  if (!supabase) {
+    return fallbackMeta.updatedAt ?? null;
+  }
 
-  if (error || !data) return null;
-  return data.updated_at;
+  try {
+    const { data, error } = await supabase
+      .from("standings")
+      .select("updated_at")
+      .limit(1)
+      .single();
+
+    if (error || !data) return fallbackMeta.updatedAt ?? null;
+    return data.updated_at;
+  } catch {
+    return fallbackMeta.updatedAt ?? null;
+  }
 }

@@ -38,6 +38,7 @@ def scrape_injuries() -> dict[str, list[dict]]:
     try:
         res = requests.get(TM_INJURY_URL, headers=TM_HEADERS, timeout=20)
         res.raise_for_status()
+        res.encoding = "utf-8"
         soup = BeautifulSoup(res.text, "html.parser")
 
         tables = soup.find_all("table", class_="items")
@@ -48,7 +49,7 @@ def scrape_injuries() -> dict[str, list[dict]]:
         rows = tables[0].find("tbody").find_all("tr", recursive=False)
         for row in rows:
             cols = row.find_all("td", recursive=False)
-            if len(cols) < 5:
+            if len(cols) < 4:
                 continue
 
             # 선수명(첫 칸의 대표 링크)
@@ -65,10 +66,13 @@ def scrape_injuries() -> dict[str, list[dict]]:
 
             injury_type_raw = cols[2].text.strip()
             injury_type = translate_injury(injury_type_raw)
-            return_date = cols[4].text.strip()
-            # 복귀일 칸이 비었거나 이적료(€)가 잘못 들어오면 '미정' 처리
-            if not return_date or return_date.startswith("€"):
+
+            # 복귀 예정일: cols[3] ('until' 컬럼. cols[4]는 시장가치)
+            return_date_raw = cols[3].text.strip()
+            if not return_date_raw or return_date_raw in ("-", "?", "Return unknown"):
                 return_date = "미정"
+            else:
+                return_date = return_date_raw
 
             injuries_by_team.setdefault(normalized_team, []).append(
                 {"name": player_name, "status": injury_type, "expectedReturn": return_date}
@@ -77,6 +81,53 @@ def scrape_injuries() -> dict[str, list[dict]]:
         print(f"Transfermarkt 부상 정보 수집 실패: {e}")
 
     return injuries_by_team
+
+
+KLEAGUE_PORTAL_GUEST_URL = (
+    "https://portal.kleague.com/user/loginById.do?portalGuest=rstNE9zxjdkUC9kbUA08XQ=="
+)
+
+
+def scrape_official_suspensions() -> dict[str, list[dict]]:
+    """K리그 공식 데이터 포털(portal.kleague.com)에서 최신 라운드 공식 출전 정지 명단을 수집한다.
+    실패 시 빈 dict를 반환하여 전체 스카우팅 수집 파이프라인이 중단되지 않게 한다."""
+    suspensions_by_team: dict[str, list[dict]] = {}
+    try:
+        session = requests.Session()
+        session.headers.update(TM_HEADERS)
+        res = session.get(KLEAGUE_PORTAL_GUEST_URL, timeout=15)
+        res.raise_for_status()
+        res.encoding = "utf-8"
+
+        soup = BeautifulSoup(res.text, "html.parser")
+        table = soup.find("table", id="target-BanPlayer-table")
+        if not table or not table.find("tbody"):
+            print("K리그 포털에서 출전 정지 명단 테이블을 찾지 못했습니다.")
+            return suspensions_by_team
+
+        rows = table.find("tbody").find_all("tr", recursive=False)
+        for row in rows:
+            cols = row.find_all("td")
+            if len(cols) < 3:
+                continue
+
+            raw_team = cols[0].text.strip()
+            team_name = normalize_team_name(raw_team)
+            player_name = cols[1].text.strip()
+            match_info = cols[2].text.strip()
+
+            if not player_name or not team_name:
+                continue
+
+            suspensions_by_team.setdefault(team_name, []).append({
+                "name": player_name,
+                "status": "출전 정지 (공식 징계/누적)",
+                "expectedReturn": match_info if match_info else "다음 경기 정지",
+            })
+    except Exception as e:
+        print(f"K리그 공식 출전 정지 명단 수집 실패: {e}")
+
+    return suspensions_by_team
 
 
 def collect_key_players(year: str) -> dict[str, dict]:
@@ -130,6 +181,19 @@ def main() -> None:
     for team, injuries in scrape_injuries().items():
         bucket = teams_data.setdefault(team, {"keyPlayers": [], "injuries": [], "probableLineup": []})
         bucket["injuries"] = injuries
+
+    print("K리그 공식 출전 정지 명단 수집 중...")
+    for team, suspensions in scrape_official_suspensions().items():
+        bucket = teams_data.setdefault(team, {"keyPlayers": [], "injuries": [], "probableLineup": []})
+        existing_names = {inj["name"] for inj in bucket["injuries"]}
+        for susp in suspensions:
+            if susp["name"] in existing_names:
+                for inj in bucket["injuries"]:
+                    if inj["name"] == susp["name"]:
+                        inj["status"] = f"{inj['status']} / {susp['status']}"
+                        inj["expectedReturn"] = susp["expectedReturn"]
+            else:
+                bucket["injuries"].append(susp)
 
     snapshot_date = datetime.now().strftime("%Y-%m-%d")
     for opponent, data in teams_data.items():

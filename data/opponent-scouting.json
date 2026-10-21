@@ -1,0 +1,271 @@
+{
+  "울산 HD": {
+    "keyPlayers": [
+      {
+        "name": "야고",
+        "position": "FW",
+        "note": "시즌 8골 (팀 내 핵심)"
+      },
+      {
+        "name": "말컹",
+        "position": "FW",
+        "note": "시즌 5골 (팀 내 핵심)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "에릭",
+        "status": "아킬레스건 수술",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "토마스",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "포항 스틸러스": {
+    "keyPlayers": [
+      {
+        "name": "이호재",
+        "position": "FW",
+        "note": "시즌 8골 (팀 내 핵심)"
+      },
+      {
+        "name": "트란지스카",
+        "position": "FW",
+        "note": "시즌 2도움 (주요 자원)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "조성욱",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "인천 유나이티드": {
+    "keyPlayers": [
+      {
+        "name": "무고사",
+        "position": "FW",
+        "note": "시즌 13골 · 31R 통산 100호골 & 32R 연속골 에이스"
+      },
+      {
+        "name": "제르소",
+        "position": "FW",
+        "note": "시즌 5골 6도움 · K리그 최고 수준의 크랙 및 스피드"
+      }
+    ],
+    "injuries": [],
+    "probableLineup": []
+  },
+  "강원FC": {
+    "keyPlayers": [
+      {
+        "name": "아부달라",
+        "position": "FW",
+        "note": "시즌 6골 (팀 내 핵심)"
+      },
+      {
+        "name": "김대원",
+        "position": "FW",
+        "note": "시즌 5골 (팀 내 핵심)"
+      }
+    ],
+    "injuries": [],
+    "probableLineup": []
+  },
+  "안양FC": {
+    "keyPlayers": [
+      {
+        "name": "아일톤",
+        "position": "FW",
+        "note": "시즌 5골 (팀 내 핵심)"
+      },
+      {
+        "name": "마테우스",
+        "position": "MF",
+        "note": "시즌 5골 (팀 내 핵심)"
+      }
+    ],
+    "injuries": [],
+    "probableLineup": []
+  },
+  "FC서울": {
+    "keyPlayers": [
+      {
+        "name": "클리말라",
+        "position": "FW",
+        "note": "시즌 5골 (팀 내 핵심)"
+      },
+      {
+        "name": "이승모",
+        "position": "MF",
+        "note": "시즌 4골 (팀 내 핵심)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "이상민",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "김천 상무": {
+    "keyPlayers": [
+      {
+        "name": "고재현",
+        "position": "FW",
+        "note": "시즌 5골 (팀 내 핵심)"
+      },
+      {
+        "name": "이정택",
+        "position": "DF",
+        "note": "시즌 3도움 (주요 자원)"
+      }
+    ],
+    "injuries": [],
+    "probableLineup": []
+  },
+  "전북 현대모터스": {
+    "keyPlayers": [
+      {
+        "name": "이승우",
+        "position": "FW",
+        "note": "시즌 5골 (팀 내 핵심)"
+      },
+      {
+        "name": "티아고",
+        "position": "FW",
+        "note": "시즌 4골 (팀 내 핵심)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "박주영",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "티아고",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "김태환",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "대전하나시티즌": {
+    "keyPlayers": [
+      {
+        "name": "정재희",
+        "position": "FW",
+        "note": "시즌 4골 (팀 내 핵심)"
+      },
+      {
+        "name": "서진수",
+        "position": "FW",
+        "note": "시즌 3골 (팀 내 핵심)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "하창래",
+        "status": "근육 부상",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "엄원상",
+        "status": "발목 부상",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "서영재",
+        "status": "발목 부상",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "마사",
+        "status": "척추 부상",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "부천FC": {
+    "keyPlayers": [
+      {
+        "name": "갈레고",
+        "position": "FW",
+        "note": "시즌 4골 (팀 내 핵심)"
+      },
+      {
+        "name": "티아깅요",
+        "position": "DF",
+        "note": "시즌 2도움 (주요 자원)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "김승빈",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      },
+      {
+        "name": "김종우",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "광주FC": {
+    "keyPlayers": [
+      {
+        "name": "신창무",
+        "position": "FW",
+        "note": "시즌 3골 (팀 내 핵심)"
+      },
+      {
+        "name": "프리드욘슨",
+        "position": "FW",
+        "note": "시즌 2도움 (주요 자원)"
+      }
+    ],
+    "injuries": [
+      {
+        "name": "최경록",
+        "status": "부상(상세불명)",
+        "expectedReturn": "미정"
+      }
+    ],
+    "probableLineup": []
+  },
+  "제주SK": {
+    "keyPlayers": [
+      {
+        "name": "이탈로",
+        "position": "MF",
+        "note": "29R·30R 연속골 · 중원 볼 배급 및 경기 조율 사령관"
+      },
+      {
+        "name": "네게바",
+        "position": "FW",
+        "note": "32R PK 멀티골 · 폭발적인 측면 돌파 및 슈팅력"
+      }
+    ],
+    "injuries": [],
+    "probableLineup": []
+  }
+}

@@ -435,9 +435,12 @@ python backfill_youtube_lyrics.py             # 가사 빈 곡 → 설명란에�
 - **주요 선수**: 다음 선수 순위 API(`client.fetch_person_rank`)에서 팀별 **득점→도움 순 상위 2명**.
   다른 구단 데이터와 같은 다음 스포츠 소스라 팀명 정규화도 `codes.py`를 공유한다.
 - **부상**: Transfermarkt K리그1 부상자 목록을 BeautifulSoup으로 파싱(선수·부상명·복귀 예정).
-  다음이 부상 정보를 주지 않아 유일하게 **다른 소스**다 — 팀명은 `codes.normalize_tm_team_name()`
-  (영문→앱 표기)으로 맞춘다. 페이지 구조 변경 등으로 실패하면 **주요 선수만이라도** 나가도록
-  부상은 빈 값으로 건너뛴다.
+  다음이 부상 정보를 주지 않아 외부 소스를 활용한다 — 팀명은 `codes.normalize_tm_team_name()`
+  (영문→앱 표기)으로 맞춘다.
+- **공식 출전 정지(징계/누적)**: 한국프로축구연맹 공식 데이터 포털(`portal.kleague.com`)의 대시보드
+  출전 정지 명단 테이블을 크롤링하여 팀별 징계 결장 선수 및 대상 경기를 수집한다(2026-10-20 신설).
+  팀명 정규화는 `codes.normalize_team_name()`을 공유하며, Transfermarkt 부상 데이터와 병합되어
+  Supabase `opponent_injuries` 테이블에 단일화되어 적재된다.
 - **라인업(probableLineup)**: 신뢰할 소스가 없어 **빈 목록**으로 둔다(화면도 비워 처리).
 - **meta 없음**: 스카우팅은 매 실행 전체를 덮어쓰고, 화면의 "○○ 기준" 배지는 상대 폼 meta를
   재사용한다(같은 크론에서 함께 갱신되므로) — 그래서 별도 `*-meta.json`을 만들지 않는다.

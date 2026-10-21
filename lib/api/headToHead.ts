@@ -1,4 +1,6 @@
 import { supabase } from "../supabase";
+import fallbackHeadToHeadData from "@/data/head-to-head.json";
+import fallbackHeadToHeadMeta from "@/data/head-to-head-meta.json";
 
 export interface HeadToHeadMatch {
   date: string;
@@ -7,7 +9,7 @@ export interface HeadToHeadMatch {
   awayTeam: string;
   homeScore: number;
   awayScore: number;
-  gameId: number;
+  gameId?: number;
   venue?: string;
 }
 
@@ -16,30 +18,39 @@ export interface HeadToHeadSummary {
   perVenue: Record<string, { win: number; draw: number; loss: number }>;
 }
 
+const fallbackHeadToHead = fallbackHeadToHeadData as Record<string, HeadToHeadMatch[]>;
+
 export async function getHeadToHead(
   opponentKoreanName: string,
 ): Promise<HeadToHeadMatch[]> {
-  const { data, error } = await supabase
-    .from("head_to_head")
-    .select("*")
-    .eq("opponent", opponentKoreanName)
-    .order("date", { ascending: false });
-
-  if (error) {
-    console.error("Error fetching head to head:", error);
-    return [];
+  if (!supabase) {
+    return fallbackHeadToHead[opponentKoreanName] ?? [];
   }
 
-  return (data || []).map(row => ({
-    date: row.date,
-    round: "", // DB 스키마에 제외됨
-    homeTeam: row.home_team,
-    awayTeam: row.away_team,
-    homeScore: row.home_score,
-    awayScore: row.away_score,
-    gameId: row.game_id,
-    venue: row.venue,
-  }));
+  try {
+    const { data, error } = await supabase
+      .from("head_to_head")
+      .select("*")
+      .eq("opponent", opponentKoreanName)
+      .order("date", { ascending: false });
+
+    if (error || !data || data.length === 0) {
+      return fallbackHeadToHead[opponentKoreanName] ?? [];
+    }
+
+    return data.map(row => ({
+      date: row.date,
+      round: "",
+      homeTeam: row.home_team,
+      awayTeam: row.away_team,
+      homeScore: row.home_score,
+      awayScore: row.away_score,
+      gameId: row.game_id,
+      venue: row.venue,
+    }));
+  } catch {
+    return fallbackHeadToHead[opponentKoreanName] ?? [];
+  }
 }
 
 export async function getHeadToHeadSummary(opponentKoreanName: string): Promise<{ matches: HeadToHeadMatch[], summary: HeadToHeadSummary }> {
@@ -73,12 +84,20 @@ export async function getHeadToHeadSummary(opponentKoreanName: string): Promise<
 }
 
 export async function getHeadToHeadUpdatedAt(): Promise<string | null> {
-  const { data, error } = await supabase
-    .from("head_to_head")
-    .select("updated_at")
-    .limit(1)
-    .single();
+  if (!supabase) {
+    return (fallbackHeadToHeadMeta as { updatedAt: string | null }).updatedAt ?? null;
+  }
 
-  if (error || !data) return null;
-  return data.updated_at;
+  try {
+    const { data, error } = await supabase
+      .from("head_to_head")
+      .select("updated_at")
+      .limit(1)
+      .single();
+
+    if (error || !data) return (fallbackHeadToHeadMeta as { updatedAt: string | null }).updatedAt ?? null;
+    return data.updated_at;
+  } catch {
+    return (fallbackHeadToHeadMeta as { updatedAt: string | null }).updatedAt ?? null;
+  }
 }

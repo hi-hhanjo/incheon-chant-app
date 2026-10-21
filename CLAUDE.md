@@ -1,31 +1,59 @@
-# CLAUDE.md — 인천 유나이티드 응원가 웹페이지
+# CLAUDE.md
 
-이 프로젝트의 규칙은 [`.agent/rules.md`](.agent/rules.md)에 있습니다. 아래 import로 불러옵니다.
+Behavioral invariants and harness rules for Claude Code. Bias toward caution over speed; use judgment on trivial one-line fixes.
 
-@.agent/rules.md
+## 1. Core Coding Principles (Karpathy Invariants)
 
----
+### 1.1 Think Before Coding
+- **No silent assumptions:** State assumptions explicitly before writing code. If requirements are ambiguous or incomplete, stop and ask.
+- **Surface tradeoffs:** When multiple valid approaches exist, list the options and tradeoffs in 2–3 bullets instead of picking silently.
+- **Push back on complexity:** If the requested approach is overcomplicated or brittle, propose a simpler alternative first.
+- **Plan before multi-file edits:** When touching 3+ files or changing architecture, output a brief plan (`Step → Verify command`) before editing.
 
-## 이 파일이 이렇게 생긴 이유 (2026-07-17 정리)
+### 1.2 Simplicity First
+- **Minimum viable code:** Write the smallest amount of code that solves the exact requested problem.
+- **Zero speculative abstractions:** Do not create wrappers, factories, helpers, or configuration options for single-use logic.
+- **Boundary-only validation:** Validate external inputs (API payloads, user input, env vars, file I/O) at system boundaries; do not litter internal calls with defensive checks for impossible states.
+- **Rewrite bloat:** If an implementation takes 200 lines and can be written cleanly in 50, rewrite it before presenting.
 
-- **일반 코딩 지침**(Karpathy 4원칙 — 생각 먼저, 단순하게, 외과수술적 변경, 목표 기반 실행)은
-  **상위 폴더 `../CLAUDE.md`** 에 있고 이 디렉터리에도 자동 적용됩니다. 예전엔 그 내용을 이 파일에
-  **글자 그대로 복제**해 두 곳이 같은 텍스트를 갖고 있었는데(md5 동일), 한쪽만 고치면 갈라지는
-  구조라 복제를 걷어냈습니다.
-- 대신 이 파일은 **프로젝트 고유 규칙**(`.agent/rules.md`)을 연결하는 역할만 합니다.
-  `.agent/rules.md`는 "AI 코딩 도구는 작업 전에 이 파일을 먼저 읽습니다"라고 선언해 놓고도
-  **실제로는 어떤 도구도 읽지 않는 상태**였습니다 — 위 import가 그 구멍을 막습니다.
+### 1.3 Surgical Changes
+- **Zero drive-by edits:** Never reformat, rename, comment, or refactor adjacent code unrelated to the task.
+- **Match local style:** Follow the existing naming, error handling, and directory patterns of the touched file.
+- **Orphan cleanup rule:**
+  - **DO** remove imports, variables, and helpers made unused by your own changes.
+  - **DO NOT** delete pre-existing dead code unless explicitly asked (mention its file:line location instead).
+- **Diff traceability:** Every changed line in `git diff` must trace directly to the user's request.
 
-## 문서 지도
+### 1.4 Goal-Driven Execution (Back-Pressure Loop)
+Translate every imperative request into a verifiable goal and loop until green:
+- **New feature / validation** → Write failing tests for target & invalid inputs first, then implement until passing.
+- **Bug fix** → Write or run a reproduction test that fails first, then fix the root cause until passing.
+- **Refactoring** → Verify existing typechecks and tests pass both before and after changes.
 
-무엇을 고치기 전에 근거 문서를 먼저 봅니다(`.agent/rules.md` 1장).
+## 2. Harness Configuration & Context Control
 
-| 알고 싶은 것 | 문서 |
-|---|---|
-| 무엇을/왜 만드는가, 범위·Non-Goals, 저작권 방침 | `docs/bible/PRD.md` |
-| 각 기능이 화면에서 어떻게 동작하는가 | `docs/bible/FUNCTION.md` |
-| 어떤 기술로 만드는가, 폴더 구조 | `docs/bible/TECHSTACK.md` |
-| 색·글꼴·간격 토큰 | `docs/design/BASE.md` |
-| 각 화면 부품의 상세 | `docs/design/README.md` → `docs/design/components/*.md` |
-| 데이터 모델·API 계약 | `docs/data/API_SPEC.md`, `docs/data/ERD_SPEC.md`, `docs/data/CLUB_ERD_SPEC.md` |
-| 데이터를 어디서 어떻게 긁어오는가 | `docs/data/CRAWLER_SPEC.md` |
+### 2.1 Progressive Context Map (Read On-Demand Only)
+Do not pre-load the entire codebase into context. Read reference docs only when the task touches their domain:
+- **Architecture & module boundaries:** `@docs/architecture.md`
+- **Database schema & migrations:** `@docs/database.md`
+- **Testing & fixture conventions:** `@docs/testing.md`
+- **Reusable workflows:** `.claude/skills/`
+
+### 2.2 Sub-Agent Context Firewall
+- **Isolate noisy exploration:** When searching across many files, tracing cross-service calls, or inspecting large logs, delegate to an `Explore` or task sub-agent so raw search outputs do not pollute the main session context.
+- **Return format:** Sub-agents must return only a concise summary with exact `filepath:line` references.
+
+### 2.3 Verification Commands (Evidence Required Before "Done")
+Never claim a task is complete without running verification and confirming zero errors:
+1. **Static check (Typecheck + Lint):** Run the project check script (e.g., `npm run check` / `pnpm check` / `ruff check . && mypy .`).
+2. **Targeted test execution:** Run only the test file(s) covering the modified module (e.g., `pnpm test -- <path>` or `pytest <path>`). Do not dump thousands of passing test lines into context; inspect only failures.
+
+### 2.4 Hard Boundaries (Enforced by `.claude/settings.json` Hooks)
+- **Protected paths (Never edit directly):** Build outputs (`dist/`, `build/`, `.next/`), lockfiles, `.env*` secrets, and auto-generated schema/client files (edit the source schema and run codegen instead).
+- **Blocked commands:** `rm -rf`, `git reset --hard`, `git push --force`, and destructive SQL/migration commands (`DROP`, `TRUNCATE`).
+
+## 3. Incident & Failure Log (Never Repeat)
+
+Append a 1-line rule below whenever an agent mistake occurs in this repository:
+- `[Package Manager]` Use the repository's lockfile-matched package manager exclusively; never mix `npm`, `pnpm`, `yarn`, or `pip`/`uv`.
+- `[Design Tokens]` Never hardcode hex/RGB colors or magic spacing values in UI components; use existing theme variables/tokens.

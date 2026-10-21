@@ -1,0 +1,68 @@
+[
+  {
+    "id": "blackbeef",
+    "name": "블랙비프 스테이크 & 불초밥",
+    "category": "스테이크/고기",
+    "icon": "🥩",
+    "signatureMenu": "큐브 스테이크, 소고기 불초밥",
+    "location": "E석 1게이트 광장 앞",
+    "instagramHandle": "blackbeef_steak_truck",
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EB%B8%94%EB%9E%99%EB%B9%84%ED%94%84%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD/",
+    "note": "숭의아레나 최다 출점 인기 스테이크! 즉석 철판 직화 구이"
+  },
+  {
+    "id": "cheongchun",
+    "name": "청춘 수제 닭꼬치 & 닭강정",
+    "category": "닭강정/꼬치",
+    "icon": "🍗",
+    "signatureMenu": "롱 수제 닭꼬치, 순살 닭강정",
+    "location": "E석 중앙 광장",
+    "instagramHandle": "cheongchun_skewer",
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EC%B2%AD%EC%B6%98%EB%8B%AD%EA%BC%AC%EC%B9%98/",
+    "note": "직화 숯불향 가득한 시그니처 닭꼬치와 바삭 달콤 닭강정"
+  },
+  {
+    "id": "osakatako",
+    "name": "오사카 수제 타코야끼 & 야끼소바",
+    "category": "일식/스낵",
+    "icon": "🌮",
+    "signatureMenu": "오리지널 타코야끼, 철판 야끼소바",
+    "location": "E석 하이네켄 펍 옆",
+    "instagramHandle": "osaka_takoyaki_korea",
+    "instagramUrl": "https://www.instagram.com/explore/tags/%ED%83%80%EC%BD%94%EC%95%BC%EB%81%BC%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD/",
+    "note": "가쓰오부시 듬뿍 정통 타코야끼! 경기 관람 중 간편 취식 인기"
+  },
+  {
+    "id": "tacochilli",
+    "name": "타코앤칠리 멕시칸 스트릿",
+    "category": "글로벌/타코",
+    "icon": "🌯",
+    "signatureMenu": "비프 타코, 치즈 퀘사디아, 나초",
+    "location": "E석 북측 부스존",
+    "instagramHandle": "tacochilli_truck",
+    "instagramUrl": "https://www.instagram.com/explore/tags/%ED%83%80%EC%BD%94%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD/",
+    "note": "맥주와 찰떡궁합! 치즈 폭포 퀘사디아와 정통 비프 타코"
+  },
+  {
+    "id": "sweetchurros",
+    "name": "달콤 수제 츄러스 & 커피앤티",
+    "category": "디저트/카페",
+    "icon": "☕",
+    "signatureMenu": "즉석 수제 롱츄러스, 아메리카노, 에이드",
+    "location": "E석 남측 (도원역 방면)",
+    "instagramHandle": "sweet_churros_cafe",
+    "instagramUrl": "https://www.instagram.com/explore/tags/%EC%B8%84%EB%9F%AC%EC%8A%A4%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD/",
+    "note": "겉바속촉 즉석 시나몬 츄러스와 시원한 음료 & 커피"
+  },
+  {
+    "id": "flamesnack",
+    "name": "불꽃 컵밥 & 분식로드",
+    "category": "분식/식사",
+    "icon": "🍢",
+    "signatureMenu": "직화 제육 컵밥, 컵떡볶이, 소떡소떡",
+    "location": "E석 외곽 로드",
+    "instagramHandle": "flame_cupbab_truck",
+    "instagramUrl": "https://www.instagram.com/explore/tags/%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD%EC%B5%9C%EC%8B%A0/",
+    "note": "든든한 식사 한 끼! 매콤달콤 컵떡볶이와 소떡소떡"
+  }
+]

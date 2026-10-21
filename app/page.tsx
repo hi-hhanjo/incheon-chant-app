@@ -6,15 +6,18 @@ import {
 } from "@/lib/api/opponentScouting";
 import { getHeadToHeadSummary, getHeadToHeadUpdatedAt } from "@/lib/api/headToHead";
 import { getStandings, getStandingsUpdatedAt } from "@/lib/api/standings";
+import { getMatchWeather } from "@/lib/api/weather";
 import Layout from "@/components/Layout";
 import Badge from "@/components/Badge";
 import MatchResultCard from "@/components/club/MatchResultCard";
 import RecentMatchesList from "@/components/club/RecentMatchesList";
 import UpcomingMatchCard from "@/components/club/UpcomingMatchCard";
+import MatchdayGuideCard from "@/components/club/MatchdayGuideCard";
 import OpponentScoutingCard from "@/components/club/OpponentScoutingCard";
 import HeadToHeadList from "@/components/club/HeadToHeadList";
 import StandingsTable from "@/components/club/StandingsTable";
 import FloatingNav from "@/components/club/FloatingNav";
+import FloatingCheerFAB from "@/components/club/FloatingCheerFAB";
 import SourceNote from "@/components/SourceNote";
 import { DAUM_SPORTS } from "@/lib/api/sources";
 import { snapshotLabel } from "@/lib/format";
@@ -23,30 +26,45 @@ export const revalidate = 3600; // 1시간 단위 정적 재생성 (ISR)
 
 // 구단 정보 메인 — 다가오는 매치 / 상대 전적 및 정보 / 최근 경기 결과 및 전적 / 전체 순위표
 export default async function ClubHome() {
-  const [recentMatches, upcomingMatch, updatedAt] = await Promise.all([
+  // 1단계: 독립적인 쿼리들을 한 번에 병렬 실행하여 네트워크 워터폴 최소화
+  const [
+    recentMatches,
+    upcomingMatch,
+    updatedAt,
+    incheonScouting,
+    formsUpdatedAt,
+    standings,
+    standingsUpdatedAt,
+    headToHeadUpdatedAt,
+  ] = await Promise.all([
     getRecentMatches(5),
     getUpcomingMatch(),
     getMatchesUpdatedAt(),
-  ]);
-  const latestMatch = recentMatches[0];
-  const remainingMatches = recentMatches.slice(1, 5);
-
-  const opponentName = upcomingMatch?.opponent ?? "미정";
-  const [scouting, incheonScouting, { matches: headToHead, summary: h2hSummary }, headToHeadUpdatedAt, formsUpdatedAt, standings, standingsUpdatedAt] = await Promise.all([
-    getUpcomingOpponentScouting(opponentName),
     getIncheonScouting(),
-    getHeadToHeadSummary(opponentName),
-    getHeadToHeadUpdatedAt(),
     getOpponentFormsUpdatedAt(),
     getStandings(),
     getStandingsUpdatedAt(),
+    getHeadToHeadUpdatedAt(),
+  ]);
+
+  const latestMatch = recentMatches[0];
+  const remainingMatches = recentMatches.slice(1, 5);
+
+  // 2단계: 다가오는 상대(upcomingMatch.opponent)에 의존하는 쿼리만 2차 병렬 실행
+  const opponentName = upcomingMatch?.opponent ?? "미정";
+  const [scouting, { matches: headToHead, summary: h2hSummary }, weather] = await Promise.all([
+    getUpcomingOpponentScouting(opponentName),
+    getHeadToHeadSummary(opponentName),
+    upcomingMatch ? getMatchWeather(upcomingMatch.isHome, upcomingMatch.opponent) : Promise.resolve(null),
   ]);
 
   const navSections = [
     { id: "upcoming-match", label: "다가오는 매치" },
+    { id: "matchday-guide", label: "직관 가이드" },
     { id: "head-to-head", label: "상대전적" },
     { id: "opponent-form", label: "상대팀 최근 경기" },
     { id: "key-players", label: "주요 선수" },
+    { id: "lineup", label: "선발 라인업" },
     { id: "injuries", label: "부상 및 결장 이슈" },
     { id: "recent-matches", label: "최근 경기 결과" },
     { id: "standings", label: "K리그1 순위표" },
@@ -62,17 +80,17 @@ export default async function ClubHome() {
       </div>
 
       <div className="flex flex-col gap-10">
-        <section id="upcoming-match" className="flex flex-col gap-4 bg-bg-surface p-5 rounded-xl shadow-sm">
-        <div className="flex items-center gap-3">
-          <div className="w-2 h-6 bg-brand rounded-full" />
-          <h2 className="text-lg font-bold">다가오는 매치</h2>
-        </div>
-        {upcomingMatch ? (
-          <UpcomingMatchCard match={upcomingMatch} h2hSummary={h2hSummary} />
-        ) : (
-          <p className="text-text-muted">예정된 경기가 없습니다</p>
-        )}
-      </section>
+        <section id="upcoming-match" className="scroll-mt-20">
+          {upcomingMatch ? (
+            <UpcomingMatchCard match={upcomingMatch} h2hSummary={h2hSummary} />
+          ) : (
+            <div className="rounded-2xl bg-bg-surface p-5 text-text-muted">예정된 경기가 없습니다</div>
+          )}
+        </section>
+
+      {upcomingMatch && (
+        <MatchdayGuideCard match={upcomingMatch} weather={weather} />
+      )}
 
       {upcomingMatch && (
         <>
@@ -116,6 +134,7 @@ export default async function ClubHome() {
       </div>
 
       <SourceNote label="경기 데이터 출처" name={DAUM_SPORTS.name} url={DAUM_SPORTS.url} />
+      <FloatingCheerFAB />
     </Layout>
   );
 }

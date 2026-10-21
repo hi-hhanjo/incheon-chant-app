@@ -14,6 +14,7 @@
 
   --color-border: #2e3542;
   --color-border-light: #414a5a;
+  --color-border-dim: #1e232c;
 
   --color-brand: #2e7dff;
   --color-brand-deep: #0b4da2;
@@ -32,7 +33,25 @@
 }
 
 body {
-  background: var(--color-bg-base);
+  background: radial-gradient(circle at 50% 0%, #0d1e3d 0%, #0a0e17 45%, #07090e 100%);
+  background-attachment: fixed;
   color: var(--color-text-primary);
   font-family: var(--font-sans);
+  min-height: 100vh;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
