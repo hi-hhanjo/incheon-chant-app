@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Legend, LegendPosition, LegendEra } from "@/types/legend";
 import LegendCard from "./LegendCard";
 import LegendModal from "./LegendModal";
@@ -14,6 +14,20 @@ export default function LegendView({ initialLegends }: LegendViewProps) {
   const [selectedEra, setSelectedEra] = useState<LegendEra | "ALL">("ALL");
   const [searchQuery, setSearchQuery] = useState("");
   const [activeLegend, setActiveLegend] = useState<Legend | null>(null);
+
+  // URL 쿼리에 ?highlight=... 파라미터가 있을 경우 자동 모달 오픈
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const highlightId = params.get("highlight");
+      if (highlightId) {
+        const found = initialLegends.find((l) => l.id === highlightId);
+        if (found) {
+          setActiveLegend(found);
+        }
+      }
+    }
+  }, [initialLegends]);
 
   const positionFilters: { key: LegendPosition | "ALL"; label: string }[] = [
     { key: "ALL", label: "전체" },

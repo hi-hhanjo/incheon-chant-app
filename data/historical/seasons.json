@@ -54,6 +54,10 @@
       10,
       9,
       9
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "kim-do-hyuk"
     ]
   },
   {
@@ -115,6 +119,10 @@
       2,
       3,
       3
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "kim-do-hyuk"
     ]
   },
   {
@@ -178,6 +186,11 @@
       12,
       12,
       12
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "lee-myung-joo",
+      "kim-do-hyuk"
     ]
   },
   {
@@ -241,6 +254,11 @@
       5,
       6,
       6
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "lee-myung-joo",
+      "kim-do-hyuk"
     ]
   },
   {
@@ -304,6 +322,12 @@
       4,
       4,
       4
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "lee-myung-joo",
+      "kim-do-hyuk",
+      "elias-aguilar"
     ]
   },
   {
@@ -367,6 +391,12 @@
       8,
       8,
       8
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "kim-do-hyuk",
+      "elias-aguilar",
+      "song-si-woo"
     ]
   },
   {
@@ -419,6 +449,12 @@
       12,
       12,
       11
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "elias-aguilar",
+      "kim-do-hyuk",
+      "song-si-woo"
     ]
   },
   {
@@ -482,6 +518,11 @@
       10,
       10,
       10
+    ],
+    "featuredLegends": [
+      "yoo-sang-chul",
+      "mugosa",
+      "song-si-woo"
     ]
   },
   {
@@ -545,6 +586,12 @@
       11,
       10,
       9
+    ],
+    "featuredLegends": [
+      "mugosa",
+      "moon-seon-min",
+      "elias-aguilar",
+      "song-si-woo"
     ]
   },
   {
@@ -608,6 +655,10 @@
       10,
       10,
       9
+    ],
+    "featuredLegends": [
+      "song-si-woo",
+      "moon-seon-min"
     ]
   },
   {
@@ -671,6 +722,10 @@
       11,
       11,
       10
+    ],
+    "featuredLegends": [
+      "song-si-woo",
+      "kim-do-hyuk"
     ]
   },
   {
@@ -734,6 +789,10 @@
       8,
       8,
       8
+    ],
+    "featuredLegends": [
+      "lee-tae-hee",
+      "kim-do-hyuk"
     ]
   },
   {
@@ -797,6 +856,10 @@
       10,
       10,
       10
+    ],
+    "featuredLegends": [
+      "kim-do-hyuk",
+      "lee-tae-hee"
     ]
   },
   {
@@ -860,6 +923,9 @@
       7,
       7,
       7
+    ],
+    "featuredLegends": [
+      "nam-joon-jae"
     ]
   },
   {
@@ -929,6 +995,10 @@
       9,
       9,
       9
+    ],
+    "featuredLegends": [
+      "nam-joon-jae",
+      "kim-yi-sub"
     ]
   },
   {
@@ -984,6 +1054,10 @@
       11,
       11,
       11
+    ],
+    "featuredLegends": [
+      "yoo-byung-soo",
+      "lim-joong-yong"
     ]
   },
   {
@@ -1037,6 +1111,10 @@
       11,
       11,
       11
+    ],
+    "featuredLegends": [
+      "yoo-byung-soo",
+      "nam-joon-jae"
     ]
   },
   {
@@ -1090,6 +1168,10 @@
       5,
       5,
       5
+    ],
+    "featuredLegends": [
+      "yoo-byung-soo",
+      "lim-joong-yong"
     ]
   },
   {
@@ -1141,6 +1223,10 @@
       7,
       7,
       7
+    ],
+    "featuredLegends": [
+      "lim-joong-yong",
+      "radoncic"
     ]
   },
   {
@@ -1192,6 +1278,11 @@
       9,
       9,
       9
+    ],
+    "featuredLegends": [
+      "lim-joong-yong",
+      "chang-woe-ryong",
+      "radoncic"
     ]
   },
   {
@@ -1243,6 +1334,11 @@
       9,
       9,
       9
+    ],
+    "featuredLegends": [
+      "lim-joong-yong",
+      "chang-woe-ryong",
+      "radoncic"
     ]
   },
   {
@@ -1292,6 +1388,13 @@
       1,
       1,
       1
+    ],
+    "featuredLegends": [
+      "lim-joong-yong",
+      "chang-woe-ryong",
+      "kim-yi-sub",
+      "radoncic",
+      "jeon-jae-ho"
     ]
   },
   {
@@ -1341,6 +1444,12 @@
       4,
       4,
       4
+    ],
+    "featuredLegends": [
+      "lim-joong-yong",
+      "kim-yi-sub",
+      "radoncic",
+      "jeon-jae-ho"
     ]
   }
 ]

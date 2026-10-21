@@ -1,10 +1,29 @@
 "use client";
 
+import Link from "next/link";
 import { SeasonInfo } from "@/types/historical";
 
 interface SeasonSummaryCardProps {
   season: SeasonInfo;
 }
+
+const legendNameMap: Record<string, string> = {
+  "mugosa": "무고사",
+  "lim-joong-yong": "임중용",
+  "kim-do-hyuk": "김도혁",
+  "yoo-byung-soo": "유병수",
+  "song-si-woo": "송시우",
+  "kim-yi-sub": "김이섭",
+  "radoncic": "라돈치치",
+  "nam-joon-jae": "남준재",
+  "jeon-jae-ho": "전재호",
+  "lee-tae-hee": "이태희",
+  "lee-myung-joo": "이명주",
+  "chang-woe-ryong": "장외룡",
+  "yoo-sang-chul": "故 유상철",
+  "moon-seon-min": "문선민",
+  "elias-aguilar": "아길라르",
+};
 
 export default function SeasonSummaryCard({ season }: SeasonSummaryCardProps) {
   const { trajectory, totalTeams } = season;
@@ -92,6 +111,31 @@ export default function SeasonSummaryCard({ season }: SeasonSummaryCardProps) {
             ✨ {season.keyMoment}
           </div>
         </div>
+
+        {/* 해당 시즌을 빛낸 레전드 영웅들 바로가기 */}
+        {season.featuredLegends && season.featuredLegends.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2 p-3 rounded-xl bg-blue-950/20 border border-blue-500/20 text-xs">
+            <span className="font-extrabold text-blue-400 flex items-center gap-1 shrink-0">
+              <span>👑</span> {season.year} 시즌의 레전드:
+            </span>
+            <div className="flex flex-wrap items-center gap-1.5">
+              {season.featuredLegends.map((lid) => {
+                const name = legendNameMap[lid] || lid;
+                return (
+                  <Link
+                    key={lid}
+                    href={`/legends?highlight=${lid}`}
+                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white/10 hover:bg-blue-600/40 text-white font-bold transition-all border border-white/10 hover:border-blue-400/50 hover:scale-105"
+                    title={`${name} 레전드 명예의 전당 보기`}
+                  >
+                    <span>{name}</span>
+                    <span className="text-[10px] text-blue-300">↗</span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* 라운드별 순위 변동 궤적 차트 (Rank Trajectory Graph) */}
         <div className="pt-2">

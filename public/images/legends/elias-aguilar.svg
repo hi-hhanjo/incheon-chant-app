@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-elias-aguilar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003882"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="stripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#001a40" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#000000" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#001a40" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 배경 원형 -->
+  <rect width="200" height="200" rx="36" fill="url(#bg-elias-aguilar)"/>
+  
+  <!-- 인천 파랑검정 스트라이프 라인 -->
+  <path d="M40 0 L70 200 M100 0 L130 200 M160 0 L190 200" stroke="#0052cc" stroke-width="14" stroke-opacity="0.25"/>
+  <path d="M20 0 L50 200 M80 0 L110 200 M140 0 L170 200" stroke="#000000" stroke-width="12" stroke-opacity="0.4"/>
+  
+  <!-- 중앙 실루엣 / 유니폼 아이콘 -->
+  <circle cx="100" cy="85" r="42" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- 선수 이름 이니셜 / 심볼 -->
+  <text x="100" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#ffffff" text-anchor="middle">엘</text>
+  
+  <!-- 하단 뱃지 (등번호 및 포지션) -->
+  <rect x="35" y="142" width="130" height="34" rx="17" fill="#000000" fill-opacity="0.75" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="100" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">
+    No.10 · MF
+  </text>
+  
+  <!-- 외곽 테두리 -->
+  <rect x="2" y="2" width="196" height="196" rx="34" fill="none" stroke="#3b82f6" stroke-width="2" stroke-opacity="0.5"/>
+</svg>

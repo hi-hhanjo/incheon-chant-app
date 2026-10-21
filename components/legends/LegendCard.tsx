@@ -67,15 +67,48 @@ export default function LegendCard({ legend, onSelect }: LegendCardProps) {
         )}
       </div>
 
-      {/* 선수명 및 활동 기간 */}
-      <div className="relative z-10 mb-3">
-        <div className="flex items-baseline gap-2">
-          <h3 className="text-xl font-black text-white group-hover:text-blue-400 transition-colors tracking-tight">
-            {legend.name}
-          </h3>
-          <span className="text-xs text-text-muted font-medium">{legend.nameEn}</span>
+      {/* 선수 프로필 사진 + 이름 및 활동 기간 */}
+      <div className="relative z-10 flex items-center gap-3.5 mb-3">
+        {/* 원형/스퀘어 사진 액자 */}
+        <div className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-700 via-blue-900 to-[#0a0e16] border border-blue-400/40 shadow-md shadow-blue-950/50 overflow-hidden group-hover:border-blue-400 group-hover:scale-105 transition-all">
+          {legend.imageUrl ? (
+            <img
+              src={legend.imageUrl}
+              alt={legend.name}
+              className="h-full w-full object-cover relative z-10"
+              onError={(e) => {
+                (e.target as HTMLElement).style.display = "none";
+              }}
+            />
+          ) : (
+            <span className="text-xs font-black text-white/80 font-mono">
+              {legend.number ? `#${legend.number}` : "IUFC"}
+            </span>
+          )}
         </div>
-        <p className="text-xs text-text-secondary mt-0.5 font-mono">{legend.period}</p>
+
+        {/* 이름, 영문, 기간 및 비디오 태그 */}
+        <div className="flex flex-col min-w-0">
+          <div className="flex items-baseline gap-2">
+            <h3 className="text-xl font-black text-white group-hover:text-blue-400 transition-colors tracking-tight truncate">
+              {legend.name}
+            </h3>
+            <span className="text-xs text-text-muted font-medium truncate">{legend.nameEn}</span>
+          </div>
+          <div className="flex items-center gap-2 mt-0.5">
+            <p className="text-xs text-text-secondary font-mono">{legend.period}</p>
+            {legend.primeSeason && (
+              <span className="px-1.5 py-0.2 rounded text-[10px] font-bold bg-blue-500/10 text-blue-300 border border-blue-500/20">
+                {legend.primeSeason} 전성기
+              </span>
+            )}
+          </div>
+          {legend.video && (
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold text-red-400 mt-1">
+              <span>🎬</span> {legend.video.label || "명장면 영상 수록"}
+            </span>
+          )}
+        </div>
       </div>
 
       {/* 팬덤 대표 별명 & 명언 */}

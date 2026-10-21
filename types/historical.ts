@@ -21,6 +21,7 @@ export interface SeasonInfo {
   topScorer: string;
   keyMoment: string;
   trajectory: number[];
+  featuredLegends?: string[]; // 해당 시즌을 대표하는 레전드 id
 }
 
 export interface HistoricalMatch {
@@ -43,6 +44,11 @@ export interface IncheonMatchDetail {
   date: string;
   venue: string;
   stadium: string;
+  highlightVideo?: {
+    youtubeId: string;
+    title: string;
+    tag?: string;
+  };
 }
 
 export interface StandingRow {

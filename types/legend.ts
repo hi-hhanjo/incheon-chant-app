@@ -19,6 +19,12 @@ export interface LegendLore {
   signatureMoment: string; // 최고의 명장면
 }
 
+export interface LegendVideo {
+  youtubeId: string;
+  title: string;
+  label?: string; // e.g. "명장면 클립", "인사이드 유나이티드", "은퇴 다큐"
+}
+
 export interface Legend {
   id: string;
   name: string;
@@ -29,6 +35,9 @@ export interface Legend {
   period: string; // e.g. "2018 ~ 현재", "2004 ~ 2011"
   status: LegendStatus;
   chantId?: number; // songs.json ID와 매핑
+  imageUrl?: string; // 선수 사진 URL
+  video?: LegendVideo; // 최고의 명장면 YouTube 비디오
+  primeSeason?: number; // 전성기 대표 시즌 연도 (e.g. 2005, 2010, 2020)
   stats: LegendStats;
   lore: LegendLore;
   tags: string[];
